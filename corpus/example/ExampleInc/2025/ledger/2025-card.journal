@@ -1,0 +1,2330 @@
+; Example Inc. - card, 2025
+; Fictional sample data: every name, amount and date in this file is invented.
+
+2025-01-01 * Nimbus Compute
+    expenses:cloud-compute           631.67 USD
+    liabilities:credit-card         -631.67 USD
+
+2025-01-01 * Lantern PR
+    expenses:marketing                65.99 USD
+    liabilities:credit-card          -65.99 USD
+
+2025-01-03 * Clearwater Utilities
+    expenses:utilities               229.59 USD
+    liabilities:credit-card         -229.59 USD
+
+2025-01-03 * Datawell Feeds
+    expenses:data                    353.70 USD
+    liabilities:credit-card         -353.70 USD
+
+2025-01-03 * Stackyard CI
+    expenses:software                885.60 USD
+    liabilities:credit-card         -885.60 USD
+
+2025-01-04 * Keystone Peripherals
+    expenses:hardware                336.37 USD
+    liabilities:credit-card         -336.37 USD
+
+2025-01-04 * Fiberhome ISP
+    expenses:telecom                 634.52 USD
+    liabilities:credit-card         -634.52 USD
+
+2025-01-04 * Harborline Mutual
+    expenses:insurance               127.90 USD
+    liabilities:credit-card         -127.90 USD
+
+2025-01-04 * Harbor Hotel Group
+    expenses:travel                  536.35 USD
+    liabilities:credit-card         -536.35 USD
+
+2025-01-04 * Green Fork Catering
+    expenses:meals                   141.19 USD
+    liabilities:credit-card         -141.19 USD
+
+2025-01-05 * Daily Grind Coffee
+    expenses:meals                   610.24 USD
+    liabilities:credit-card         -610.24 USD
+
+2025-01-05 * Wavelink Mobile
+    expenses:telecom                 487.54 USD  ; orig: 448.54 EUR
+    liabilities:credit-card         -487.54 USD
+
+2025-01-05 * Skillforge Academy
+    expenses:training                202.72 USD
+    liabilities:credit-card         -202.72 USD
+
+2025-01-05 * Ledgerline Accounting
+    expenses:professional-fees          839.76 USD
+    liabilities:credit-card            -839.76 USD
+
+2025-01-07 * Lockbox Security
+    expenses:security                573.80 USD
+    liabilities:credit-card         -573.80 USD
+
+2025-01-07 * Datawell Feeds
+    expenses:data                    481.01 USD
+    liabilities:credit-card         -481.01 USD
+
+2025-01-07 * Brightline Print
+    expenses:office                  585.96 USD
+    liabilities:credit-card         -585.96 USD
+
+2025-01-07 * Lockbox Security
+    expenses:security                425.98 USD
+    liabilities:credit-card         -425.98 USD
+
+2025-01-09 * Skillforge Academy
+    expenses:training                260.26 USD
+    liabilities:credit-card         -260.26 USD
+
+2025-01-09 * Sparkle Office Care
+    expenses:cleaning                376.47 USD
+    liabilities:credit-card         -376.47 USD
+
+2025-01-09 * Lantern PR
+    expenses:marketing               744.67 USD
+    liabilities:credit-card         -744.67 USD
+
+2025-01-10 * Sparkle Office Care
+    expenses:cleaning                 34.93 USD
+    liabilities:credit-card          -34.93 USD
+
+2025-01-10 * Talentbridge
+    expenses:recruiting              587.18 USD
+    liabilities:credit-card         -587.18 USD
+
+2025-01-11 * Summit Hall
+    expenses:events                  508.83 USD
+    liabilities:credit-card         -508.83 USD
+
+2025-01-11 * Lockbox Security
+    expenses:security                800.93 USD
+    liabilities:credit-card         -800.93 USD
+
+2025-01-11 * Cirrus Storage
+    expenses:cloud-compute           110.05 USD
+    liabilities:credit-card         -110.05 USD
+
+2025-01-13 * Summit Hall
+    expenses:events                  756.82 USD
+    liabilities:credit-card         -756.82 USD
+
+2025-01-14 * Inkwell Studio
+    expenses:design                  269.12 USD
+    liabilities:credit-card         -269.12 USD
+
+2025-01-14 * Readmore Books
+    expenses:books-and-media          178.55 USD
+    liabilities:credit-card          -178.55 USD
+
+2025-01-17 * Newsstand Digital
+    expenses:books-and-media          858.62 USD
+    liabilities:credit-card          -858.62 USD
+
+2025-01-19 * Lantern PR
+    expenses:marketing               127.05 USD
+    liabilities:credit-card         -127.05 USD
+
+2025-01-19 * Open Course Co
+    expenses:training                762.06 USD
+    liabilities:credit-card         -762.06 USD
+
+2025-01-21 * Green Fork Catering
+    expenses:meals                   133.72 USD
+    liabilities:credit-card         -133.72 USD
+
+2025-01-21 * Lantern PR
+    expenses:marketing               169.64 USD
+    liabilities:credit-card         -169.64 USD
+
+2025-01-23 * Skillforge Academy
+    expenses:training                632.59 USD
+    liabilities:credit-card         -632.59 USD
+
+2025-01-24 * Clearwater Utilities
+    expenses:utilities               354.98 USD
+    liabilities:credit-card         -354.98 USD
+
+2025-01-24 * Gridline Power
+    expenses:utilities               822.36 USD  ; orig: 756.57 EUR
+    liabilities:credit-card         -822.36 USD
+
+2025-01-25 * Circuit Depot
+    expenses:hardware                231.59 USD
+    liabilities:credit-card         -231.59 USD
+
+2025-01-26 * Keystone Peripherals
+    expenses:hardware                768.47 USD
+    liabilities:credit-card         -768.47 USD
+
+2025-01-26 * Keystone Peripherals
+    expenses:hardware                 97.39 USD
+    liabilities:credit-card          -97.39 USD
+
+2025-01-26 * Harborline Mutual
+    expenses:insurance               274.52 USD
+    liabilities:credit-card         -274.52 USD
+
+2025-01-26 * Notably Docs
+    expenses:software                260.93 USD
+    liabilities:credit-card         -260.93 USD
+
+2025-01-26 * Readmore Books
+    expenses:books-and-media          571.14 USD
+    liabilities:credit-card          -571.14 USD
+
+2025-01-26 * Sparkle Office Care
+    expenses:cleaning                733.68 USD
+    liabilities:credit-card         -733.68 USD
+
+2025-01-26 * Open Course Co
+    expenses:training                732.53 USD
+    liabilities:credit-card         -732.53 USD
+
+2025-01-27 * Newsstand Digital
+    expenses:books-and-media          168.02 USD
+    liabilities:credit-card          -168.02 USD
+
+2025-01-27 * Nimbus Compute
+    expenses:cloud-compute           640.18 USD
+    liabilities:credit-card         -640.18 USD
+
+2025-01-28 * Harbor Hotel Group
+    expenses:travel                  870.93 USD
+    liabilities:credit-card         -870.93 USD
+
+2025-01-28 * Railway Express
+    expenses:travel                  524.98 USD
+    liabilities:credit-card         -524.98 USD
+
+2025-02-01 * Inkwell Studio
+    expenses:design                  843.33 USD  ; orig: 775.86 EUR
+    liabilities:credit-card         -843.33 USD
+
+2025-02-01 * Railway Express
+    expenses:travel                  617.28 USD
+    liabilities:credit-card         -617.28 USD
+
+2025-02-01 * Keystone Peripherals
+    expenses:hardware                 40.13 USD
+    liabilities:credit-card          -40.13 USD
+
+2025-02-02 * Inkwell Studio
+    expenses:design                  423.20 USD
+    liabilities:credit-card         -423.20 USD
+
+2025-02-03 * Lockbox Security
+    expenses:security                270.87 USD
+    liabilities:credit-card         -270.87 USD
+
+2025-02-03 * Readmore Books
+    expenses:books-and-media          748.89 USD  ; orig: 688.98 EUR
+    liabilities:credit-card          -748.89 USD
+
+2025-02-03 * Pixelforge Design
+    expenses:software                147.29 USD
+    liabilities:credit-card         -147.29 USD
+
+2025-02-04 * Harborline Mutual
+    expenses:insurance               781.06 USD
+    liabilities:credit-card         -781.06 USD
+
+2025-02-05 * Oakridge Legal LLP
+    expenses:professional-fees          446.18 USD
+    liabilities:credit-card            -446.18 USD
+
+2025-02-06 * Datawell Feeds
+    expenses:data                    295.16 USD
+    liabilities:credit-card         -295.16 USD
+
+2025-02-06 * Brightline Print
+    expenses:office                   11.44 USD
+    liabilities:credit-card          -11.44 USD
+
+2025-02-07 * Harborline Mutual
+    expenses:insurance               791.12 USD
+    liabilities:credit-card         -791.12 USD
+
+2025-02-09 * Newsstand Digital
+    expenses:books-and-media          706.33 USD
+    liabilities:credit-card          -706.33 USD
+
+2025-02-10 * Harborline Mutual
+    expenses:insurance               445.27 USD
+    liabilities:credit-card         -445.27 USD
+
+2025-02-12 * Meetup Space Co
+    expenses:events                  228.83 USD
+    liabilities:credit-card         -228.83 USD
+
+2025-02-12 * Lantern PR
+    expenses:marketing               434.76 USD
+    liabilities:credit-card         -434.76 USD
+
+2025-02-12 * Signal Ads
+    expenses:marketing               488.15 USD
+    liabilities:credit-card         -488.15 USD
+
+2025-02-13 * Fiberhome ISP
+    expenses:telecom                 831.91 USD
+    liabilities:credit-card         -831.91 USD
+
+2025-02-13 * Readmore Books
+    expenses:books-and-media          542.51 USD
+    liabilities:credit-card          -542.51 USD
+
+2025-02-13 * Nimbus Compute
+    expenses:cloud-compute           490.06 USD
+    liabilities:credit-card         -490.06 USD
+
+2025-02-13 * Inkwell Studio
+    expenses:design                  250.17 USD
+    liabilities:credit-card         -250.17 USD
+
+2025-02-14 * Inkwell Studio
+    expenses:design                  345.86 USD
+    liabilities:credit-card         -345.86 USD
+
+2025-02-16 * Sentinel Audit Co
+    expenses:security                540.39 USD
+    liabilities:credit-card         -540.39 USD
+
+2025-02-17 * Ledgerline Accounting
+    expenses:professional-fees          552.69 USD
+    liabilities:credit-card            -552.69 USD
+
+2025-02-17 * Parcelpoint
+    expenses:postage                 406.02 USD
+    liabilities:credit-card         -406.02 USD
+
+2025-02-18 * Harborline Mutual
+    expenses:insurance               798.81 USD
+    liabilities:credit-card         -798.81 USD
+
+2025-02-18 * Skillforge Academy
+    expenses:training                373.76 USD
+    liabilities:credit-card         -373.76 USD
+
+2025-02-18 * Meetup Space Co
+    expenses:events                  298.73 USD  ; orig: 274.83 EUR
+    liabilities:credit-card         -298.73 USD
+
+2025-02-18 * Circuit Depot
+    expenses:hardware                537.02 USD
+    liabilities:credit-card         -537.02 USD
+
+2025-02-19 * Talentbridge
+    expenses:recruiting              640.49 USD
+    liabilities:credit-card         -640.49 USD
+
+2025-02-19 * Northdesk Furniture
+    expenses:office                  602.26 USD
+    liabilities:credit-card         -602.26 USD
+
+2025-02-20 * Skyward Air
+    expenses:travel                   14.15 USD
+    liabilities:credit-card          -14.15 USD
+
+2025-02-20 * Sparkle Office Care
+    expenses:cleaning                184.29 USD
+    liabilities:credit-card         -184.29 USD
+
+2025-02-21 * Green Fork Catering
+    expenses:meals                   497.32 USD
+    liabilities:credit-card         -497.32 USD
+
+2025-02-21 * Ledgerline Accounting
+    expenses:professional-fees          600.56 USD
+    liabilities:credit-card            -600.56 USD
+
+2025-02-21 * Inkwell Studio
+    expenses:design                  256.24 USD
+    liabilities:credit-card         -256.24 USD
+
+2025-02-21 * Parcelpoint
+    expenses:postage                 321.95 USD
+    liabilities:credit-card         -321.95 USD
+
+2025-02-22 * Circuit Depot
+    expenses:hardware                671.40 USD
+    liabilities:credit-card         -671.40 USD
+
+2025-02-22 * Sentinel Audit Co
+    expenses:security                647.91 USD
+    liabilities:credit-card         -647.91 USD
+
+2025-02-22 * Green Fork Catering
+    expenses:meals                   678.71 USD
+    liabilities:credit-card         -678.71 USD
+
+2025-02-22 * Readmore Books
+    expenses:books-and-media          124.49 USD
+    liabilities:credit-card          -124.49 USD
+
+2025-02-24 * Keystone Peripherals
+    expenses:hardware                161.80 USD
+    liabilities:credit-card         -161.80 USD
+
+2025-02-24 * Notably Docs
+    expenses:software                357.57 USD
+    liabilities:credit-card         -357.57 USD
+
+2025-02-24 * Lantern PR
+    expenses:marketing                73.71 USD
+    liabilities:credit-card          -73.71 USD
+
+2025-02-25 * Sparkle Office Care
+    expenses:cleaning                837.44 USD
+    liabilities:credit-card         -837.44 USD
+
+2025-02-25 * Fiberhome ISP
+    expenses:telecom                 531.19 USD
+    liabilities:credit-card         -531.19 USD
+
+2025-02-27 * Cirrus Storage
+    expenses:cloud-compute           612.97 USD
+    liabilities:credit-card         -612.97 USD
+
+2025-02-28 * Skillforge Academy
+    expenses:training                347.12 USD
+    liabilities:credit-card         -347.12 USD
+
+2025-02-28 * Daily Grind Coffee
+    expenses:meals                   478.70 USD
+    liabilities:credit-card         -478.70 USD
+
+2025-03-01 * Hireloop Boards
+    expenses:recruiting              621.83 USD
+    liabilities:credit-card         -621.83 USD
+
+2025-03-01 * Oakridge Legal LLP
+    expenses:professional-fees          235.64 USD
+    liabilities:credit-card            -235.64 USD
+
+2025-03-01 * Green Fork Catering
+    expenses:meals                   725.79 USD
+    liabilities:credit-card         -725.79 USD
+
+2025-03-02 * Stackyard CI
+    expenses:software                 92.15 USD
+    liabilities:credit-card          -92.15 USD
+
+2025-03-03 * Summit Hall
+    expenses:events                   18.75 USD
+    liabilities:credit-card          -18.75 USD
+
+2025-03-03 * Inkwell Studio
+    expenses:design                   51.11 USD
+    liabilities:credit-card          -51.11 USD
+
+2025-03-03 * Nimbus Compute
+    expenses:cloud-compute           843.70 USD  ; orig: 776.20 EUR
+    liabilities:credit-card         -843.70 USD
+
+2025-03-05 * Daily Grind Coffee
+    expenses:meals                   163.95 USD
+    liabilities:credit-card         -163.95 USD
+
+2025-03-05 * Wavelink Mobile
+    expenses:telecom                 701.73 USD
+    liabilities:credit-card         -701.73 USD
+
+2025-03-05 * Harborline Mutual
+    expenses:insurance               380.41 USD
+    liabilities:credit-card         -380.41 USD
+
+2025-03-05 * Brightline Print
+    expenses:office                  295.24 USD
+    liabilities:credit-card         -295.24 USD
+
+2025-03-06 * Brightline Print
+    expenses:office                  135.01 USD
+    liabilities:credit-card         -135.01 USD
+
+2025-03-06 * Harborline Mutual
+    expenses:insurance               150.42 USD
+    liabilities:credit-card         -150.42 USD
+
+2025-03-07 * Meetup Space Co
+    expenses:events                  835.81 USD
+    liabilities:credit-card         -835.81 USD
+
+2025-03-07 * Signal Ads
+    expenses:marketing               117.33 USD  ; orig: 107.94 EUR
+    liabilities:credit-card         -117.33 USD
+
+2025-03-08 * Datawell Feeds
+    expenses:data                    384.15 USD
+    liabilities:credit-card         -384.15 USD
+
+2025-03-08 * Meetup Space Co
+    expenses:events                  336.36 USD
+    liabilities:credit-card         -336.36 USD
+
+2025-03-09 * Skillforge Academy
+    expenses:training                593.40 USD
+    liabilities:credit-card         -593.40 USD
+
+2025-03-09 * Sparkle Office Care
+    expenses:cleaning                629.14 USD  ; orig: 578.81 EUR
+    liabilities:credit-card         -629.14 USD
+
+2025-03-10 * Brightline Print
+    expenses:office                  700.79 USD
+    liabilities:credit-card         -700.79 USD
+
+2025-03-10 * Parcelpoint
+    expenses:postage                 799.99 USD
+    liabilities:credit-card         -799.99 USD
+
+2025-03-11 * Swift Couriers
+    expenses:postage                 379.72 USD
+    liabilities:credit-card         -379.72 USD
+
+2025-03-12 * Fiberhome ISP
+    expenses:telecom                  60.84 USD
+    liabilities:credit-card          -60.84 USD
+
+2025-03-12 * Parcelpoint
+    expenses:postage                 628.82 USD
+    liabilities:credit-card         -628.82 USD
+
+2025-03-12 * Harborline Mutual
+    expenses:insurance               600.87 USD
+    liabilities:credit-card         -600.87 USD
+
+2025-03-13 * Fiberhome ISP
+    expenses:telecom                 881.09 USD
+    liabilities:credit-card         -881.09 USD
+
+2025-03-14 * Keystone Peripherals
+    expenses:hardware                544.29 USD
+    liabilities:credit-card         -544.29 USD
+
+2025-03-14 * Harborline Mutual
+    expenses:insurance               513.46 USD
+    liabilities:credit-card         -513.46 USD
+
+2025-03-15 * Inkwell Studio
+    expenses:design                  327.47 USD
+    liabilities:credit-card         -327.47 USD
+
+2025-03-15 * Harbor Hotel Group
+    expenses:travel                  134.08 USD
+    liabilities:credit-card         -134.08 USD
+
+2025-03-15 * Datawell Feeds
+    expenses:data                      4.29 USD
+    liabilities:credit-card           -4.29 USD
+
+2025-03-15 * Hireloop Boards
+    expenses:recruiting              689.96 USD
+    liabilities:credit-card         -689.96 USD
+
+2025-03-16 * Fiberhome ISP
+    expenses:telecom                 498.40 USD  ; orig: 458.53 EUR
+    liabilities:credit-card         -498.40 USD
+
+2025-03-16 * Keystone Peripherals
+    expenses:hardware                536.16 USD
+    liabilities:credit-card         -536.16 USD
+
+2025-03-18 * Oakridge Legal LLP
+    expenses:professional-fees          160.32 USD
+    liabilities:credit-card            -160.32 USD
+
+2025-03-18 * Summit Hall
+    expenses:events                  601.93 USD
+    liabilities:credit-card         -601.93 USD
+
+2025-03-18 * Talentbridge
+    expenses:recruiting                9.25 USD
+    liabilities:credit-card           -9.25 USD
+
+2025-03-19 * Hireloop Boards
+    expenses:recruiting              417.10 USD
+    liabilities:credit-card         -417.10 USD
+
+2025-03-19 * Skillforge Academy
+    expenses:training                182.08 USD
+    liabilities:credit-card         -182.08 USD
+
+2025-03-20 * Metro Cabs
+    expenses:travel                  137.93 USD
+    liabilities:credit-card         -137.93 USD
+
+2025-03-20 * Datawell Feeds
+    expenses:data                    806.26 USD
+    liabilities:credit-card         -806.26 USD
+
+2025-03-22 * Ledgerline Accounting
+    expenses:professional-fees          355.47 USD
+    liabilities:credit-card            -355.47 USD
+
+2025-03-24 * Swift Couriers
+    expenses:postage                 802.86 USD
+    liabilities:credit-card         -802.86 USD
+
+2025-03-24 * Daily Grind Coffee
+    expenses:meals                   356.07 USD
+    liabilities:credit-card         -356.07 USD
+
+2025-03-24 * Corner Bistro
+    expenses:meals                   342.61 USD
+    liabilities:credit-card         -342.61 USD
+
+2025-03-25 * Signal Ads
+    expenses:marketing                58.59 USD
+    liabilities:credit-card          -58.59 USD
+
+2025-03-26 * Swift Couriers
+    expenses:postage                 699.26 USD
+    liabilities:credit-card         -699.26 USD
+
+2025-03-26 * Ledgerline Accounting
+    expenses:professional-fees           77.10 USD
+    liabilities:credit-card             -77.10 USD
+
+2025-03-27 * Sparkle Office Care
+    expenses:cleaning                175.90 USD
+    liabilities:credit-card         -175.90 USD
+
+2025-03-27 * Paperworks Supply
+    expenses:office                  246.06 USD  ; orig: 226.38 EUR
+    liabilities:credit-card         -246.06 USD
+
+2025-04-01 * Oakridge Legal LLP
+    expenses:professional-fees          383.62 USD
+    liabilities:credit-card            -383.62 USD
+
+2025-04-02 * Lockbox Security
+    expenses:security                251.36 USD
+    liabilities:credit-card         -251.36 USD
+
+2025-04-02 * Signal Ads
+    expenses:marketing               411.56 USD  ; orig: 378.64 EUR
+    liabilities:credit-card         -411.56 USD
+
+2025-04-03 * Fiberhome ISP
+    expenses:telecom                 511.42 USD
+    liabilities:credit-card         -511.42 USD
+
+2025-04-04 * Pixelforge Design
+    expenses:software                 54.42 USD  ; orig: 50.07 EUR
+    liabilities:credit-card          -54.42 USD
+
+2025-04-05 * Datawell Feeds
+    expenses:data                    589.04 USD
+    liabilities:credit-card         -589.04 USD
+
+2025-04-06 * Datawell Feeds
+    expenses:data                    499.36 USD
+    liabilities:credit-card         -499.36 USD
+
+2025-04-07 * Gridline Power
+    expenses:utilities               307.24 USD
+    liabilities:credit-card         -307.24 USD
+
+2025-04-08 * Harborline Mutual
+    expenses:insurance               589.91 USD
+    liabilities:credit-card         -589.91 USD
+
+2025-04-08 * Circuit Depot
+    expenses:hardware                716.44 USD
+    liabilities:credit-card         -716.44 USD
+
+2025-04-09 * Circuit Depot
+    expenses:hardware                288.32 USD
+    liabilities:credit-card         -288.32 USD
+
+2025-04-10 * Green Fork Catering
+    expenses:meals                   156.78 USD
+    liabilities:credit-card         -156.78 USD
+
+2025-04-10 * Skillforge Academy
+    expenses:training                888.62 USD
+    liabilities:credit-card         -888.62 USD
+
+2025-04-10 * Talentbridge
+    expenses:recruiting              294.11 USD
+    liabilities:credit-card         -294.11 USD
+
+2025-04-10 * Inkwell Studio
+    expenses:design                  411.99 USD
+    liabilities:credit-card         -411.99 USD
+
+2025-04-11 * Keystone Peripherals
+    expenses:hardware                 40.48 USD
+    liabilities:credit-card          -40.48 USD
+
+2025-04-11 * Fiberhome ISP
+    expenses:telecom                 246.22 USD
+    liabilities:credit-card         -246.22 USD
+
+2025-04-12 * Keystone Peripherals
+    expenses:hardware                840.89 USD
+    liabilities:credit-card         -840.89 USD
+
+2025-04-12 * Sentinel Audit Co
+    expenses:security                 68.03 USD
+    liabilities:credit-card          -68.03 USD
+
+2025-04-13 * Sentinel Audit Co
+    expenses:security                608.67 USD
+    liabilities:credit-card         -608.67 USD
+
+2025-04-14 * Cirrus Storage
+    expenses:cloud-compute            24.35 USD
+    liabilities:credit-card          -24.35 USD
+
+2025-04-15 * Fiberhome ISP
+    expenses:telecom                 151.28 USD
+    liabilities:credit-card         -151.28 USD
+
+2025-04-17 * Swift Couriers
+    expenses:postage                 280.28 USD
+    liabilities:credit-card         -280.28 USD
+
+2025-04-17 * Gridline Power
+    expenses:utilities               750.08 USD  ; orig: 690.07 EUR
+    liabilities:credit-card         -750.08 USD
+
+2025-04-17 * Signal Ads
+    expenses:marketing                79.07 USD
+    liabilities:credit-card          -79.07 USD
+
+2025-04-18 * Readmore Books
+    expenses:books-and-media          144.91 USD
+    liabilities:credit-card          -144.91 USD
+
+2025-04-18 * Inkwell Studio
+    expenses:design                   66.07 USD
+    liabilities:credit-card          -66.07 USD
+
+2025-04-18 * Hireloop Boards
+    expenses:recruiting              449.56 USD
+    liabilities:credit-card         -449.56 USD
+
+2025-04-19 * Lockbox Security
+    expenses:security                521.24 USD
+    liabilities:credit-card         -521.24 USD
+
+2025-04-20 * Datawell Feeds
+    expenses:data                    634.12 USD
+    liabilities:credit-card         -634.12 USD
+
+2025-04-21 * Harborline Mutual
+    expenses:insurance               556.13 USD
+    liabilities:credit-card         -556.13 USD
+
+2025-04-21 * Sparkle Office Care
+    expenses:cleaning                276.33 USD
+    liabilities:credit-card         -276.33 USD
+
+2025-04-21 * Summit Hall
+    expenses:events                  253.86 USD
+    liabilities:credit-card         -253.86 USD
+
+2025-04-21 * Cloudberry Hosting
+    expenses:software                353.20 USD
+    liabilities:credit-card         -353.20 USD
+
+2025-04-23 * Harborline Mutual
+    expenses:insurance               671.28 USD
+    liabilities:credit-card         -671.28 USD
+
+2025-04-23 * Newsstand Digital
+    expenses:books-and-media          169.89 USD
+    liabilities:credit-card          -169.89 USD
+
+2025-04-24 * Sparkle Office Care
+    expenses:cleaning                732.57 USD
+    liabilities:credit-card         -732.57 USD
+
+2025-04-24 * Datawell Feeds
+    expenses:data                    819.05 USD
+    liabilities:credit-card         -819.05 USD
+
+2025-04-26 * Open Course Co
+    expenses:training                244.13 USD
+    liabilities:credit-card         -244.13 USD
+
+2025-04-26 * Paperworks Supply
+    expenses:office                  238.27 USD
+    liabilities:credit-card         -238.27 USD
+
+2025-04-26 * Harbor Hotel Group
+    expenses:travel                  414.12 USD
+    liabilities:credit-card         -414.12 USD
+
+2025-04-27 * Nimbus Compute
+    expenses:cloud-compute           211.65 USD
+    liabilities:credit-card         -211.65 USD
+
+2025-04-27 * Meetup Space Co
+    expenses:events                  292.19 USD
+    liabilities:credit-card         -292.19 USD
+
+2025-04-27 * Lockbox Security
+    expenses:security                441.53 USD
+    liabilities:credit-card         -441.53 USD
+
+2025-04-28 * Pixelforge Design
+    expenses:software                189.23 USD
+    liabilities:credit-card         -189.23 USD
+
+2025-04-28 * Sentinel Audit Co
+    expenses:security                505.58 USD
+    liabilities:credit-card         -505.58 USD
+
+2025-05-01 * Paperworks Supply
+    expenses:office                  306.90 USD
+    liabilities:credit-card         -306.90 USD
+
+2025-05-01 * Northdesk Furniture
+    expenses:office                  787.51 USD  ; orig: 724.51 EUR
+    liabilities:credit-card         -787.51 USD
+
+2025-05-01 * Skillforge Academy
+    expenses:training                556.54 USD
+    liabilities:credit-card         -556.54 USD
+
+2025-05-02 * Keystone Peripherals
+    expenses:hardware                448.01 USD
+    liabilities:credit-card         -448.01 USD
+
+2025-05-02 * Corner Bistro
+    expenses:meals                   896.11 USD
+    liabilities:credit-card         -896.11 USD
+
+2025-05-04 * Keystone Peripherals
+    expenses:hardware                117.62 USD
+    liabilities:credit-card         -117.62 USD
+
+2025-05-05 * Parcelpoint
+    expenses:postage                 125.00 USD
+    liabilities:credit-card         -125.00 USD
+
+2025-05-06 * Daily Grind Coffee
+    expenses:meals                   623.36 USD
+    liabilities:credit-card         -623.36 USD
+
+2025-05-06 * Stackyard CI
+    expenses:software                 82.16 USD
+    liabilities:credit-card          -82.16 USD
+
+2025-05-06 * Wavelink Mobile
+    expenses:telecom                  15.64 USD
+    liabilities:credit-card          -15.64 USD
+
+2025-05-07 * Harborline Mutual
+    expenses:insurance               557.51 USD
+    liabilities:credit-card         -557.51 USD
+
+2025-05-07 * Keystone Peripherals
+    expenses:hardware                684.01 USD
+    liabilities:credit-card         -684.01 USD
+
+2025-05-07 * Oakridge Legal LLP
+    expenses:professional-fees          806.35 USD
+    liabilities:credit-card            -806.35 USD
+
+2025-05-08 * Open Course Co
+    expenses:training                891.82 USD
+    liabilities:credit-card         -891.82 USD
+
+2025-05-08 * Lockbox Security
+    expenses:security                755.96 USD
+    liabilities:credit-card         -755.96 USD
+
+2025-05-09 * Parcelpoint
+    expenses:postage                  49.54 USD
+    liabilities:credit-card          -49.54 USD
+
+2025-05-12 * Readmore Books
+    expenses:books-and-media          646.25 USD
+    liabilities:credit-card          -646.25 USD
+
+2025-05-12 * Swift Couriers
+    expenses:postage                 305.91 USD  ; orig: 281.44 EUR
+    liabilities:credit-card         -305.91 USD
+
+2025-05-13 * Oakridge Legal LLP
+    expenses:professional-fees          199.04 USD
+    liabilities:credit-card            -199.04 USD
+
+2025-05-13 * Cloudberry Hosting
+    expenses:software                170.43 USD
+    liabilities:credit-card         -170.43 USD
+
+2025-05-15 * Harborline Mutual
+    expenses:insurance               339.07 USD
+    liabilities:credit-card         -339.07 USD
+
+2025-05-16 * Lantern PR
+    expenses:marketing               591.07 USD
+    liabilities:credit-card         -591.07 USD
+
+2025-05-17 * Inkwell Studio
+    expenses:design                  421.53 USD
+    liabilities:credit-card         -421.53 USD
+
+2025-05-17 * Wavelink Mobile
+    expenses:telecom                  41.31 USD
+    liabilities:credit-card          -41.31 USD
+
+2025-05-17 * Inkwell Studio
+    expenses:design                  671.20 USD
+    liabilities:credit-card         -671.20 USD
+
+2025-05-18 * Cirrus Storage
+    expenses:cloud-compute           371.44 USD
+    liabilities:credit-card         -371.44 USD
+
+2025-05-19 * Summit Hall
+    expenses:events                  312.17 USD
+    liabilities:credit-card         -312.17 USD
+
+2025-05-19 * Inkwell Studio
+    expenses:design                  838.05 USD
+    liabilities:credit-card         -838.05 USD
+
+2025-05-20 * Quillwork Mail
+    expenses:software                583.10 USD
+    liabilities:credit-card         -583.10 USD
+
+2025-05-20 * Swift Couriers
+    expenses:postage                 893.68 USD
+    liabilities:credit-card         -893.68 USD
+
+2025-05-20 * Sparkle Office Care
+    expenses:cleaning                877.74 USD
+    liabilities:credit-card         -877.74 USD
+
+2025-05-21 * Sentinel Audit Co
+    expenses:security                377.38 USD
+    liabilities:credit-card         -377.38 USD
+
+2025-05-21 * Sparkle Office Care
+    expenses:cleaning                338.05 USD
+    liabilities:credit-card         -338.05 USD
+
+2025-05-24 * Sparkle Office Care
+    expenses:cleaning                435.09 USD
+    liabilities:credit-card         -435.09 USD
+
+2025-05-24 * Inkwell Studio
+    expenses:design                  314.65 USD
+    liabilities:credit-card         -314.65 USD
+
+2025-05-25 * Gridline Power
+    expenses:utilities               862.03 USD
+    liabilities:credit-card         -862.03 USD
+
+2025-05-25 * Green Fork Catering
+    expenses:meals                   245.74 USD
+    liabilities:credit-card         -245.74 USD
+
+2025-05-25 * Cirrus Storage
+    expenses:cloud-compute           122.54 USD
+    liabilities:credit-card         -122.54 USD
+
+2025-05-26 * Inkwell Studio
+    expenses:design                   86.26 USD
+    liabilities:credit-card          -86.26 USD
+
+2025-05-26 * Signal Ads
+    expenses:marketing               782.95 USD
+    liabilities:credit-card         -782.95 USD
+
+2025-05-27 * Gridline Power
+    expenses:utilities               392.39 USD
+    liabilities:credit-card         -392.39 USD
+
+2025-05-27 * Nimbus Compute
+    expenses:cloud-compute           490.42 USD
+    liabilities:credit-card         -490.42 USD
+
+2025-05-27 * Hireloop Boards
+    expenses:recruiting              793.89 USD
+    liabilities:credit-card         -793.89 USD
+
+2025-05-27 * Sentinel Audit Co
+    expenses:security                367.05 USD
+    liabilities:credit-card         -367.05 USD
+
+2025-05-27 * Northdesk Furniture
+    expenses:office                  128.74 USD
+    liabilities:credit-card         -128.74 USD
+
+2025-05-27 * Hireloop Boards
+    expenses:recruiting              583.83 USD
+    liabilities:credit-card         -583.83 USD
+
+2025-05-28 * Parcelpoint
+    expenses:postage                 709.32 USD
+    liabilities:credit-card         -709.32 USD
+
+2025-06-01 * Signal Ads
+    expenses:marketing               436.82 USD
+    liabilities:credit-card         -436.82 USD
+
+2025-06-01 * Parcelpoint
+    expenses:postage                 345.35 USD
+    liabilities:credit-card         -345.35 USD
+
+2025-06-01 * Talentbridge
+    expenses:recruiting              481.25 USD
+    liabilities:credit-card         -481.25 USD
+
+2025-06-02 * Fiberhome ISP
+    expenses:telecom                 132.82 USD
+    liabilities:credit-card         -132.82 USD
+
+2025-06-02 * Datawell Feeds
+    expenses:data                    822.34 USD
+    liabilities:credit-card         -822.34 USD
+
+2025-06-02 * Harbor Hotel Group
+    expenses:travel                   61.56 USD
+    liabilities:credit-card          -61.56 USD
+
+2025-06-05 * Skillforge Academy
+    expenses:training                309.03 USD
+    liabilities:credit-card         -309.03 USD
+
+2025-06-06 * Hireloop Boards
+    expenses:recruiting               26.59 USD
+    liabilities:credit-card          -26.59 USD
+
+2025-06-06 * Fiberhome ISP
+    expenses:telecom                  40.24 USD
+    liabilities:credit-card          -40.24 USD
+
+2025-06-06 * Northdesk Furniture
+    expenses:office                  251.09 USD
+    liabilities:credit-card         -251.09 USD
+
+2025-06-07 * Metro Cabs
+    expenses:travel                  383.84 USD
+    liabilities:credit-card         -383.84 USD
+
+2025-06-07 * Swift Couriers
+    expenses:postage                 798.94 USD
+    liabilities:credit-card         -798.94 USD
+
+2025-06-07 * Oakridge Legal LLP
+    expenses:professional-fees          889.21 USD
+    liabilities:credit-card            -889.21 USD
+
+2025-06-08 * Fiberhome ISP
+    expenses:telecom                 539.21 USD
+    liabilities:credit-card         -539.21 USD
+
+2025-06-10 * Newsstand Digital
+    expenses:books-and-media          438.42 USD
+    liabilities:credit-card          -438.42 USD
+
+2025-06-11 * Northdesk Furniture
+    expenses:office                  127.07 USD
+    liabilities:credit-card         -127.07 USD
+
+2025-06-11 * Circuit Depot
+    expenses:hardware                722.52 USD
+    liabilities:credit-card         -722.52 USD
+
+2025-06-11 * Datawell Feeds
+    expenses:data                    559.20 USD
+    liabilities:credit-card         -559.20 USD
+
+2025-06-12 * Green Fork Catering
+    expenses:meals                   604.93 USD
+    liabilities:credit-card         -604.93 USD
+
+2025-06-12 * Clearwater Utilities
+    expenses:utilities               284.32 USD
+    liabilities:credit-card         -284.32 USD
+
+2025-06-13 * Hireloop Boards
+    expenses:recruiting              198.63 USD
+    liabilities:credit-card         -198.63 USD
+
+2025-06-13 * Swift Couriers
+    expenses:postage                 346.80 USD
+    liabilities:credit-card         -346.80 USD
+
+2025-06-14 * Bluebird Events
+    expenses:marketing               508.58 USD
+    liabilities:credit-card         -508.58 USD
+
+2025-06-16 * Stackyard CI
+    expenses:software                815.48 USD
+    liabilities:credit-card         -815.48 USD
+
+2025-06-16 * Summit Hall
+    expenses:events                  139.63 USD  ; orig: 128.46 EUR
+    liabilities:credit-card         -139.63 USD
+
+2025-06-16 * Skillforge Academy
+    expenses:training                598.98 USD
+    liabilities:credit-card         -598.98 USD
+
+2025-06-17 * Inkwell Studio
+    expenses:design                   30.38 USD
+    liabilities:credit-card          -30.38 USD
+
+2025-06-17 * Nimbus Compute
+    expenses:cloud-compute           291.66 USD
+    liabilities:credit-card         -291.66 USD
+
+2025-06-18 * Fiberhome ISP
+    expenses:telecom                 536.54 USD
+    liabilities:credit-card         -536.54 USD
+
+2025-06-19 * Newsstand Digital
+    expenses:books-and-media           67.90 USD
+    liabilities:credit-card           -67.90 USD
+
+2025-06-20 * Inkwell Studio
+    expenses:design                  565.69 USD
+    liabilities:credit-card         -565.69 USD
+
+2025-06-21 * Parcelpoint
+    expenses:postage                 834.82 USD
+    liabilities:credit-card         -834.82 USD
+
+2025-06-21 * Meetup Space Co
+    expenses:events                  421.62 USD
+    liabilities:credit-card         -421.62 USD
+
+2025-06-21 * Inkwell Studio
+    expenses:design                  252.42 USD
+    liabilities:credit-card         -252.42 USD
+
+2025-06-22 * Wavelink Mobile
+    expenses:telecom                 245.35 USD
+    liabilities:credit-card         -245.35 USD
+
+2025-06-23 * Clearwater Utilities
+    expenses:utilities               558.09 USD
+    liabilities:credit-card         -558.09 USD
+
+2025-06-23 * Harbor Hotel Group
+    expenses:travel                  510.29 USD
+    liabilities:credit-card         -510.29 USD
+
+2025-06-25 * Keystone Peripherals
+    expenses:hardware                132.01 USD
+    liabilities:credit-card         -132.01 USD
+
+2025-06-26 * Lockbox Security
+    expenses:security                438.99 USD
+    liabilities:credit-card         -438.99 USD
+
+2025-06-26 * Sparkle Office Care
+    expenses:cleaning                445.89 USD
+    liabilities:credit-card         -445.89 USD
+
+2025-06-27 * Datawell Feeds
+    expenses:data                     93.15 USD
+    liabilities:credit-card          -93.15 USD
+
+2025-06-27 * Inkwell Studio
+    expenses:design                  637.39 USD
+    liabilities:credit-card         -637.39 USD
+
+2025-06-27 * Datawell Feeds
+    expenses:data                    115.91 USD
+    liabilities:credit-card         -115.91 USD
+
+2025-06-27 * Summit Hall
+    expenses:events                  118.01 USD
+    liabilities:credit-card         -118.01 USD
+
+2025-06-28 * Ledgerline Accounting
+    expenses:professional-fees          578.57 USD
+    liabilities:credit-card            -578.57 USD
+
+2025-06-28 * Wavelink Mobile
+    expenses:telecom                 623.14 USD  ; orig: 573.29 EUR
+    liabilities:credit-card         -623.14 USD
+
+2025-07-01 * Cirrus Storage
+    expenses:cloud-compute           103.29 USD
+    liabilities:credit-card         -103.29 USD
+
+2025-07-02 * Inkwell Studio
+    expenses:design                  144.15 USD
+    liabilities:credit-card         -144.15 USD
+
+2025-07-02 * Sparkle Office Care
+    expenses:cleaning                222.17 USD
+    liabilities:credit-card         -222.17 USD
+
+2025-07-03 * Swift Couriers
+    expenses:postage                  40.69 USD
+    liabilities:credit-card          -40.69 USD
+
+2025-07-03 * Harborline Mutual
+    expenses:insurance               259.34 USD
+    liabilities:credit-card         -259.34 USD
+
+2025-07-04 * Nimbus Compute
+    expenses:cloud-compute            26.20 USD
+    liabilities:credit-card          -26.20 USD
+
+2025-07-04 * Green Fork Catering
+    expenses:meals                   328.04 USD
+    liabilities:credit-card         -328.04 USD
+
+2025-07-05 * Daily Grind Coffee
+    expenses:meals                   537.35 USD
+    liabilities:credit-card         -537.35 USD
+
+2025-07-05 * Cloudberry Hosting
+    expenses:software                744.87 USD
+    liabilities:credit-card         -744.87 USD
+
+2025-07-06 * Newsstand Digital
+    expenses:books-and-media          482.60 USD
+    liabilities:credit-card          -482.60 USD
+
+2025-07-06 * Meetup Space Co
+    expenses:events                  116.61 USD
+    liabilities:credit-card         -116.61 USD
+
+2025-07-08 * Sentinel Audit Co
+    expenses:security                594.18 USD
+    liabilities:credit-card         -594.18 USD
+
+2025-07-10 * Harborline Mutual
+    expenses:insurance               386.74 USD
+    liabilities:credit-card         -386.74 USD
+
+2025-07-10 * Harborline Mutual
+    expenses:insurance               137.84 USD
+    liabilities:credit-card         -137.84 USD
+
+2025-07-10 * Brightline Print
+    expenses:office                   19.90 USD
+    liabilities:credit-card          -19.90 USD
+
+2025-07-10 * Lockbox Security
+    expenses:security                412.70 USD
+    liabilities:credit-card         -412.70 USD
+
+2025-07-10 * Lockbox Security
+    expenses:security                116.76 USD
+    liabilities:credit-card         -116.76 USD
+
+2025-07-10 * Newsstand Digital
+    expenses:books-and-media          608.51 USD
+    liabilities:credit-card          -608.51 USD
+
+2025-07-12 * Open Course Co
+    expenses:training                507.19 USD
+    liabilities:credit-card         -507.19 USD
+
+2025-07-12 * Sentinel Audit Co
+    expenses:security                841.97 USD
+    liabilities:credit-card         -841.97 USD
+
+2025-07-14 * Datawell Feeds
+    expenses:data                    748.72 USD
+    liabilities:credit-card         -748.72 USD
+
+2025-07-14 * Quillwork Mail
+    expenses:software                339.20 USD
+    liabilities:credit-card         -339.20 USD
+
+2025-07-15 * Harborline Mutual
+    expenses:insurance               308.52 USD
+    liabilities:credit-card         -308.52 USD
+
+2025-07-15 * Oakridge Legal LLP
+    expenses:professional-fees          503.05 USD
+    liabilities:credit-card            -503.05 USD
+
+2025-07-15 * Harbor Hotel Group
+    expenses:travel                  291.57 USD
+    liabilities:credit-card         -291.57 USD
+
+2025-07-15 * Skillforge Academy
+    expenses:training                693.62 USD
+    liabilities:credit-card         -693.62 USD
+
+2025-07-16 * Readmore Books
+    expenses:books-and-media          111.18 USD
+    liabilities:credit-card          -111.18 USD
+
+2025-07-17 * Quillwork Mail
+    expenses:software                569.04 USD
+    liabilities:credit-card         -569.04 USD
+
+2025-07-17 * Sentinel Audit Co
+    expenses:security                760.04 USD
+    liabilities:credit-card         -760.04 USD
+
+2025-07-19 * Nimbus Compute
+    expenses:cloud-compute           785.92 USD
+    liabilities:credit-card         -785.92 USD
+
+2025-07-20 * Corner Bistro
+    expenses:meals                   320.64 USD
+    liabilities:credit-card         -320.64 USD
+
+2025-07-21 * Wavelink Mobile
+    expenses:telecom                 827.27 USD
+    liabilities:credit-card         -827.27 USD
+
+2025-07-21 * Harbor Hotel Group
+    expenses:travel                  135.87 USD
+    liabilities:credit-card         -135.87 USD
+
+2025-07-21 * Paperworks Supply
+    expenses:office                   51.50 USD
+    liabilities:credit-card          -51.50 USD
+
+2025-07-22 * Parcelpoint
+    expenses:postage                 202.62 USD
+    liabilities:credit-card         -202.62 USD
+
+2025-07-22 * Quillwork Mail
+    expenses:software                633.70 USD
+    liabilities:credit-card         -633.70 USD
+
+2025-07-23 * Lantern PR
+    expenses:marketing               237.01 USD  ; orig: 218.05 EUR
+    liabilities:credit-card         -237.01 USD
+
+2025-07-25 * Datawell Feeds
+    expenses:data                    644.68 USD
+    liabilities:credit-card         -644.68 USD
+
+2025-07-26 * Open Course Co
+    expenses:training                681.49 USD
+    liabilities:credit-card         -681.49 USD
+
+2025-07-26 * Parcelpoint
+    expenses:postage                 626.65 USD
+    liabilities:credit-card         -626.65 USD
+
+2025-07-26 * Open Course Co
+    expenses:training                671.42 USD  ; orig: 617.71 EUR
+    liabilities:credit-card         -671.42 USD
+
+2025-07-26 * Inkwell Studio
+    expenses:design                  861.31 USD
+    liabilities:credit-card         -861.31 USD
+
+2025-07-27 * Oakridge Legal LLP
+    expenses:professional-fees          870.26 USD
+    liabilities:credit-card            -870.26 USD
+
+2025-07-28 * Meetup Space Co
+    expenses:events                  850.12 USD
+    liabilities:credit-card         -850.12 USD
+
+2025-08-01 * Signal Ads
+    expenses:marketing               474.66 USD
+    liabilities:credit-card         -474.66 USD
+
+2025-08-01 * Open Course Co
+    expenses:training                619.67 USD
+    liabilities:credit-card         -619.67 USD
+
+2025-08-02 * Inkwell Studio
+    expenses:design                  173.06 USD
+    liabilities:credit-card         -173.06 USD
+
+2025-08-02 * Datawell Feeds
+    expenses:data                    629.63 USD
+    liabilities:credit-card         -629.63 USD
+
+2025-08-03 * Harbor Hotel Group
+    expenses:travel                   31.48 USD
+    liabilities:credit-card          -31.48 USD
+
+2025-08-03 * Readmore Books
+    expenses:books-and-media          496.76 USD
+    liabilities:credit-card          -496.76 USD
+
+2025-08-04 * Keystone Peripherals
+    expenses:hardware                113.94 USD
+    liabilities:credit-card         -113.94 USD
+
+2025-08-04 * Hireloop Boards
+    expenses:recruiting              771.33 USD
+    liabilities:credit-card         -771.33 USD
+
+2025-08-04 * Cirrus Storage
+    expenses:cloud-compute           483.61 USD
+    liabilities:credit-card         -483.61 USD
+
+2025-08-04 * Open Course Co
+    expenses:training                827.35 USD
+    liabilities:credit-card         -827.35 USD
+
+2025-08-04 * Cirrus Storage
+    expenses:cloud-compute           120.05 USD
+    liabilities:credit-card         -120.05 USD
+
+2025-08-05 * Newsstand Digital
+    expenses:books-and-media          856.93 USD
+    liabilities:credit-card          -856.93 USD
+
+2025-08-05 * Open Course Co
+    expenses:training                515.33 USD
+    liabilities:credit-card         -515.33 USD
+
+2025-08-05 * Paperworks Supply
+    expenses:office                  699.29 USD
+    liabilities:credit-card         -699.29 USD
+
+2025-08-06 * Swift Couriers
+    expenses:postage                 353.47 USD  ; orig: 325.19 EUR
+    liabilities:credit-card         -353.47 USD
+
+2025-08-06 * Skillforge Academy
+    expenses:training                874.58 USD
+    liabilities:credit-card         -874.58 USD
+
+2025-08-06 * Notably Docs
+    expenses:software                733.40 USD
+    liabilities:credit-card         -733.40 USD
+
+2025-08-06 * Lockbox Security
+    expenses:security                195.17 USD  ; orig: 179.56 EUR
+    liabilities:credit-card         -195.17 USD
+
+2025-08-06 * Harborline Mutual
+    expenses:insurance               125.48 USD
+    liabilities:credit-card         -125.48 USD
+
+2025-08-07 * Talentbridge
+    expenses:recruiting              115.10 USD
+    liabilities:credit-card         -115.10 USD
+
+2025-08-08 * Sparkle Office Care
+    expenses:cleaning                649.06 USD
+    liabilities:credit-card         -649.06 USD
+
+2025-08-10 * Clearwater Utilities
+    expenses:utilities                71.94 USD
+    liabilities:credit-card          -71.94 USD
+
+2025-08-10 * Nimbus Compute
+    expenses:cloud-compute           447.63 USD
+    liabilities:credit-card         -447.63 USD
+
+2025-08-11 * Keystone Peripherals
+    expenses:hardware                634.60 USD
+    liabilities:credit-card         -634.60 USD
+
+2025-08-12 * Daily Grind Coffee
+    expenses:meals                   319.56 USD
+    liabilities:credit-card         -319.56 USD
+
+2025-08-13 * Datawell Feeds
+    expenses:data                    341.93 USD
+    liabilities:credit-card         -341.93 USD
+
+2025-08-14 * Daily Grind Coffee
+    expenses:meals                   373.73 USD
+    liabilities:credit-card         -373.73 USD
+
+2025-08-14 * Cirrus Storage
+    expenses:cloud-compute           206.76 USD
+    liabilities:credit-card         -206.76 USD
+
+2025-08-16 * Meetup Space Co
+    expenses:events                  147.48 USD
+    liabilities:credit-card         -147.48 USD
+
+2025-08-17 * Newsstand Digital
+    expenses:books-and-media          770.27 USD
+    liabilities:credit-card          -770.27 USD
+
+2025-08-17 * Open Course Co
+    expenses:training                499.02 USD
+    liabilities:credit-card         -499.02 USD
+
+2025-08-18 * Hireloop Boards
+    expenses:recruiting              700.94 USD
+    liabilities:credit-card         -700.94 USD
+
+2025-08-19 * Datawell Feeds
+    expenses:data                    899.82 USD
+    liabilities:credit-card         -899.82 USD
+
+2025-08-19 * Notably Docs
+    expenses:software                629.30 USD
+    liabilities:credit-card         -629.30 USD
+
+2025-08-19 * Hireloop Boards
+    expenses:recruiting              233.02 USD
+    liabilities:credit-card         -233.02 USD
+
+2025-08-19 * Cirrus Storage
+    expenses:cloud-compute           382.05 USD
+    liabilities:credit-card         -382.05 USD
+
+2025-08-20 * Oakridge Legal LLP
+    expenses:professional-fees          362.49 USD
+    liabilities:credit-card            -362.49 USD
+
+2025-08-20 * Summit Hall
+    expenses:events                  712.82 USD
+    liabilities:credit-card         -712.82 USD
+
+2025-08-21 * Brightline Print
+    expenses:office                  587.48 USD
+    liabilities:credit-card         -587.48 USD
+
+2025-08-21 * Lockbox Security
+    expenses:security                560.66 USD
+    liabilities:credit-card         -560.66 USD
+
+2025-08-21 * Harborline Mutual
+    expenses:insurance               375.56 USD
+    liabilities:credit-card         -375.56 USD
+
+2025-08-21 * Datawell Feeds
+    expenses:data                    266.87 USD
+    liabilities:credit-card         -266.87 USD
+
+2025-08-22 * Paperworks Supply
+    expenses:office                  879.41 USD
+    liabilities:credit-card         -879.41 USD
+
+2025-08-22 * Parcelpoint
+    expenses:postage                 166.08 USD
+    liabilities:credit-card         -166.08 USD
+
+2025-08-23 * Talentbridge
+    expenses:recruiting               26.44 USD
+    liabilities:credit-card          -26.44 USD
+
+2025-08-23 * Hireloop Boards
+    expenses:recruiting                9.47 USD
+    liabilities:credit-card           -9.47 USD
+
+2025-08-24 * Ledgerline Accounting
+    expenses:professional-fees          194.81 USD
+    liabilities:credit-card            -194.81 USD
+
+2025-08-25 * Sentinel Audit Co
+    expenses:security                509.88 USD
+    liabilities:credit-card         -509.88 USD
+
+2025-08-26 * Sentinel Audit Co
+    expenses:security                183.88 USD
+    liabilities:credit-card         -183.88 USD
+
+2025-08-27 * Railway Express
+    expenses:travel                  525.68 USD
+    liabilities:credit-card         -525.68 USD
+
+2025-08-28 * Harborline Mutual
+    expenses:insurance               478.18 USD
+    liabilities:credit-card         -478.18 USD
+
+2025-08-28 * Sparkle Office Care
+    expenses:cleaning                488.66 USD
+    liabilities:credit-card         -488.66 USD
+
+2025-09-01 * Circuit Depot
+    expenses:hardware                437.99 USD
+    liabilities:credit-card         -437.99 USD
+
+2025-09-01 * Wavelink Mobile
+    expenses:telecom                 232.80 USD
+    liabilities:credit-card         -232.80 USD
+
+2025-09-02 * Sparkle Office Care
+    expenses:cleaning                635.06 USD
+    liabilities:credit-card         -635.06 USD
+
+2025-09-02 * Metro Cabs
+    expenses:travel                  883.89 USD
+    liabilities:credit-card         -883.89 USD
+
+2025-09-03 * Meetup Space Co
+    expenses:events                   61.31 USD
+    liabilities:credit-card          -61.31 USD
+
+2025-09-03 * Newsstand Digital
+    expenses:books-and-media          137.43 USD
+    liabilities:credit-card          -137.43 USD
+
+2025-09-03 * Circuit Depot
+    expenses:hardware                534.11 USD
+    liabilities:credit-card         -534.11 USD
+
+2025-09-05 * Bluebird Events
+    expenses:marketing               684.04 USD
+    liabilities:credit-card         -684.04 USD
+
+2025-09-06 * Harbor Hotel Group
+    expenses:travel                  193.50 USD
+    liabilities:credit-card         -193.50 USD
+
+2025-09-06 * Metro Cabs
+    expenses:travel                  201.92 USD
+    liabilities:credit-card         -201.92 USD
+
+2025-09-07 * Clearwater Utilities
+    expenses:utilities               327.13 USD  ; orig: 300.96 EUR
+    liabilities:credit-card         -327.13 USD
+
+2025-09-07 * Northdesk Furniture
+    expenses:office                  645.67 USD
+    liabilities:credit-card         -645.67 USD
+
+2025-09-07 * Pixelforge Design
+    expenses:software                338.32 USD
+    liabilities:credit-card         -338.32 USD
+
+2025-09-08 * Parcelpoint
+    expenses:postage                 752.36 USD
+    liabilities:credit-card         -752.36 USD
+
+2025-09-09 * Cloudberry Hosting
+    expenses:software                134.21 USD
+    liabilities:credit-card         -134.21 USD
+
+2025-09-10 * Cirrus Storage
+    expenses:cloud-compute           465.27 USD
+    liabilities:credit-card         -465.27 USD
+
+2025-09-10 * Keystone Peripherals
+    expenses:hardware                198.36 USD
+    liabilities:credit-card         -198.36 USD
+
+2025-09-11 * Brightline Print
+    expenses:office                  380.86 USD
+    liabilities:credit-card         -380.86 USD
+
+2025-09-11 * Daily Grind Coffee
+    expenses:meals                   130.67 USD
+    liabilities:credit-card         -130.67 USD
+
+2025-09-11 * Skillforge Academy
+    expenses:training                665.20 USD
+    liabilities:credit-card         -665.20 USD
+
+2025-09-12 * Datawell Feeds
+    expenses:data                    510.95 USD
+    liabilities:credit-card         -510.95 USD
+
+2025-09-12 * Skyward Air
+    expenses:travel                  564.08 USD
+    liabilities:credit-card         -564.08 USD
+
+2025-09-12 * Skillforge Academy
+    expenses:training                582.45 USD
+    liabilities:credit-card         -582.45 USD
+
+2025-09-13 * Open Course Co
+    expenses:training                594.25 USD
+    liabilities:credit-card         -594.25 USD
+
+2025-09-13 * Ledgerline Accounting
+    expenses:professional-fees          215.32 USD
+    liabilities:credit-card            -215.32 USD
+
+2025-09-13 * Inkwell Studio
+    expenses:design                  247.41 USD
+    liabilities:credit-card         -247.41 USD
+
+2025-09-14 * Corner Bistro
+    expenses:meals                   749.62 USD
+    liabilities:credit-card         -749.62 USD
+
+2025-09-15 * Quillwork Mail
+    expenses:software                369.70 USD
+    liabilities:credit-card         -369.70 USD
+
+2025-09-15 * Datawell Feeds
+    expenses:data                    111.87 USD
+    liabilities:credit-card         -111.87 USD
+
+2025-09-15 * Datawell Feeds
+    expenses:data                    721.67 USD
+    liabilities:credit-card         -721.67 USD
+
+2025-09-15 * Notably Docs
+    expenses:software                734.00 USD
+    liabilities:credit-card         -734.00 USD
+
+2025-09-16 * Circuit Depot
+    expenses:hardware                796.71 USD
+    liabilities:credit-card         -796.71 USD
+
+2025-09-17 * Oakridge Legal LLP
+    expenses:professional-fees          524.73 USD
+    liabilities:credit-card            -524.73 USD
+
+2025-09-19 * Notably Docs
+    expenses:software                208.95 USD
+    liabilities:credit-card         -208.95 USD
+
+2025-09-19 * Corner Bistro
+    expenses:meals                   364.25 USD
+    liabilities:credit-card         -364.25 USD
+
+2025-09-19 * Northdesk Furniture
+    expenses:office                  558.84 USD
+    liabilities:credit-card         -558.84 USD
+
+2025-09-20 * Keystone Peripherals
+    expenses:hardware                681.53 USD
+    liabilities:credit-card         -681.53 USD
+
+2025-09-20 * Paperworks Supply
+    expenses:office                  368.37 USD
+    liabilities:credit-card         -368.37 USD
+
+2025-09-21 * Wavelink Mobile
+    expenses:telecom                 119.83 USD
+    liabilities:credit-card         -119.83 USD
+
+2025-09-23 * Lockbox Security
+    expenses:security                196.57 USD
+    liabilities:credit-card         -196.57 USD
+
+2025-09-25 * Meetup Space Co
+    expenses:events                  507.60 USD  ; orig: 466.99 EUR
+    liabilities:credit-card         -507.60 USD
+
+2025-09-25 * Newsstand Digital
+    expenses:books-and-media          157.86 USD
+    liabilities:credit-card          -157.86 USD
+
+2025-09-26 * Skillforge Academy
+    expenses:training                849.76 USD
+    liabilities:credit-card         -849.76 USD
+
+2025-09-26 * Oakridge Legal LLP
+    expenses:professional-fees          483.80 USD
+    liabilities:credit-card            -483.80 USD
+
+2025-09-26 * Inkwell Studio
+    expenses:design                  210.84 USD
+    liabilities:credit-card         -210.84 USD
+
+2025-09-27 * Ledgerline Accounting
+    expenses:professional-fees          744.72 USD
+    liabilities:credit-card            -744.72 USD
+
+2025-09-27 * Bluebird Events
+    expenses:marketing               292.26 USD
+    liabilities:credit-card         -292.26 USD
+
+2025-09-28 * Clearwater Utilities
+    expenses:utilities               420.89 USD
+    liabilities:credit-card         -420.89 USD
+
+2025-09-28 * Daily Grind Coffee
+    expenses:meals                   513.59 USD
+    liabilities:credit-card         -513.59 USD
+
+2025-09-28 * Sparkle Office Care
+    expenses:cleaning                147.30 USD
+    liabilities:credit-card         -147.30 USD
+
+2025-10-01 * Sentinel Audit Co
+    expenses:security                570.63 USD
+    liabilities:credit-card         -570.63 USD
+
+2025-10-01 * Metro Cabs
+    expenses:travel                  343.81 USD
+    liabilities:credit-card         -343.81 USD
+
+2025-10-01 * Wavelink Mobile
+    expenses:telecom                 675.00 USD
+    liabilities:credit-card         -675.00 USD
+
+2025-10-02 * Skillforge Academy
+    expenses:training                796.10 USD
+    liabilities:credit-card         -796.10 USD
+
+2025-10-02 * Lockbox Security
+    expenses:security                650.08 USD
+    liabilities:credit-card         -650.08 USD
+
+2025-10-03 * Northdesk Furniture
+    expenses:office                  221.42 USD
+    liabilities:credit-card         -221.42 USD
+
+2025-10-04 * Oakridge Legal LLP
+    expenses:professional-fees          447.80 USD
+    liabilities:credit-card            -447.80 USD
+
+2025-10-04 * Harborline Mutual
+    expenses:insurance               756.27 USD  ; orig: 695.77 EUR
+    liabilities:credit-card         -756.27 USD
+
+2025-10-04 * Metro Cabs
+    expenses:travel                  103.29 USD
+    liabilities:credit-card         -103.29 USD
+
+2025-10-05 * Gridline Power
+    expenses:utilities               540.30 USD
+    liabilities:credit-card         -540.30 USD
+
+2025-10-05 * Corner Bistro
+    expenses:meals                   260.13 USD
+    liabilities:credit-card         -260.13 USD
+
+2025-10-05 * Harborline Mutual
+    expenses:insurance               692.64 USD
+    liabilities:credit-card         -692.64 USD
+
+2025-10-06 * Sparkle Office Care
+    expenses:cleaning                417.26 USD  ; orig: 383.88 EUR
+    liabilities:credit-card         -417.26 USD
+
+2025-10-06 * Talentbridge
+    expenses:recruiting               44.54 USD
+    liabilities:credit-card          -44.54 USD
+
+2025-10-06 * Meetup Space Co
+    expenses:events                  488.54 USD  ; orig: 449.46 EUR
+    liabilities:credit-card         -488.54 USD
+
+2025-10-06 * Keystone Peripherals
+    expenses:hardware                229.80 USD
+    liabilities:credit-card         -229.80 USD
+
+2025-10-07 * Talentbridge
+    expenses:recruiting              503.53 USD
+    liabilities:credit-card         -503.53 USD
+
+2025-10-08 * Meetup Space Co
+    expenses:events                  140.48 USD
+    liabilities:credit-card         -140.48 USD
+
+2025-10-09 * Clearwater Utilities
+    expenses:utilities               279.36 USD
+    liabilities:credit-card         -279.36 USD
+
+2025-10-09 * Cirrus Storage
+    expenses:cloud-compute           416.95 USD
+    liabilities:credit-card         -416.95 USD
+
+2025-10-09 * Newsstand Digital
+    expenses:books-and-media          671.50 USD
+    liabilities:credit-card          -671.50 USD
+
+2025-10-10 * Sparkle Office Care
+    expenses:cleaning                698.03 USD
+    liabilities:credit-card         -698.03 USD
+
+2025-10-10 * Talentbridge
+    expenses:recruiting              549.39 USD  ; orig: 505.44 EUR
+    liabilities:credit-card         -549.39 USD
+
+2025-10-10 * Sparkle Office Care
+    expenses:cleaning                817.75 USD
+    liabilities:credit-card         -817.75 USD
+
+2025-10-12 * Northdesk Furniture
+    expenses:office                  403.23 USD
+    liabilities:credit-card         -403.23 USD
+
+2025-10-12 * Circuit Depot
+    expenses:hardware                891.50 USD
+    liabilities:credit-card         -891.50 USD
+
+2025-10-12 * Wavelink Mobile
+    expenses:telecom                  67.91 USD
+    liabilities:credit-card          -67.91 USD
+
+2025-10-13 * Open Course Co
+    expenses:training                798.17 USD
+    liabilities:credit-card         -798.17 USD
+
+2025-10-14 * Summit Hall
+    expenses:events                  215.81 USD
+    liabilities:credit-card         -215.81 USD
+
+2025-10-14 * Inkwell Studio
+    expenses:design                  516.35 USD
+    liabilities:credit-card         -516.35 USD
+
+2025-10-15 * Harborline Mutual
+    expenses:insurance               520.28 USD
+    liabilities:credit-card         -520.28 USD
+
+2025-10-15 * Skillforge Academy
+    expenses:training                591.08 USD
+    liabilities:credit-card         -591.08 USD
+
+2025-10-16 * Paperworks Supply
+    expenses:office                  643.73 USD
+    liabilities:credit-card         -643.73 USD
+
+2025-10-16 * Clearwater Utilities
+    expenses:utilities               585.69 USD  ; orig: 538.83 EUR
+    liabilities:credit-card         -585.69 USD
+
+2025-10-16 * Summit Hall
+    expenses:events                  461.42 USD
+    liabilities:credit-card         -461.42 USD
+
+2025-10-17 * Keystone Peripherals
+    expenses:hardware                433.94 USD
+    liabilities:credit-card         -433.94 USD
+
+2025-10-18 * Gridline Power
+    expenses:utilities               226.05 USD
+    liabilities:credit-card         -226.05 USD
+
+2025-10-19 * Circuit Depot
+    expenses:hardware                142.26 USD
+    liabilities:credit-card         -142.26 USD
+
+2025-10-19 * Sentinel Audit Co
+    expenses:security                214.22 USD
+    liabilities:credit-card         -214.22 USD
+
+2025-10-19 * Cloudberry Hosting
+    expenses:software                368.39 USD
+    liabilities:credit-card         -368.39 USD
+
+2025-10-20 * Railway Express
+    expenses:travel                  708.34 USD
+    liabilities:credit-card         -708.34 USD
+
+2025-10-21 * Lockbox Security
+    expenses:security                786.94 USD
+    liabilities:credit-card         -786.94 USD
+
+2025-10-22 * Open Course Co
+    expenses:training                405.04 USD
+    liabilities:credit-card         -405.04 USD
+
+2025-10-23 * Lantern PR
+    expenses:marketing               280.84 USD
+    liabilities:credit-card         -280.84 USD
+
+2025-10-23 * Meetup Space Co
+    expenses:events                  695.23 USD
+    liabilities:credit-card         -695.23 USD
+
+2025-10-23 * Summit Hall
+    expenses:events                  872.15 USD
+    liabilities:credit-card         -872.15 USD
+
+2025-10-23 * Talentbridge
+    expenses:recruiting               75.53 USD
+    liabilities:credit-card          -75.53 USD
+
+2025-10-23 * Hireloop Boards
+    expenses:recruiting              137.19 USD  ; orig: 126.21 EUR
+    liabilities:credit-card         -137.19 USD
+
+2025-10-26 * Meetup Space Co
+    expenses:events                  720.30 USD
+    liabilities:credit-card         -720.30 USD
+
+2025-10-26 * Skillforge Academy
+    expenses:training                818.67 USD
+    liabilities:credit-card         -818.67 USD
+
+2025-10-28 * Inkwell Studio
+    expenses:design                  434.75 USD
+    liabilities:credit-card         -434.75 USD
+
+2025-11-01 * Inkwell Studio
+    expenses:design                  491.89 USD
+    liabilities:credit-card         -491.89 USD
+
+2025-11-02 * Oakridge Legal LLP
+    expenses:professional-fees          368.28 USD
+    liabilities:credit-card            -368.28 USD
+
+2025-11-03 * Open Course Co
+    expenses:training                579.07 USD
+    liabilities:credit-card         -579.07 USD
+
+2025-11-04 * Oakridge Legal LLP
+    expenses:professional-fees          342.28 USD
+    liabilities:credit-card            -342.28 USD
+
+2025-11-04 * Readmore Books
+    expenses:books-and-media          365.68 USD
+    liabilities:credit-card          -365.68 USD
+
+2025-11-04 * Readmore Books
+    expenses:books-and-media          621.17 USD
+    liabilities:credit-card          -621.17 USD
+
+2025-11-05 * Fiberhome ISP
+    expenses:telecom                 864.68 USD
+    liabilities:credit-card         -864.68 USD
+
+2025-11-05 * Open Course Co
+    expenses:training                534.04 USD
+    liabilities:credit-card         -534.04 USD
+
+2025-11-05 * Daily Grind Coffee
+    expenses:meals                   624.84 USD
+    liabilities:credit-card         -624.84 USD
+
+2025-11-05 * Datawell Feeds
+    expenses:data                     23.21 USD
+    liabilities:credit-card          -23.21 USD
+
+2025-11-06 * Brightline Print
+    expenses:office                  457.54 USD
+    liabilities:credit-card         -457.54 USD
+
+2025-11-07 * Inkwell Studio
+    expenses:design                  558.71 USD
+    liabilities:credit-card         -558.71 USD
+
+2025-11-08 * Sparkle Office Care
+    expenses:cleaning                840.28 USD
+    liabilities:credit-card         -840.28 USD
+
+2025-11-08 * Datawell Feeds
+    expenses:data                    873.79 USD
+    liabilities:credit-card         -873.79 USD
+
+2025-11-09 * Daily Grind Coffee
+    expenses:meals                   690.51 USD
+    liabilities:credit-card         -690.51 USD
+
+2025-11-10 * Summit Hall
+    expenses:events                   56.56 USD
+    liabilities:credit-card          -56.56 USD
+
+2025-11-10 * Quillwork Mail
+    expenses:software                463.70 USD
+    liabilities:credit-card         -463.70 USD
+
+2025-11-11 * Newsstand Digital
+    expenses:books-and-media          776.65 USD
+    liabilities:credit-card          -776.65 USD
+
+2025-11-11 * Circuit Depot
+    expenses:hardware                588.98 USD
+    liabilities:credit-card         -588.98 USD
+
+2025-11-12 * Bluebird Events
+    expenses:marketing               619.09 USD
+    liabilities:credit-card         -619.09 USD
+
+2025-11-13 * Inkwell Studio
+    expenses:design                  351.13 USD
+    liabilities:credit-card         -351.13 USD
+
+2025-11-13 * Meetup Space Co
+    expenses:events                  580.56 USD
+    liabilities:credit-card         -580.56 USD
+
+2025-11-14 * Parcelpoint
+    expenses:postage                 263.83 USD  ; orig: 242.72 EUR
+    liabilities:credit-card         -263.83 USD
+
+2025-11-14 * Summit Hall
+    expenses:events                  896.19 USD
+    liabilities:credit-card         -896.19 USD
+
+2025-11-14 * Bluebird Events
+    expenses:marketing               648.88 USD
+    liabilities:credit-card         -648.88 USD
+
+2025-11-15 * Harborline Mutual
+    expenses:insurance               302.11 USD
+    liabilities:credit-card         -302.11 USD
+
+2025-11-15 * Summit Hall
+    expenses:events                  525.17 USD
+    liabilities:credit-card         -525.17 USD
+
+2025-11-15 * Sentinel Audit Co
+    expenses:security                678.86 USD
+    liabilities:credit-card         -678.86 USD
+
+2025-11-16 * Sentinel Audit Co
+    expenses:security                405.27 USD
+    liabilities:credit-card         -405.27 USD
+
+2025-11-17 * Lockbox Security
+    expenses:security                365.28 USD
+    liabilities:credit-card         -365.28 USD
+
+2025-11-17 * Fiberhome ISP
+    expenses:telecom                 643.85 USD
+    liabilities:credit-card         -643.85 USD
+
+2025-11-18 * Stackyard CI
+    expenses:software                583.45 USD
+    liabilities:credit-card         -583.45 USD
+
+2025-11-18 * Inkwell Studio
+    expenses:design                  606.15 USD
+    liabilities:credit-card         -606.15 USD
+
+2025-11-18 * Talentbridge
+    expenses:recruiting              574.72 USD
+    liabilities:credit-card         -574.72 USD
+
+2025-11-18 * Hireloop Boards
+    expenses:recruiting               89.48 USD
+    liabilities:credit-card          -89.48 USD
+
+2025-11-18 * Readmore Books
+    expenses:books-and-media          464.03 USD
+    liabilities:credit-card          -464.03 USD
+
+2025-11-19 * Harborline Mutual
+    expenses:insurance               479.95 USD
+    liabilities:credit-card         -479.95 USD
+
+2025-11-20 * Daily Grind Coffee
+    expenses:meals                   273.83 USD
+    liabilities:credit-card         -273.83 USD
+
+2025-11-20 * Fiberhome ISP
+    expenses:telecom                 899.68 USD
+    liabilities:credit-card         -899.68 USD
+
+2025-11-21 * Quillwork Mail
+    expenses:software                 92.49 USD
+    liabilities:credit-card          -92.49 USD
+
+2025-11-21 * Bluebird Events
+    expenses:marketing               661.93 USD  ; orig: 608.98 EUR
+    liabilities:credit-card         -661.93 USD
+
+2025-11-23 * Wavelink Mobile
+    expenses:telecom                 303.85 USD
+    liabilities:credit-card         -303.85 USD
+
+2025-11-25 * Oakridge Legal LLP
+    expenses:professional-fees          891.06 USD  ; orig: 819.78 EUR
+    liabilities:credit-card            -891.06 USD
+
+2025-11-25 * Swift Couriers
+    expenses:postage                 592.49 USD
+    liabilities:credit-card         -592.49 USD
+
+2025-11-26 * Harbor Hotel Group
+    expenses:travel                  240.25 USD
+    liabilities:credit-card         -240.25 USD
+
+2025-11-26 * Meetup Space Co
+    expenses:events                  672.12 USD
+    liabilities:credit-card         -672.12 USD
+
+2025-11-27 * Skyward Air
+    expenses:travel                  209.70 USD
+    liabilities:credit-card         -209.70 USD
+
+2025-11-27 * Keystone Peripherals
+    expenses:hardware                894.61 USD
+    liabilities:credit-card         -894.61 USD
+
+2025-11-28 * Oakridge Legal LLP
+    expenses:professional-fees          257.34 USD
+    liabilities:credit-card            -257.34 USD
+
+2025-11-28 * Daily Grind Coffee
+    expenses:meals                   191.09 USD
+    liabilities:credit-card         -191.09 USD
+
+2025-12-01 * Harborline Mutual
+    expenses:insurance               352.76 USD
+    liabilities:credit-card         -352.76 USD
+
+2025-12-01 * Fiberhome ISP
+    expenses:telecom                 279.20 USD
+    liabilities:credit-card         -279.20 USD
+
+2025-12-02 * Summit Hall
+    expenses:events                  280.37 USD
+    liabilities:credit-card         -280.37 USD
+
+2025-12-02 * Harbor Hotel Group
+    expenses:travel                  834.60 USD
+    liabilities:credit-card         -834.60 USD
+
+2025-12-03 * Pixelforge Design
+    expenses:software                821.14 USD
+    liabilities:credit-card         -821.14 USD
+
+2025-12-03 * Lockbox Security
+    expenses:security                769.85 USD
+    liabilities:credit-card         -769.85 USD
+
+2025-12-04 * Oakridge Legal LLP
+    expenses:professional-fees          468.72 USD
+    liabilities:credit-card            -468.72 USD
+
+2025-12-04 * Daily Grind Coffee
+    expenses:meals                   370.01 USD
+    liabilities:credit-card         -370.01 USD
+
+2025-12-04 * Datawell Feeds
+    expenses:data                    826.99 USD
+    liabilities:credit-card         -826.99 USD
+
+2025-12-05 * Open Course Co
+    expenses:training                503.34 USD
+    liabilities:credit-card         -503.34 USD
+
+2025-12-05 * Harborline Mutual
+    expenses:insurance               266.82 USD
+    liabilities:credit-card         -266.82 USD
+
+2025-12-06 * Clearwater Utilities
+    expenses:utilities               224.77 USD
+    liabilities:credit-card         -224.77 USD
+
+2025-12-06 * Oakridge Legal LLP
+    expenses:professional-fees          360.32 USD
+    liabilities:credit-card            -360.32 USD
+
+2025-12-06 * Keystone Peripherals
+    expenses:hardware                799.66 USD
+    liabilities:credit-card         -799.66 USD
+
+2025-12-07 * Sparkle Office Care
+    expenses:cleaning                323.87 USD
+    liabilities:credit-card         -323.87 USD
+
+2025-12-07 * Newsstand Digital
+    expenses:books-and-media          858.89 USD  ; orig: 790.18 EUR
+    liabilities:credit-card          -858.89 USD
+
+2025-12-08 * Daily Grind Coffee
+    expenses:meals                   840.22 USD
+    liabilities:credit-card         -840.22 USD
+
+2025-12-08 * Nimbus Compute
+    expenses:cloud-compute           383.40 USD
+    liabilities:credit-card         -383.40 USD
+
+2025-12-09 * Wavelink Mobile
+    expenses:telecom                 197.56 USD
+    liabilities:credit-card         -197.56 USD
+
+2025-12-09 * Oakridge Legal LLP
+    expenses:professional-fees          142.49 USD
+    liabilities:credit-card            -142.49 USD
+
+2025-12-10 * Cirrus Storage
+    expenses:cloud-compute           458.88 USD
+    liabilities:credit-card         -458.88 USD
+
+2025-12-11 * Clearwater Utilities
+    expenses:utilities               147.34 USD
+    liabilities:credit-card         -147.34 USD
+
+2025-12-12 * Fiberhome ISP
+    expenses:telecom                 515.23 USD
+    liabilities:credit-card         -515.23 USD
+
+2025-12-12 * Inkwell Studio
+    expenses:design                  202.04 USD
+    liabilities:credit-card         -202.04 USD
+
+2025-12-12 * Harborline Mutual
+    expenses:insurance               366.27 USD
+    liabilities:credit-card         -366.27 USD
+
+2025-12-13 * Skillforge Academy
+    expenses:training                  8.39 USD
+    liabilities:credit-card           -8.39 USD
+
+2025-12-13 * Oakridge Legal LLP
+    expenses:professional-fees          760.30 USD
+    liabilities:credit-card            -760.30 USD
+
+2025-12-13 * Hireloop Boards
+    expenses:recruiting               96.28 USD
+    liabilities:credit-card          -96.28 USD
+
+2025-12-14 * Nimbus Compute
+    expenses:cloud-compute            71.68 USD
+    liabilities:credit-card          -71.68 USD
+
+2025-12-14 * Datawell Feeds
+    expenses:data                    531.18 USD
+    liabilities:credit-card         -531.18 USD
+
+2025-12-14 * Bluebird Events
+    expenses:marketing               458.83 USD
+    liabilities:credit-card         -458.83 USD
+
+2025-12-15 * Sparkle Office Care
+    expenses:cleaning                231.42 USD
+    liabilities:credit-card         -231.42 USD
+
+2025-12-15 * Circuit Depot
+    expenses:hardware                731.09 USD
+    liabilities:credit-card         -731.09 USD
+
+2025-12-17 * Talentbridge
+    expenses:recruiting              197.28 USD
+    liabilities:credit-card         -197.28 USD
+
+2025-12-18 * Corner Bistro
+    expenses:meals                   371.57 USD
+    liabilities:credit-card         -371.57 USD
+
+2025-12-18 * Lockbox Security
+    expenses:security                 24.94 USD
+    liabilities:credit-card          -24.94 USD
+
+2025-12-18 * Ledgerline Accounting
+    expenses:professional-fees          168.22 USD  ; orig: 154.76 EUR
+    liabilities:credit-card            -168.22 USD
+
+2025-12-19 * Lantern PR
+    expenses:marketing               678.42 USD
+    liabilities:credit-card         -678.42 USD
+
+2025-12-21 * Lockbox Security
+    expenses:security                751.68 USD
+    liabilities:credit-card         -751.68 USD
+
+2025-12-21 * Open Course Co
+    expenses:training                501.30 USD
+    liabilities:credit-card         -501.30 USD
+
+2025-12-22 * Summit Hall
+    expenses:events                  460.29 USD
+    liabilities:credit-card         -460.29 USD
+
+2025-12-22 * Sentinel Audit Co
+    expenses:security                593.43 USD  ; orig: 545.96 EUR
+    liabilities:credit-card         -593.43 USD
+
+2025-12-23 * Datawell Feeds
+    expenses:data                    590.76 USD
+    liabilities:credit-card         -590.76 USD
+
+2025-12-23 * Lantern PR
+    expenses:marketing               809.57 USD
+    liabilities:credit-card         -809.57 USD
+
+2025-12-24 * Corner Bistro
+    expenses:meals                   199.78 USD  ; orig: 183.80 EUR
+    liabilities:credit-card         -199.78 USD
+
+2025-12-26 * Nimbus Compute
+    expenses:cloud-compute           734.58 USD
+    liabilities:credit-card         -734.58 USD
+
+2025-12-27 * Sparkle Office Care
+    expenses:cleaning                631.48 USD  ; orig: 580.96 EUR
+    liabilities:credit-card         -631.48 USD
+
+2025-12-27 * Datawell Feeds
+    expenses:data                    132.69 USD  ; orig: 122.07 EUR
+    liabilities:credit-card         -132.69 USD

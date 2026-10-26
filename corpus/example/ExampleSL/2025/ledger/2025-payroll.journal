@@ -1,0 +1,86 @@
+; Example S.L. - payroll, 2025
+; Fictional sample data: every name, amount and date in this file is invented.
+
+2025-01-27 * Monthly payroll
+    expenses:salaries                   3800.00 EUR
+    expenses:social-security            1140.00 EUR
+    liabilities:social-security        -1381.30 EUR
+    liabilities:withholding             -570.00 EUR
+    assets:cash:bank                   -2988.70 EUR
+
+2025-02-27 * Monthly payroll
+    expenses:salaries                   3800.00 EUR
+    expenses:social-security            1140.00 EUR
+    liabilities:social-security        -1381.30 EUR
+    liabilities:withholding             -570.00 EUR
+    assets:cash:bank                   -2988.70 EUR
+
+2025-03-27 * Monthly payroll
+    expenses:salaries                   3800.00 EUR
+    expenses:social-security            1140.00 EUR
+    liabilities:social-security        -1381.30 EUR
+    liabilities:withholding             -570.00 EUR
+    assets:cash:bank                   -2988.70 EUR
+
+2025-04-27 * Monthly payroll
+    expenses:salaries                   3800.00 EUR
+    expenses:social-security            1140.00 EUR
+    liabilities:social-security        -1381.30 EUR
+    liabilities:withholding             -570.00 EUR
+    assets:cash:bank                   -2988.70 EUR
+
+2025-05-27 * Monthly payroll
+    expenses:salaries                   3800.00 EUR
+    expenses:social-security            1140.00 EUR
+    liabilities:social-security        -1381.30 EUR
+    liabilities:withholding             -570.00 EUR
+    assets:cash:bank                   -2988.70 EUR
+
+2025-06-27 * Monthly payroll
+    expenses:salaries                   3800.00 EUR
+    expenses:social-security            1140.00 EUR
+    liabilities:social-security        -1381.30 EUR
+    liabilities:withholding             -570.00 EUR
+    assets:cash:bank                   -2988.70 EUR
+
+2025-07-27 * Monthly payroll
+    expenses:salaries                   3800.00 EUR
+    expenses:social-security            1140.00 EUR
+    liabilities:social-security        -1381.30 EUR
+    liabilities:withholding             -570.00 EUR
+    assets:cash:bank                   -2988.70 EUR
+
+2025-08-27 * Monthly payroll
+    expenses:salaries                   3800.00 EUR
+    expenses:social-security            1140.00 EUR
+    liabilities:social-security        -1381.30 EUR
+    liabilities:withholding             -570.00 EUR
+    assets:cash:bank                   -2988.70 EUR
+
+2025-09-27 * Monthly payroll
+    expenses:salaries                   3800.00 EUR
+    expenses:social-security            1140.00 EUR
+    liabilities:social-security        -1381.30 EUR
+    liabilities:withholding             -570.00 EUR
+    assets:cash:bank                   -2988.70 EUR
+
+2025-10-27 * Monthly payroll
+    expenses:salaries                   3800.00 EUR
+    expenses:social-security            1140.00 EUR
+    liabilities:social-security        -1381.30 EUR
+    liabilities:withholding             -570.00 EUR
+    assets:cash:bank                   -2988.70 EUR
+
+2025-11-27 * Monthly payroll
+    expenses:salaries                   3800.00 EUR
+    expenses:social-security            1140.00 EUR
+    liabilities:social-security        -1381.30 EUR
+    liabilities:withholding             -570.00 EUR
+    assets:cash:bank                   -2988.70 EUR
+
+2025-12-27 * Monthly payroll
+    expenses:salaries                   3800.00 EUR
+    expenses:social-security            1140.00 EUR
+    liabilities:social-security        -1381.30 EUR
+    liabilities:withholding             -570.00 EUR
+    assets:cash:bank                   -2988.70 EUR

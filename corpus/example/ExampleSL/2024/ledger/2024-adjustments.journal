@@ -1,0 +1,22 @@
+; Example S.L. - adjustments, 2024
+; Fictional sample data: every name, amount and date in this file is invented.
+
+2024-08-15 * Laptop purchased
+    assets:fixed:equipment         2400.00 EUR
+    assets:cash:bank              -2400.00 EUR
+
+2024-09-28 * Quarterly withholding filed  ; filing: quarterly
+    liabilities:withholding         1140.00 EUR
+    assets:cash:bank               -1140.00 EUR
+
+2024-12-28 * Quarterly withholding filed  ; filing: quarterly
+    liabilities:withholding         1710.00 EUR
+    assets:cash:bank               -1710.00 EUR
+
+2024-12-30 * Depreciation for the year
+    expenses:depreciation                          480.00 EUR
+    assets:fixed:accumulated-depreciation         -480.00 EUR
+
+2024-12-30 * Corporate tax provision
+    expenses:corporate-tax                    2100.00 EUR
+    liabilities:corporate-tax-payable        -2100.00 EUR

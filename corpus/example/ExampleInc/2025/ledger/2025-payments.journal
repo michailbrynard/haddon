@@ -1,0 +1,2356 @@
+; Example Inc. - payments, 2025
+; Fictional sample data: every name, amount and date in this file is invented.
+
+2025-01-01 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          579.39 USD
+    expenses:processing-fees                17.61 USD
+    income:subscriptions                  -597.00 USD
+
+2025-01-02 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing         1939.76 USD
+    expenses:processing-fees                58.24 USD
+    income:subscriptions                 -1998.00 USD
+
+2025-01-03 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          969.73 USD
+    expenses:processing-fees                29.27 USD
+    income:subscriptions                  -999.00 USD
+
+2025-01-03 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-01-03 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-01-04 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-01-05 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing           94.86 USD
+    expenses:processing-fees                 3.14 USD
+    income:subscriptions                   -98.00 USD
+
+2025-01-06 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          142.44 USD
+    expenses:processing-fees                 4.56 USD
+    income:subscriptions                  -147.00 USD
+
+2025-01-07 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing          191.96 USD
+    expenses:processing-fees                 6.04 USD
+    income:subscriptions                  -198.00 USD
+
+2025-01-07 * Payout to first bank (week 1)
+    assets:cash:first-bank                6939.80 USD
+    assets:cash:payments-clearing        -6939.80 USD
+
+2025-01-08 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing         1939.76 USD
+    expenses:processing-fees                58.24 USD
+    income:subscriptions                 -1998.00 USD
+
+2025-01-09 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          579.39 USD
+    expenses:processing-fees                17.61 USD
+    income:subscriptions                  -597.00 USD
+
+2025-01-10 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          191.96 USD
+    expenses:processing-fees                 6.04 USD
+    income:subscriptions                  -198.00 USD
+
+2025-01-12 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          142.44 USD
+    expenses:processing-fees                 4.56 USD
+    income:subscriptions                  -147.00 USD
+
+2025-01-13 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-01-13 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          386.16 USD
+    expenses:processing-fees                11.84 USD
+    income:subscriptions                  -398.00 USD
+
+2025-01-13 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing           94.86 USD
+    expenses:processing-fees                 3.14 USD
+    income:subscriptions                   -98.00 USD
+
+2025-01-14 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-01-14 * Payout to first bank (week 2)
+    assets:cash:first-bank                6939.80 USD
+    assets:cash:payments-clearing        -6939.80 USD
+
+2025-01-15 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-01-15 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-01-15 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-01-16 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing         2909.79 USD
+    expenses:processing-fees                87.21 USD
+    income:subscriptions                 -2997.00 USD
+
+2025-01-17 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-01-18 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing           95.83 USD
+    expenses:processing-fees                 3.17 USD
+    income:subscriptions                   -99.00 USD
+
+2025-01-19 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-01-19 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          386.16 USD
+    expenses:processing-fees                11.84 USD
+    income:subscriptions                  -398.00 USD
+
+2025-01-20 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing          386.16 USD
+    expenses:processing-fees                11.84 USD
+    income:subscriptions                  -398.00 USD
+
+2025-01-21 * Payout to first bank (week 3)
+    assets:cash:first-bank                6939.80 USD
+    assets:cash:payments-clearing        -6939.80 USD
+
+2025-01-22 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing         2909.79 USD
+    expenses:processing-fees                87.21 USD
+    income:subscriptions                 -2997.00 USD
+
+2025-01-24 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing         1939.76 USD
+    expenses:processing-fees                58.24 USD
+    income:subscriptions                 -1998.00 USD
+
+2025-01-25 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-01-26 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-01-27 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-01-27 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-01-28 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-01-28 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing          969.73 USD
+    expenses:processing-fees                29.27 USD
+    income:subscriptions                  -999.00 USD
+
+2025-02-01 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-02-02 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing         2909.79 USD
+    expenses:processing-fees                87.21 USD
+    income:subscriptions                 -2997.00 USD
+
+2025-02-03 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing          191.96 USD
+    expenses:processing-fees                 6.04 USD
+    income:subscriptions                  -198.00 USD
+
+2025-02-03 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-02-04 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing           95.83 USD
+    expenses:processing-fees                 3.17 USD
+    income:subscriptions                   -99.00 USD
+
+2025-02-06 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-02-06 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-02-07 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing         1453.29 USD
+    expenses:processing-fees                43.71 USD
+    income:subscriptions                 -1497.00 USD
+
+2025-02-07 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing         1939.76 USD
+    expenses:processing-fees                58.24 USD
+    income:subscriptions                 -1998.00 USD
+
+2025-02-07 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-02-07 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing          142.44 USD
+    expenses:processing-fees                 4.56 USD
+    income:subscriptions                  -147.00 USD
+
+2025-02-07 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-02-07 * Payout to first bank (week 1)
+    assets:cash:first-bank                7652.73 USD
+    assets:cash:payments-clearing        -7652.73 USD
+
+2025-02-08 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing           94.86 USD
+    expenses:processing-fees                 3.14 USD
+    income:subscriptions                   -98.00 USD
+
+2025-02-08 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-02-10 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-02-10 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-02-11 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          579.39 USD
+    expenses:processing-fees                17.61 USD
+    income:subscriptions                  -597.00 USD
+
+2025-02-11 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing         1453.29 USD
+    expenses:processing-fees                43.71 USD
+    income:subscriptions                 -1497.00 USD
+
+2025-02-12 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          191.96 USD
+    expenses:processing-fees                 6.04 USD
+    income:subscriptions                  -198.00 USD
+
+2025-02-13 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing          969.73 USD
+    expenses:processing-fees                29.27 USD
+    income:subscriptions                  -999.00 USD
+
+2025-02-14 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-02-14 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-02-14 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing         1453.29 USD
+    expenses:processing-fees                43.71 USD
+    income:subscriptions                 -1497.00 USD
+
+2025-02-14 * Payout to first bank (week 2)
+    assets:cash:first-bank                7652.73 USD
+    assets:cash:payments-clearing        -7652.73 USD
+
+2025-02-16 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing           95.83 USD
+    expenses:processing-fees                 3.17 USD
+    income:subscriptions                   -99.00 USD
+
+2025-02-16 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing           94.86 USD
+    expenses:processing-fees                 3.14 USD
+    income:subscriptions                   -98.00 USD
+
+2025-02-16 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing         2909.79 USD
+    expenses:processing-fees                87.21 USD
+    income:subscriptions                 -2997.00 USD
+
+2025-02-16 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing         2909.79 USD
+    expenses:processing-fees                87.21 USD
+    income:subscriptions                 -2997.00 USD
+
+2025-02-18 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-02-21 * Payout to first bank (week 3)
+    assets:cash:first-bank                7652.73 USD
+    assets:cash:payments-clearing        -7652.73 USD
+
+2025-02-24 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-02-25 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-02-26 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          142.44 USD
+    expenses:processing-fees                 4.56 USD
+    income:subscriptions                  -147.00 USD
+
+2025-02-27 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-02-27 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          191.96 USD
+    expenses:processing-fees                 6.04 USD
+    income:subscriptions                  -198.00 USD
+
+2025-02-27 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-02-28 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing           94.86 USD
+    expenses:processing-fees                 3.14 USD
+    income:subscriptions                   -98.00 USD
+
+2025-02-28 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          969.73 USD
+    expenses:processing-fees                29.27 USD
+    income:subscriptions                  -999.00 USD
+
+2025-03-01 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing         2909.79 USD
+    expenses:processing-fees                87.21 USD
+    income:subscriptions                 -2997.00 USD
+
+2025-03-01 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-03-02 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing         2909.79 USD
+    expenses:processing-fees                87.21 USD
+    income:subscriptions                 -2997.00 USD
+
+2025-03-02 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          969.73 USD
+    expenses:processing-fees                29.27 USD
+    income:subscriptions                  -999.00 USD
+
+2025-03-02 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing          579.39 USD
+    expenses:processing-fees                17.61 USD
+    income:subscriptions                  -597.00 USD
+
+2025-03-03 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-03-04 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-03-05 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing         1939.76 USD
+    expenses:processing-fees                58.24 USD
+    income:subscriptions                 -1998.00 USD
+
+2025-03-06 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing          969.73 USD
+    expenses:processing-fees                29.27 USD
+    income:subscriptions                  -999.00 USD
+
+2025-03-06 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          969.73 USD
+    expenses:processing-fees                29.27 USD
+    income:subscriptions                  -999.00 USD
+
+2025-03-06 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing         1453.29 USD
+    expenses:processing-fees                43.71 USD
+    income:subscriptions                 -1497.00 USD
+
+2025-03-06 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          142.44 USD
+    expenses:processing-fees                 4.56 USD
+    income:subscriptions                  -147.00 USD
+
+2025-03-06 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-03-06 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-03-07 * Payout to first bank (week 1)
+    assets:cash:first-bank                7140.44 USD
+    assets:cash:payments-clearing        -7140.44 USD
+
+2025-03-08 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-03-10 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-03-11 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-03-12 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-03-13 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing          191.96 USD
+    expenses:processing-fees                 6.04 USD
+    income:subscriptions                  -198.00 USD
+
+2025-03-14 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          142.44 USD
+    expenses:processing-fees                 4.56 USD
+    income:subscriptions                  -147.00 USD
+
+2025-03-14 * Payout to first bank (week 2)
+    assets:cash:first-bank                7140.44 USD
+    assets:cash:payments-clearing        -7140.44 USD
+
+2025-03-15 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-03-15 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          142.44 USD
+    expenses:processing-fees                 4.56 USD
+    income:subscriptions                  -147.00 USD
+
+2025-03-16 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing           94.86 USD
+    expenses:processing-fees                 3.14 USD
+    income:subscriptions                   -98.00 USD
+
+2025-03-17 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          579.39 USD
+    expenses:processing-fees                17.61 USD
+    income:subscriptions                  -597.00 USD
+
+2025-03-18 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing          142.44 USD
+    expenses:processing-fees                 4.56 USD
+    income:subscriptions                  -147.00 USD
+
+2025-03-20 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          579.39 USD
+    expenses:processing-fees                17.61 USD
+    income:subscriptions                  -597.00 USD
+
+2025-03-20 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing          969.73 USD
+    expenses:processing-fees                29.27 USD
+    income:subscriptions                  -999.00 USD
+
+2025-03-21 * Payout to first bank (week 3)
+    assets:cash:first-bank                7140.44 USD
+    assets:cash:payments-clearing        -7140.44 USD
+
+2025-03-22 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-03-22 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          386.16 USD
+    expenses:processing-fees                11.84 USD
+    income:subscriptions                  -398.00 USD
+
+2025-03-24 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-03-24 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-03-24 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-03-26 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-03-26 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          142.44 USD
+    expenses:processing-fees                 4.56 USD
+    income:subscriptions                  -147.00 USD
+
+2025-03-27 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-03-28 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-03-28 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-03-28 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          579.39 USD
+    expenses:processing-fees                17.61 USD
+    income:subscriptions                  -597.00 USD
+
+2025-04-01 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-04-01 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing           94.86 USD
+    expenses:processing-fees                 3.14 USD
+    income:subscriptions                   -98.00 USD
+
+2025-04-01 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing           94.86 USD
+    expenses:processing-fees                 3.14 USD
+    income:subscriptions                   -98.00 USD
+
+2025-04-02 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing         1453.29 USD
+    expenses:processing-fees                43.71 USD
+    income:subscriptions                 -1497.00 USD
+
+2025-04-02 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing           94.86 USD
+    expenses:processing-fees                 3.14 USD
+    income:subscriptions                   -98.00 USD
+
+2025-04-02 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          386.16 USD
+    expenses:processing-fees                11.84 USD
+    income:subscriptions                  -398.00 USD
+
+2025-04-03 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing          142.44 USD
+    expenses:processing-fees                 4.56 USD
+    income:subscriptions                  -147.00 USD
+
+2025-04-05 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-04-05 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          386.16 USD
+    expenses:processing-fees                11.84 USD
+    income:subscriptions                  -398.00 USD
+
+2025-04-05 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-04-06 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-04-06 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing         1453.29 USD
+    expenses:processing-fees                43.71 USD
+    income:subscriptions                 -1497.00 USD
+
+2025-04-06 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing         1453.29 USD
+    expenses:processing-fees                43.71 USD
+    income:subscriptions                 -1497.00 USD
+
+2025-04-07 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing         1939.76 USD
+    expenses:processing-fees                58.24 USD
+    income:subscriptions                 -1998.00 USD
+
+2025-04-07 * Payout to first bank (week 1)
+    assets:cash:first-bank                9180.22 USD
+    assets:cash:payments-clearing        -9180.22 USD
+
+2025-04-08 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          969.73 USD
+    expenses:processing-fees                29.27 USD
+    income:subscriptions                  -999.00 USD
+
+2025-04-08 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-04-09 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing         1939.76 USD
+    expenses:processing-fees                58.24 USD
+    income:subscriptions                 -1998.00 USD
+
+2025-04-10 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing         2909.79 USD
+    expenses:processing-fees                87.21 USD
+    income:subscriptions                 -2997.00 USD
+
+2025-04-12 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing          969.73 USD
+    expenses:processing-fees                29.27 USD
+    income:subscriptions                  -999.00 USD
+
+2025-04-13 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-04-14 * Payout to first bank (week 2)
+    assets:cash:first-bank                9180.22 USD
+    assets:cash:payments-clearing        -9180.22 USD
+
+2025-04-16 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-04-17 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          191.96 USD
+    expenses:processing-fees                 6.04 USD
+    income:subscriptions                  -198.00 USD
+
+2025-04-18 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-04-18 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          579.39 USD
+    expenses:processing-fees                17.61 USD
+    income:subscriptions                  -597.00 USD
+
+2025-04-19 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          191.96 USD
+    expenses:processing-fees                 6.04 USD
+    income:subscriptions                  -198.00 USD
+
+2025-04-21 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          579.39 USD
+    expenses:processing-fees                17.61 USD
+    income:subscriptions                  -597.00 USD
+
+2025-04-21 * Payout to first bank (week 3)
+    assets:cash:first-bank                9180.22 USD
+    assets:cash:payments-clearing        -9180.22 USD
+
+2025-04-22 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing         1453.29 USD
+    expenses:processing-fees                43.71 USD
+    income:subscriptions                 -1497.00 USD
+
+2025-04-22 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing         1939.76 USD
+    expenses:processing-fees                58.24 USD
+    income:subscriptions                 -1998.00 USD
+
+2025-04-22 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-04-23 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-04-24 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing         2909.79 USD
+    expenses:processing-fees                87.21 USD
+    income:subscriptions                 -2997.00 USD
+
+2025-04-25 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          579.39 USD
+    expenses:processing-fees                17.61 USD
+    income:subscriptions                  -597.00 USD
+
+2025-04-25 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-04-25 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing         1453.29 USD
+    expenses:processing-fees                43.71 USD
+    income:subscriptions                 -1497.00 USD
+
+2025-04-26 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing           95.83 USD
+    expenses:processing-fees                 3.17 USD
+    income:subscriptions                   -99.00 USD
+
+2025-04-27 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-04-28 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing         1939.76 USD
+    expenses:processing-fees                58.24 USD
+    income:subscriptions                 -1998.00 USD
+
+2025-05-03 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-05-03 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing          142.44 USD
+    expenses:processing-fees                 4.56 USD
+    income:subscriptions                  -147.00 USD
+
+2025-05-03 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-05-04 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          579.39 USD
+    expenses:processing-fees                17.61 USD
+    income:subscriptions                  -597.00 USD
+
+2025-05-05 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-05-05 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          969.73 USD
+    expenses:processing-fees                29.27 USD
+    income:subscriptions                  -999.00 USD
+
+2025-05-07 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-05-07 * Payout to first bank (week 1)
+    assets:cash:first-bank                7927.94 USD
+    assets:cash:payments-clearing        -7927.94 USD
+
+2025-05-09 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-05-09 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing         1453.29 USD
+    expenses:processing-fees                43.71 USD
+    income:subscriptions                 -1497.00 USD
+
+2025-05-09 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-05-10 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-05-10 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing         2909.79 USD
+    expenses:processing-fees                87.21 USD
+    income:subscriptions                 -2997.00 USD
+
+2025-05-10 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing          386.16 USD
+    expenses:processing-fees                11.84 USD
+    income:subscriptions                  -398.00 USD
+
+2025-05-11 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing         2909.79 USD
+    expenses:processing-fees                87.21 USD
+    income:subscriptions                 -2997.00 USD
+
+2025-05-11 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing         1453.29 USD
+    expenses:processing-fees                43.71 USD
+    income:subscriptions                 -1497.00 USD
+
+2025-05-12 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-05-12 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          386.16 USD
+    expenses:processing-fees                11.84 USD
+    income:subscriptions                  -398.00 USD
+
+2025-05-14 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing         1453.29 USD
+    expenses:processing-fees                43.71 USD
+    income:subscriptions                 -1497.00 USD
+
+2025-05-14 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing           94.86 USD
+    expenses:processing-fees                 3.14 USD
+    income:subscriptions                   -98.00 USD
+
+2025-05-14 * Payout to first bank (week 2)
+    assets:cash:first-bank                7927.94 USD
+    assets:cash:payments-clearing        -7927.94 USD
+
+2025-05-15 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          142.44 USD
+    expenses:processing-fees                 4.56 USD
+    income:subscriptions                  -147.00 USD
+
+2025-05-16 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-05-16 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-05-17 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          969.73 USD
+    expenses:processing-fees                29.27 USD
+    income:subscriptions                  -999.00 USD
+
+2025-05-18 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing          969.73 USD
+    expenses:processing-fees                29.27 USD
+    income:subscriptions                  -999.00 USD
+
+2025-05-19 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-05-19 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing         1939.76 USD
+    expenses:processing-fees                58.24 USD
+    income:subscriptions                 -1998.00 USD
+
+2025-05-20 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-05-21 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          191.96 USD
+    expenses:processing-fees                 6.04 USD
+    income:subscriptions                  -198.00 USD
+
+2025-05-21 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-05-21 * Payout to first bank (week 3)
+    assets:cash:first-bank                7927.94 USD
+    assets:cash:payments-clearing        -7927.94 USD
+
+2025-05-22 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          579.39 USD
+    expenses:processing-fees                17.61 USD
+    income:subscriptions                  -597.00 USD
+
+2025-05-22 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-05-23 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing          386.16 USD
+    expenses:processing-fees                11.84 USD
+    income:subscriptions                  -398.00 USD
+
+2025-05-23 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-05-23 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-05-25 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing           95.83 USD
+    expenses:processing-fees                 3.17 USD
+    income:subscriptions                   -99.00 USD
+
+2025-05-25 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing           95.83 USD
+    expenses:processing-fees                 3.17 USD
+    income:subscriptions                   -99.00 USD
+
+2025-05-27 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-05-28 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-05-28 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-05-28 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-06-01 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing           95.83 USD
+    expenses:processing-fees                 3.17 USD
+    income:subscriptions                   -99.00 USD
+
+2025-06-01 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing           94.86 USD
+    expenses:processing-fees                 3.14 USD
+    income:subscriptions                   -98.00 USD
+
+2025-06-01 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing           95.83 USD
+    expenses:processing-fees                 3.17 USD
+    income:subscriptions                   -99.00 USD
+
+2025-06-03 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-06-07 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-06-07 * Payout to first bank (week 1)
+    assets:cash:first-bank                7650.04 USD
+    assets:cash:payments-clearing        -7650.04 USD
+
+2025-06-08 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-06-08 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-06-09 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-06-09 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          579.39 USD
+    expenses:processing-fees                17.61 USD
+    income:subscriptions                  -597.00 USD
+
+2025-06-10 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          969.73 USD
+    expenses:processing-fees                29.27 USD
+    income:subscriptions                  -999.00 USD
+
+2025-06-10 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-06-11 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-06-11 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          969.73 USD
+    expenses:processing-fees                29.27 USD
+    income:subscriptions                  -999.00 USD
+
+2025-06-11 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing         1453.29 USD
+    expenses:processing-fees                43.71 USD
+    income:subscriptions                 -1497.00 USD
+
+2025-06-12 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-06-12 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          142.44 USD
+    expenses:processing-fees                 4.56 USD
+    income:subscriptions                  -147.00 USD
+
+2025-06-13 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing         2909.79 USD
+    expenses:processing-fees                87.21 USD
+    income:subscriptions                 -2997.00 USD
+
+2025-06-13 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-06-13 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          969.73 USD
+    expenses:processing-fees                29.27 USD
+    income:subscriptions                  -999.00 USD
+
+2025-06-14 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-06-14 * Payout to first bank (week 2)
+    assets:cash:first-bank                7650.04 USD
+    assets:cash:payments-clearing        -7650.04 USD
+
+2025-06-15 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          579.39 USD
+    expenses:processing-fees                17.61 USD
+    income:subscriptions                  -597.00 USD
+
+2025-06-15 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-06-16 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          386.16 USD
+    expenses:processing-fees                11.84 USD
+    income:subscriptions                  -398.00 USD
+
+2025-06-18 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing           95.83 USD
+    expenses:processing-fees                 3.17 USD
+    income:subscriptions                   -99.00 USD
+
+2025-06-19 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-06-20 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-06-20 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          386.16 USD
+    expenses:processing-fees                11.84 USD
+    income:subscriptions                  -398.00 USD
+
+2025-06-20 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          969.73 USD
+    expenses:processing-fees                29.27 USD
+    income:subscriptions                  -999.00 USD
+
+2025-06-20 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing         1453.29 USD
+    expenses:processing-fees                43.71 USD
+    income:subscriptions                 -1497.00 USD
+
+2025-06-21 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing         1939.76 USD
+    expenses:processing-fees                58.24 USD
+    income:subscriptions                 -1998.00 USD
+
+2025-06-21 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing           94.86 USD
+    expenses:processing-fees                 3.14 USD
+    income:subscriptions                   -98.00 USD
+
+2025-06-21 * Payout to first bank (week 3)
+    assets:cash:first-bank                7650.04 USD
+    assets:cash:payments-clearing        -7650.04 USD
+
+2025-06-22 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          969.73 USD
+    expenses:processing-fees                29.27 USD
+    income:subscriptions                  -999.00 USD
+
+2025-06-22 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing          191.96 USD
+    expenses:processing-fees                 6.04 USD
+    income:subscriptions                  -198.00 USD
+
+2025-06-23 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-06-24 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          386.16 USD
+    expenses:processing-fees                11.84 USD
+    income:subscriptions                  -398.00 USD
+
+2025-06-24 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing           94.86 USD
+    expenses:processing-fees                 3.14 USD
+    income:subscriptions                   -98.00 USD
+
+2025-06-25 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-06-26 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing         1453.29 USD
+    expenses:processing-fees                43.71 USD
+    income:subscriptions                 -1497.00 USD
+
+2025-06-26 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          579.39 USD
+    expenses:processing-fees                17.61 USD
+    income:subscriptions                  -597.00 USD
+
+2025-06-27 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          969.73 USD
+    expenses:processing-fees                29.27 USD
+    income:subscriptions                  -999.00 USD
+
+2025-07-02 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-07-02 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing          579.39 USD
+    expenses:processing-fees                17.61 USD
+    income:subscriptions                  -597.00 USD
+
+2025-07-04 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing          386.16 USD
+    expenses:processing-fees                11.84 USD
+    income:subscriptions                  -398.00 USD
+
+2025-07-05 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          142.44 USD
+    expenses:processing-fees                 4.56 USD
+    income:subscriptions                  -147.00 USD
+
+2025-07-05 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          386.16 USD
+    expenses:processing-fees                11.84 USD
+    income:subscriptions                  -398.00 USD
+
+2025-07-05 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          142.44 USD
+    expenses:processing-fees                 4.56 USD
+    income:subscriptions                  -147.00 USD
+
+2025-07-06 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing           95.83 USD
+    expenses:processing-fees                 3.17 USD
+    income:subscriptions                   -99.00 USD
+
+2025-07-06 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          191.96 USD
+    expenses:processing-fees                 6.04 USD
+    income:subscriptions                  -198.00 USD
+
+2025-07-06 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-07-07 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-07-07 * Payout to first bank (week 1)
+    assets:cash:first-bank                6529.18 USD
+    assets:cash:payments-clearing        -6529.18 USD
+
+2025-07-09 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing         1939.76 USD
+    expenses:processing-fees                58.24 USD
+    income:subscriptions                 -1998.00 USD
+
+2025-07-09 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-07-09 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing           94.86 USD
+    expenses:processing-fees                 3.14 USD
+    income:subscriptions                   -98.00 USD
+
+2025-07-09 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing          579.39 USD
+    expenses:processing-fees                17.61 USD
+    income:subscriptions                  -597.00 USD
+
+2025-07-11 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing          969.73 USD
+    expenses:processing-fees                29.27 USD
+    income:subscriptions                  -999.00 USD
+
+2025-07-13 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-07-13 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing           94.86 USD
+    expenses:processing-fees                 3.14 USD
+    income:subscriptions                   -98.00 USD
+
+2025-07-13 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing         1453.29 USD
+    expenses:processing-fees                43.71 USD
+    income:subscriptions                 -1497.00 USD
+
+2025-07-14 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing         1453.29 USD
+    expenses:processing-fees                43.71 USD
+    income:subscriptions                 -1497.00 USD
+
+2025-07-14 * Payout to first bank (week 2)
+    assets:cash:first-bank                6529.18 USD
+    assets:cash:payments-clearing        -6529.18 USD
+
+2025-07-15 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          142.44 USD
+    expenses:processing-fees                 4.56 USD
+    income:subscriptions                  -147.00 USD
+
+2025-07-15 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing           95.83 USD
+    expenses:processing-fees                 3.17 USD
+    income:subscriptions                   -99.00 USD
+
+2025-07-17 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          969.73 USD
+    expenses:processing-fees                29.27 USD
+    income:subscriptions                  -999.00 USD
+
+2025-07-18 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-07-18 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-07-19 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-07-19 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          386.16 USD
+    expenses:processing-fees                11.84 USD
+    income:subscriptions                  -398.00 USD
+
+2025-07-20 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-07-21 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-07-21 * Payout to first bank (week 3)
+    assets:cash:first-bank                6529.18 USD
+    assets:cash:payments-clearing        -6529.18 USD
+
+2025-07-22 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing          579.39 USD
+    expenses:processing-fees                17.61 USD
+    income:subscriptions                  -597.00 USD
+
+2025-07-25 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing           94.86 USD
+    expenses:processing-fees                 3.14 USD
+    income:subscriptions                   -98.00 USD
+
+2025-07-26 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing          191.96 USD
+    expenses:processing-fees                 6.04 USD
+    income:subscriptions                  -198.00 USD
+
+2025-07-26 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-07-27 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing         2909.79 USD
+    expenses:processing-fees                87.21 USD
+    income:subscriptions                 -2997.00 USD
+
+2025-07-27 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing          579.39 USD
+    expenses:processing-fees                17.61 USD
+    income:subscriptions                  -597.00 USD
+
+2025-07-27 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing         1939.76 USD
+    expenses:processing-fees                58.24 USD
+    income:subscriptions                 -1998.00 USD
+
+2025-07-27 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-08-01 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-08-01 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing           94.86 USD
+    expenses:processing-fees                 3.14 USD
+    income:subscriptions                   -98.00 USD
+
+2025-08-01 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing           95.83 USD
+    expenses:processing-fees                 3.17 USD
+    income:subscriptions                   -99.00 USD
+
+2025-08-02 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-08-02 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          579.39 USD
+    expenses:processing-fees                17.61 USD
+    income:subscriptions                  -597.00 USD
+
+2025-08-03 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing         1939.76 USD
+    expenses:processing-fees                58.24 USD
+    income:subscriptions                 -1998.00 USD
+
+2025-08-03 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing           95.83 USD
+    expenses:processing-fees                 3.17 USD
+    income:subscriptions                   -99.00 USD
+
+2025-08-04 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-08-06 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-08-06 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-08-07 * Payout to first bank (week 1)
+    assets:cash:first-bank                5980.26 USD
+    assets:cash:payments-clearing        -5980.26 USD
+
+2025-08-08 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-08-08 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-08-09 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-08-10 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing           95.83 USD
+    expenses:processing-fees                 3.17 USD
+    income:subscriptions                   -99.00 USD
+
+2025-08-12 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          969.73 USD
+    expenses:processing-fees                29.27 USD
+    income:subscriptions                  -999.00 USD
+
+2025-08-14 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-08-14 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-08-14 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-08-14 * Payout to first bank (week 2)
+    assets:cash:first-bank                5980.26 USD
+    assets:cash:payments-clearing        -5980.26 USD
+
+2025-08-16 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing          386.16 USD
+    expenses:processing-fees                11.84 USD
+    income:subscriptions                  -398.00 USD
+
+2025-08-17 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-08-18 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          969.73 USD
+    expenses:processing-fees                29.27 USD
+    income:subscriptions                  -999.00 USD
+
+2025-08-18 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-08-18 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing         1453.29 USD
+    expenses:processing-fees                43.71 USD
+    income:subscriptions                 -1497.00 USD
+
+2025-08-20 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing           95.83 USD
+    expenses:processing-fees                 3.17 USD
+    income:subscriptions                   -99.00 USD
+
+2025-08-21 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing         2909.79 USD
+    expenses:processing-fees                87.21 USD
+    income:subscriptions                 -2997.00 USD
+
+2025-08-21 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-08-21 * Payout to first bank (week 3)
+    assets:cash:first-bank                5980.26 USD
+    assets:cash:payments-clearing        -5980.26 USD
+
+2025-08-22 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing         1453.29 USD
+    expenses:processing-fees                43.71 USD
+    income:subscriptions                 -1497.00 USD
+
+2025-08-23 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing           95.83 USD
+    expenses:processing-fees                 3.17 USD
+    income:subscriptions                   -99.00 USD
+
+2025-08-24 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-08-25 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-08-25 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-08-26 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing         1939.76 USD
+    expenses:processing-fees                58.24 USD
+    income:subscriptions                 -1998.00 USD
+
+2025-08-27 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          191.96 USD
+    expenses:processing-fees                 6.04 USD
+    income:subscriptions                  -198.00 USD
+
+2025-08-27 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-09-01 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          191.96 USD
+    expenses:processing-fees                 6.04 USD
+    income:subscriptions                  -198.00 USD
+
+2025-09-02 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          579.39 USD
+    expenses:processing-fees                17.61 USD
+    income:subscriptions                  -597.00 USD
+
+2025-09-02 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          386.16 USD
+    expenses:processing-fees                11.84 USD
+    income:subscriptions                  -398.00 USD
+
+2025-09-03 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing           95.83 USD
+    expenses:processing-fees                 3.17 USD
+    income:subscriptions                   -99.00 USD
+
+2025-09-04 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          579.39 USD
+    expenses:processing-fees                17.61 USD
+    income:subscriptions                  -597.00 USD
+
+2025-09-05 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-09-05 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-09-06 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing         2909.79 USD
+    expenses:processing-fees                87.21 USD
+    income:subscriptions                 -2997.00 USD
+
+2025-09-07 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing         1939.76 USD
+    expenses:processing-fees                58.24 USD
+    income:subscriptions                 -1998.00 USD
+
+2025-09-07 * Payout to first bank (week 1)
+    assets:cash:first-bank                7782.76 USD
+    assets:cash:payments-clearing        -7782.76 USD
+
+2025-09-10 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing          191.96 USD
+    expenses:processing-fees                 6.04 USD
+    income:subscriptions                  -198.00 USD
+
+2025-09-11 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-09-12 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-09-12 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-09-14 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing           95.83 USD
+    expenses:processing-fees                 3.17 USD
+    income:subscriptions                   -99.00 USD
+
+2025-09-14 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing         2909.79 USD
+    expenses:processing-fees                87.21 USD
+    income:subscriptions                 -2997.00 USD
+
+2025-09-14 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing          191.96 USD
+    expenses:processing-fees                 6.04 USD
+    income:subscriptions                  -198.00 USD
+
+2025-09-14 * Payout to first bank (week 2)
+    assets:cash:first-bank                7782.76 USD
+    assets:cash:payments-clearing        -7782.76 USD
+
+2025-09-16 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing           95.83 USD
+    expenses:processing-fees                 3.17 USD
+    income:subscriptions                   -99.00 USD
+
+2025-09-16 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing           95.83 USD
+    expenses:processing-fees                 3.17 USD
+    income:subscriptions                   -99.00 USD
+
+2025-09-17 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing         1939.76 USD
+    expenses:processing-fees                58.24 USD
+    income:subscriptions                 -1998.00 USD
+
+2025-09-17 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing           94.86 USD
+    expenses:processing-fees                 3.14 USD
+    income:subscriptions                   -98.00 USD
+
+2025-09-18 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-09-18 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing         1939.76 USD
+    expenses:processing-fees                58.24 USD
+    income:subscriptions                 -1998.00 USD
+
+2025-09-19 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing           94.86 USD
+    expenses:processing-fees                 3.14 USD
+    income:subscriptions                   -98.00 USD
+
+2025-09-20 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing         1939.76 USD
+    expenses:processing-fees                58.24 USD
+    income:subscriptions                 -1998.00 USD
+
+2025-09-21 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing           94.86 USD
+    expenses:processing-fees                 3.14 USD
+    income:subscriptions                   -98.00 USD
+
+2025-09-21 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing           94.86 USD
+    expenses:processing-fees                 3.14 USD
+    income:subscriptions                   -98.00 USD
+
+2025-09-21 * Payout to first bank (week 3)
+    assets:cash:first-bank                7782.76 USD
+    assets:cash:payments-clearing        -7782.76 USD
+
+2025-09-22 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing         1453.29 USD
+    expenses:processing-fees                43.71 USD
+    income:subscriptions                 -1497.00 USD
+
+2025-09-22 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-09-23 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          191.96 USD
+    expenses:processing-fees                 6.04 USD
+    income:subscriptions                  -198.00 USD
+
+2025-09-24 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-09-24 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          579.39 USD
+    expenses:processing-fees                17.61 USD
+    income:subscriptions                  -597.00 USD
+
+2025-09-25 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          969.73 USD
+    expenses:processing-fees                29.27 USD
+    income:subscriptions                  -999.00 USD
+
+2025-09-25 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing         1939.76 USD
+    expenses:processing-fees                58.24 USD
+    income:subscriptions                 -1998.00 USD
+
+2025-09-25 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-09-25 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing          386.16 USD
+    expenses:processing-fees                11.84 USD
+    income:subscriptions                  -398.00 USD
+
+2025-09-26 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-09-26 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-09-27 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing           95.83 USD
+    expenses:processing-fees                 3.17 USD
+    income:subscriptions                   -99.00 USD
+
+2025-10-04 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing         2909.79 USD
+    expenses:processing-fees                87.21 USD
+    income:subscriptions                 -2997.00 USD
+
+2025-10-04 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-10-07 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-10-07 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-10-07 * Payout to first bank (week 1)
+    assets:cash:first-bank               10257.44 USD
+    assets:cash:payments-clearing       -10257.44 USD
+
+2025-10-09 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing           95.83 USD
+    expenses:processing-fees                 3.17 USD
+    income:subscriptions                   -99.00 USD
+
+2025-10-10 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing          969.73 USD
+    expenses:processing-fees                29.27 USD
+    income:subscriptions                  -999.00 USD
+
+2025-10-10 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-10-11 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-10-13 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-10-14 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing         2909.79 USD
+    expenses:processing-fees                87.21 USD
+    income:subscriptions                 -2997.00 USD
+
+2025-10-14 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          386.16 USD
+    expenses:processing-fees                11.84 USD
+    income:subscriptions                  -398.00 USD
+
+2025-10-14 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-10-14 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing         1453.29 USD
+    expenses:processing-fees                43.71 USD
+    income:subscriptions                 -1497.00 USD
+
+2025-10-14 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing         2909.79 USD
+    expenses:processing-fees                87.21 USD
+    income:subscriptions                 -2997.00 USD
+
+2025-10-14 * Payout to first bank (week 2)
+    assets:cash:first-bank               10257.44 USD
+    assets:cash:payments-clearing       -10257.44 USD
+
+2025-10-15 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing         1453.29 USD
+    expenses:processing-fees                43.71 USD
+    income:subscriptions                 -1497.00 USD
+
+2025-10-15 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-10-16 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing           94.86 USD
+    expenses:processing-fees                 3.14 USD
+    income:subscriptions                   -98.00 USD
+
+2025-10-17 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing         1453.29 USD
+    expenses:processing-fees                43.71 USD
+    income:subscriptions                 -1497.00 USD
+
+2025-10-17 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          142.44 USD
+    expenses:processing-fees                 4.56 USD
+    income:subscriptions                  -147.00 USD
+
+2025-10-17 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing         2909.79 USD
+    expenses:processing-fees                87.21 USD
+    income:subscriptions                 -2997.00 USD
+
+2025-10-18 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing         1939.76 USD
+    expenses:processing-fees                58.24 USD
+    income:subscriptions                 -1998.00 USD
+
+2025-10-19 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing           94.86 USD
+    expenses:processing-fees                 3.14 USD
+    income:subscriptions                   -98.00 USD
+
+2025-10-19 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing         1453.29 USD
+    expenses:processing-fees                43.71 USD
+    income:subscriptions                 -1497.00 USD
+
+2025-10-19 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing         1939.76 USD
+    expenses:processing-fees                58.24 USD
+    income:subscriptions                 -1998.00 USD
+
+2025-10-19 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-10-20 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-10-20 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          579.39 USD
+    expenses:processing-fees                17.61 USD
+    income:subscriptions                  -597.00 USD
+
+2025-10-20 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-10-21 * Payout to first bank (week 3)
+    assets:cash:first-bank               10257.44 USD
+    assets:cash:payments-clearing       -10257.44 USD
+
+2025-10-23 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing           95.83 USD
+    expenses:processing-fees                 3.17 USD
+    income:subscriptions                   -99.00 USD
+
+2025-10-24 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing         2909.79 USD
+    expenses:processing-fees                87.21 USD
+    income:subscriptions                 -2997.00 USD
+
+2025-10-24 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-10-25 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-10-25 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing          579.39 USD
+    expenses:processing-fees                17.61 USD
+    income:subscriptions                  -597.00 USD
+
+2025-10-27 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          191.96 USD
+    expenses:processing-fees                 6.04 USD
+    income:subscriptions                  -198.00 USD
+
+2025-10-27 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-10-28 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-10-28 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing         2909.79 USD
+    expenses:processing-fees                87.21 USD
+    income:subscriptions                 -2997.00 USD
+
+2025-11-04 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          142.44 USD
+    expenses:processing-fees                 4.56 USD
+    income:subscriptions                  -147.00 USD
+
+2025-11-04 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-11-05 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-11-05 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing         2909.79 USD
+    expenses:processing-fees                87.21 USD
+    income:subscriptions                 -2997.00 USD
+
+2025-11-06 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-11-07 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-11-07 * Payout to first bank (week 1)
+    assets:cash:first-bank                7578.74 USD
+    assets:cash:payments-clearing        -7578.74 USD
+
+2025-11-08 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing         2909.79 USD
+    expenses:processing-fees                87.21 USD
+    income:subscriptions                 -2997.00 USD
+
+2025-11-09 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-11-09 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-11-09 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing          386.16 USD
+    expenses:processing-fees                11.84 USD
+    income:subscriptions                  -398.00 USD
+
+2025-11-10 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          579.39 USD
+    expenses:processing-fees                17.61 USD
+    income:subscriptions                  -597.00 USD
+
+2025-11-11 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-11-11 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          386.16 USD
+    expenses:processing-fees                11.84 USD
+    income:subscriptions                  -398.00 USD
+
+2025-11-12 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-11-13 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-11-14 * Payout to first bank (week 2)
+    assets:cash:first-bank                7578.74 USD
+    assets:cash:payments-clearing        -7578.74 USD
+
+2025-11-16 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing           94.86 USD
+    expenses:processing-fees                 3.14 USD
+    income:subscriptions                   -98.00 USD
+
+2025-11-16 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing           94.86 USD
+    expenses:processing-fees                 3.14 USD
+    income:subscriptions                   -98.00 USD
+
+2025-11-16 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-11-17 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          969.73 USD
+    expenses:processing-fees                29.27 USD
+    income:subscriptions                  -999.00 USD
+
+2025-11-18 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing         2909.79 USD
+    expenses:processing-fees                87.21 USD
+    income:subscriptions                 -2997.00 USD
+
+2025-11-18 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing         1453.29 USD
+    expenses:processing-fees                43.71 USD
+    income:subscriptions                 -1497.00 USD
+
+2025-11-19 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing         1453.29 USD
+    expenses:processing-fees                43.71 USD
+    income:subscriptions                 -1497.00 USD
+
+2025-11-19 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          579.39 USD
+    expenses:processing-fees                17.61 USD
+    income:subscriptions                  -597.00 USD
+
+2025-11-19 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-11-19 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          191.96 USD
+    expenses:processing-fees                 6.04 USD
+    income:subscriptions                  -198.00 USD
+
+2025-11-19 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-11-20 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-11-21 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-11-21 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-11-21 * Payout to first bank (week 3)
+    assets:cash:first-bank                7578.74 USD
+    assets:cash:payments-clearing        -7578.74 USD
+
+2025-11-22 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-11-22 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing          191.96 USD
+    expenses:processing-fees                 6.04 USD
+    income:subscriptions                  -198.00 USD
+
+2025-11-22 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          969.73 USD
+    expenses:processing-fees                29.27 USD
+    income:subscriptions                  -999.00 USD
+
+2025-11-23 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-11-24 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-11-26 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          142.44 USD
+    expenses:processing-fees                 4.56 USD
+    income:subscriptions                  -147.00 USD
+
+2025-11-28 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-12-02 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing         2909.79 USD
+    expenses:processing-fees                87.21 USD
+    income:subscriptions                 -2997.00 USD
+
+2025-12-04 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing         1939.76 USD
+    expenses:processing-fees                58.24 USD
+    income:subscriptions                 -1998.00 USD
+
+2025-12-04 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          579.39 USD
+    expenses:processing-fees                17.61 USD
+    income:subscriptions                  -597.00 USD
+
+2025-12-04 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing         2909.79 USD
+    expenses:processing-fees                87.21 USD
+    income:subscriptions                 -2997.00 USD
+
+2025-12-04 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          142.44 USD
+    expenses:processing-fees                 4.56 USD
+    income:subscriptions                  -147.00 USD
+
+2025-12-04 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-12-05 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing         1453.29 USD
+    expenses:processing-fees                43.71 USD
+    income:subscriptions                 -1497.00 USD
+
+2025-12-06 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing           94.86 USD
+    expenses:processing-fees                 3.14 USD
+    income:subscriptions                   -98.00 USD
+
+2025-12-07 * Payout to first bank (week 1)
+    assets:cash:first-bank                8292.42 USD
+    assets:cash:payments-clearing        -8292.42 USD
+
+2025-12-08 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          191.96 USD
+    expenses:processing-fees                 6.04 USD
+    income:subscriptions                  -198.00 USD
+
+2025-12-08 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          386.16 USD
+    expenses:processing-fees                11.84 USD
+    income:subscriptions                  -398.00 USD
+
+2025-12-10 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-12-10 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-12-10 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing          969.73 USD
+    expenses:processing-fees                29.27 USD
+    income:subscriptions                  -999.00 USD
+
+2025-12-12 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          484.23 USD
+    expenses:processing-fees                14.77 USD
+    income:subscriptions                  -499.00 USD
+
+2025-12-12 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing         2909.79 USD
+    expenses:processing-fees                87.21 USD
+    income:subscriptions                 -2997.00 USD
+
+2025-12-13 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-12-13 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-12-13 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-12-14 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-12-14 * Payout to first bank (week 2)
+    assets:cash:first-bank                8292.42 USD
+    assets:cash:payments-clearing        -8292.42 USD
+
+2025-12-15 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing         1939.76 USD
+    expenses:processing-fees                58.24 USD
+    income:subscriptions                 -1998.00 USD
+
+2025-12-15 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          579.39 USD
+    expenses:processing-fees                17.61 USD
+    income:subscriptions                  -597.00 USD
+
+2025-12-19 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing           94.86 USD
+    expenses:processing-fees                 3.14 USD
+    income:subscriptions                   -98.00 USD
+
+2025-12-19 * Subscription charge - Acorn Retail
+    assets:cash:payments-clearing         1453.29 USD
+    expenses:processing-fees                43.71 USD
+    income:subscriptions                 -1497.00 USD
+
+2025-12-19 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-12-20 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          288.09 USD
+    expenses:processing-fees                 8.91 USD
+    income:subscriptions                  -297.00 USD
+
+2025-12-21 * Subscription charge - Granite Insurance
+    assets:cash:payments-clearing           95.83 USD
+    expenses:processing-fees                 3.17 USD
+    income:subscriptions                   -99.00 USD
+
+2025-12-21 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing          968.76 USD
+    expenses:processing-fees                29.24 USD
+    income:subscriptions                  -998.00 USD
+
+2025-12-21 * Payout to first bank (week 3)
+    assets:cash:first-bank                8292.42 USD
+    assets:cash:payments-clearing        -8292.42 USD
+
+2025-12-22 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          191.96 USD
+    expenses:processing-fees                 6.04 USD
+    income:subscriptions                  -198.00 USD
+
+2025-12-22 * Subscription charge - Driftwood Media
+    assets:cash:payments-clearing          386.16 USD
+    expenses:processing-fees                11.84 USD
+    income:subscriptions                  -398.00 USD
+
+2025-12-22 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing          142.44 USD
+    expenses:processing-fees                 4.56 USD
+    income:subscriptions                  -147.00 USD
+
+2025-12-23 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing         1939.76 USD
+    expenses:processing-fees                58.24 USD
+    income:subscriptions                 -1998.00 USD
+
+2025-12-25 * Subscription charge - Cobalt Health
+    assets:cash:payments-clearing         1939.76 USD
+    expenses:processing-fees                58.24 USD
+    income:subscriptions                 -1998.00 USD
+
+2025-12-25 * Subscription charge - Hollow Pine Games
+    assets:cash:payments-clearing          191.96 USD
+    expenses:processing-fees                 6.04 USD
+    income:subscriptions                  -198.00 USD
+
+2025-12-27 * Subscription charge - Bramble Logistics
+    assets:cash:payments-clearing          192.93 USD
+    expenses:processing-fees                 6.07 USD
+    income:subscriptions                  -199.00 USD
+
+2025-12-27 * Subscription charge - Ember Foods
+    assets:cash:payments-clearing           47.28 USD
+    expenses:processing-fees                 1.72 USD
+    income:subscriptions                   -49.00 USD
+
+2025-12-27 * Subscription charge - Fjord Analytics
+    assets:cash:payments-clearing          386.16 USD
+    expenses:processing-fees                11.84 USD
+    income:subscriptions                  -398.00 USD

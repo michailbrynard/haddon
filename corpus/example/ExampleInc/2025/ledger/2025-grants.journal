@@ -1,0 +1,6 @@
+; Example Inc. - grants, 2025
+; Fictional sample data: every name, amount and date in this file is invented.
+
+2025-06-18 * Research grant received  ; grant: innovation-fund
+    assets:cash:first-bank        25000.00 USD
+    income:grants                -25000.00 USD

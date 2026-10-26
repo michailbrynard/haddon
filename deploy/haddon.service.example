@@ -1,0 +1,29 @@
+# Example systemd unit.  Copy to /etc/systemd/system/haddon.service, replace the placeholders (the service
+# user, the install directory /srv/haddon, the config path), then:
+#   systemctl daemon-reload && systemctl enable --now haddon
+#
+# The config file holds the entity->file map, each agent's bearer token and `proxy_auth` (see
+# docs/operations.md, "Configuration").  It holds secrets: keep it outside the repository and readable by the
+# service user only.  `proxy_auth` lets the browser act as the person the reverse proxy authenticated, and it is
+# only safe because the proxy is the only way in and blanks that header on the token entrance -- see
+# deploy/haddon.nginx.conf.example.
+#
+# `make web` builds the reviewer bundle into src/haddon/ui/static, which is gitignored, so an update is:
+#   git pull && make install && make web && sudo systemctl restart haddon
+[Unit]
+Description=Haddon bookkeeping service and reviewer UI
+After=network.target
+
+[Service]
+Type=simple
+User=haddon
+WorkingDirectory=/srv/haddon
+ExecStart=/srv/haddon/bin/haddon-serve --config /srv/haddon/var/serve/haddon.json --host 127.0.0.1 --port 8080
+Restart=always
+RestartSec=2
+# Everything the interface does goes through /v1 in this same process; nothing here reaches the network.
+PrivateTmp=yes
+NoNewPrivileges=yes
+
+[Install]
+WantedBy=multi-user.target

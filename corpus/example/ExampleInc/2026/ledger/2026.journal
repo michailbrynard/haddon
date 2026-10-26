@@ -1,0 +1,22 @@
+; Example Inc. - main journal for fiscal year 2026
+;
+; Fictional sample data: every name, amount and date in this file is invented.
+; Every amount in this book is in USD.
+;
+;
+
+; Amounts written without a commodity are USD
+D 1000.00 USD
+
+include accounts.journal
+include 2026-opening.journal
+include 2026-first-bank.journal
+include 2026-second-bank.journal
+include 2026-card.journal
+include 2026-fx-account.journal
+include 2026-payments.journal
+include 2026-payroll.journal
+include 2026-custody.journal
+include 2026-adjustments.journal
+include 2026-tax-adjustments.journal
+include 2026-assertions.journal

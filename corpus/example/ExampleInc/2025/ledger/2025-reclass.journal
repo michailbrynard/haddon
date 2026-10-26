@@ -1,0 +1,22 @@
+; Example Inc. - reclass, 2025
+; Fictional sample data: every name, amount and date in this file is invented.
+
+2025-12-30 * Depreciation for the year
+    expenses:depreciation                         6240.00 USD
+    assets:fixed:accumulated-depreciation        -6240.00 USD = -15600.00 USD  ; straight line, five years
+
+2025-12-30 * Reclassify conference costs from travel to marketing  ; reclass: year-end
+    expenses:marketing         1850.00 USD
+    expenses:travel           -1850.00 USD
+
+2025-12-30 * Reclassify software subscription from office  ; reclass: year-end
+    expenses:software          420.00 USD
+    expenses:office           -420.00 USD
+
+2025-12-30 * New laptops capitalised
+    assets:fixed:equipment          7800.00 USD
+    liabilities:credit-card        -7800.00 USD
+
+2025-12-30 * Card balance for the laptops settled
+    liabilities:credit-card         7800.00 USD
+    assets:cash:first-bank         -7800.00 USD = -242402.66 USD

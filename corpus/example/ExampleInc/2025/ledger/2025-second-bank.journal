@@ -1,0 +1,66 @@
+; Example Inc. - second-bank, 2025
+; Fictional sample data: every name, amount and date in this file is invented.
+
+2025-01-19 * Interest credited
+    assets:cash:second-bank          123.56 USD
+    income:interest                 -123.56 USD
+
+2025-02-12 * Interest credited
+    assets:cash:second-bank           87.46 USD
+    income:interest                  -87.46 USD
+
+2025-03-11 * Interest credited
+    assets:cash:second-bank           96.38 USD
+    income:interest                  -96.38 USD
+
+2025-03-27 * Transfer to the operating account  ; transfer: reserve
+    assets:cash:first-bank         15000.00 USD
+    assets:cash:second-bank       -15000.00 USD
+
+2025-04-15 * Interest credited
+    assets:cash:second-bank          136.22 USD
+    income:interest                 -136.22 USD
+
+2025-05-20 * Interest credited
+    assets:cash:second-bank           74.57 USD
+    income:interest                  -74.57 USD
+
+2025-06-09 * Interest credited
+    assets:cash:second-bank          120.27 USD
+    income:interest                 -120.27 USD
+
+2025-06-11 * Transfer to the operating account  ; transfer: reserve
+    assets:cash:first-bank         15000.00 USD
+    assets:cash:second-bank       -15000.00 USD
+
+2025-07-27 * Interest credited
+    assets:cash:second-bank           79.83 USD
+    income:interest                  -79.83 USD
+
+2025-08-03 * Interest credited
+    assets:cash:second-bank           71.84 USD
+    income:interest                  -71.84 USD
+
+2025-09-08 * Transfer to the operating account  ; transfer: reserve
+    assets:cash:first-bank         15000.00 USD
+    assets:cash:second-bank       -15000.00 USD
+
+2025-09-21 * Interest credited
+    assets:cash:second-bank          116.05 USD
+    income:interest                 -116.05 USD
+
+2025-10-13 * Interest credited
+    assets:cash:second-bank           87.04 USD
+    income:interest                  -87.04 USD
+
+2025-11-02 * Interest credited
+    assets:cash:second-bank           71.82 USD
+    income:interest                  -71.82 USD
+
+2025-12-04 * Interest credited
+    assets:cash:second-bank           62.68 USD
+    income:interest                  -62.68 USD
+
+2025-12-14 * Transfer to the operating account  ; transfer: reserve
+    assets:cash:first-bank         15000.00 USD
+    assets:cash:second-bank       -15000.00 USD

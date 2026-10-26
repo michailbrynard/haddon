@@ -1,0 +1,12 @@
+; Example S.L. - assertions, 2024
+; Fictional sample data: every name, amount and date in this file is invented.
+
+2024-12-31 * Year-end balance check: cash and receivables
+    assets:cash:bank              EUR 0 = EUR 39357.43
+    assets:receivables:clients    EUR 0 = EUR 0.00
+    assets:receivables:vat        EUR 0 = EUR 997.50
+
+2024-12-31 * Year-end balance check: liabilities
+    liabilities:vat-payable              EUR 0 = EUR -7335.32
+    liabilities:withholding              EUR 0 = EUR 0.00
+    liabilities:corporate-tax-payable    EUR 0 = EUR -2100.00

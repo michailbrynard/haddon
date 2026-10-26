@@ -1,0 +1,170 @@
+; Example Inc. - fx-account, 2025
+; Fictional sample data: every name, amount and date in this file is invented.
+
+2025-01-06 * Contractor invoice - Northfield QA
+    expenses:contractors            918.22 USD  ; orig: 844.76 EUR
+    assets:cash:fx-account         -918.22 USD
+
+2025-01-11 * Contractor invoice - Arcadia Dev
+    expenses:contractors           3585.55 USD  ; orig: 3298.71 EUR
+    assets:cash:fx-account        -3585.55 USD
+
+2025-01-13 * Contractor invoice - Lumen Studio
+    expenses:contractors           2033.56 USD  ; orig: 1870.88 EUR
+    assets:cash:fx-account        -2033.56 USD
+
+2025-01-13 * Top-up from the operating account
+    assets:cash:fx-account         9000.00 USD
+    assets:cash:first-bank        -9000.00 USD
+
+2025-01-27 * Contractor invoice - Northfield QA
+    expenses:contractors           1466.11 USD  ; orig: 1348.82 EUR
+    assets:cash:fx-account        -1466.11 USD
+
+2025-02-04 * Contractor invoice - Arcadia Dev
+    expenses:contractors           1179.67 USD  ; orig: 1085.30 EUR
+    assets:cash:fx-account        -1179.67 USD
+
+2025-02-18 * Top-up from the operating account
+    assets:cash:fx-account         9000.00 USD
+    assets:cash:first-bank        -9000.00 USD
+
+2025-02-26 * Contractor invoice - Arcadia Dev
+    expenses:contractors           2381.33 USD  ; orig: 2190.82 EUR
+    assets:cash:fx-account        -2381.33 USD
+
+2025-03-04 * Contractor invoice - Lumen Studio
+    expenses:contractors           3283.00 USD  ; orig: 3020.36 EUR
+    assets:cash:fx-account        -3283.00 USD
+
+2025-03-16 * Contractor invoice - Lumen Studio
+    expenses:contractors           1411.63 USD  ; orig: 1298.70 EUR
+    assets:cash:fx-account        -1411.63 USD
+
+2025-03-21 * Top-up from the operating account
+    assets:cash:fx-account         9000.00 USD
+    assets:cash:first-bank        -9000.00 USD
+
+2025-04-15 * Contractor invoice - Lumen Studio
+    expenses:contractors           2490.29 USD  ; orig: 2291.07 EUR
+    assets:cash:fx-account        -2490.29 USD
+
+2025-04-16 * Top-up from the operating account
+    assets:cash:fx-account         9000.00 USD
+    assets:cash:first-bank        -9000.00 USD
+
+2025-04-22 * Contractor invoice - Northfield QA
+    expenses:contractors           2564.82 USD  ; orig: 2359.63 EUR
+    assets:cash:fx-account        -2564.82 USD
+
+2025-05-14 * Contractor invoice - Lumen Studio
+    expenses:contractors           1978.09 USD  ; orig: 1819.84 EUR
+    assets:cash:fx-account        -1978.09 USD
+
+2025-05-15 * Top-up from the operating account
+    assets:cash:fx-account         9000.00 USD
+    assets:cash:first-bank        -9000.00 USD
+
+2025-05-19 * Contractor invoice - Lumen Studio
+    expenses:contractors           4025.09 USD  ; orig: 3703.08 EUR
+    assets:cash:fx-account        -4025.09 USD
+
+2025-06-05 * Top-up from the operating account
+    assets:cash:fx-account         9000.00 USD
+    assets:cash:first-bank        -9000.00 USD
+
+2025-06-11 * Contractor invoice - Arcadia Dev
+    expenses:contractors           2564.76 USD  ; orig: 2359.58 EUR
+    assets:cash:fx-account        -2564.76 USD
+
+2025-06-14 * Contractor invoice - Lumen Studio
+    expenses:contractors           1354.04 USD  ; orig: 1245.72 EUR
+    assets:cash:fx-account        -1354.04 USD
+
+2025-07-06 * Contractor invoice - Lumen Studio
+    expenses:contractors           2781.53 USD  ; orig: 2559.01 EUR
+    assets:cash:fx-account        -2781.53 USD
+
+2025-07-08 * Contractor invoice - Lumen Studio
+    expenses:contractors           3286.10 USD  ; orig: 3023.21 EUR
+    assets:cash:fx-account        -3286.10 USD
+
+2025-07-16 * Contractor invoice - Northfield QA
+    expenses:contractors           3166.78 USD  ; orig: 2913.44 EUR
+    assets:cash:fx-account        -3166.78 USD
+
+2025-07-26 * Top-up from the operating account
+    assets:cash:fx-account         9000.00 USD
+    assets:cash:first-bank        -9000.00 USD
+
+2025-08-04 * Top-up from the operating account
+    assets:cash:fx-account         9000.00 USD
+    assets:cash:first-bank        -9000.00 USD
+
+2025-08-09 * Contractor invoice - Arcadia Dev
+    expenses:contractors           2613.10 USD  ; orig: 2404.05 EUR
+    assets:cash:fx-account        -2613.10 USD
+
+2025-08-18 * Contractor invoice - Arcadia Dev
+    expenses:contractors           2591.15 USD  ; orig: 2383.86 EUR
+    assets:cash:fx-account        -2591.15 USD
+
+2025-09-07 * Contractor invoice - Northfield QA
+    expenses:contractors           2794.93 USD  ; orig: 2571.34 EUR
+    assets:cash:fx-account        -2794.93 USD
+
+2025-09-10 * Contractor invoice - Arcadia Dev
+    expenses:contractors           4045.32 USD  ; orig: 3721.69 EUR
+    assets:cash:fx-account        -4045.32 USD
+
+2025-09-20 * Top-up from the operating account
+    assets:cash:fx-account         9000.00 USD
+    assets:cash:first-bank        -9000.00 USD
+
+2025-10-05 * Contractor invoice - Lumen Studio
+    expenses:contractors           3688.35 USD  ; orig: 3393.28 EUR
+    assets:cash:fx-account        -3688.35 USD
+
+2025-10-06 * Top-up from the operating account
+    assets:cash:fx-account         9000.00 USD
+    assets:cash:first-bank        -9000.00 USD
+
+2025-10-09 * Contractor invoice - Arcadia Dev
+    expenses:contractors           1363.50 USD  ; orig: 1254.42 EUR
+    assets:cash:fx-account        -1363.50 USD
+
+2025-10-26 * Contractor invoice - Arcadia Dev
+    expenses:contractors           1413.84 USD  ; orig: 1300.73 EUR
+    assets:cash:fx-account        -1413.84 USD
+
+2025-11-02 * Top-up from the operating account
+    assets:cash:fx-account         9000.00 USD
+    assets:cash:first-bank        -9000.00 USD
+
+2025-11-14 * Contractor invoice - Arcadia Dev
+    expenses:contractors           1032.48 USD  ; orig: 949.88 EUR
+    assets:cash:fx-account        -1032.48 USD
+
+2025-11-17 * Contractor invoice - Northfield QA
+    expenses:contractors           1209.24 USD  ; orig: 1112.50 EUR
+    assets:cash:fx-account        -1209.24 USD
+
+2025-11-21 * Contractor invoice - Lumen Studio
+    expenses:contractors           3938.21 USD  ; orig: 3623.15 EUR
+    assets:cash:fx-account        -3938.21 USD
+
+2025-12-06 * Contractor invoice - Northfield QA
+    expenses:contractors           1586.16 USD  ; orig: 1459.27 EUR
+    assets:cash:fx-account        -1586.16 USD
+
+2025-12-09 * Contractor invoice - Northfield QA
+    expenses:contractors           2689.04 USD  ; orig: 2473.92 EUR
+    assets:cash:fx-account        -2689.04 USD
+
+2025-12-24 * Top-up from the operating account
+    assets:cash:fx-account         9000.00 USD
+    assets:cash:first-bank        -9000.00 USD
+
+2025-12-26 * Contractor invoice - Lumen Studio
+    expenses:contractors           2227.27 USD  ; orig: 2049.09 EUR
+    assets:cash:fx-account        -2227.27 USD

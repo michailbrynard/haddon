@@ -1,0 +1,230 @@
+; Example B.V. - bank, 2025
+; Fictional sample data: every name, amount and date in this file is invented.
+
+2025-01-07 * Payment terminal charges
+    expenses:bank-fees            7.65 EUR
+    assets:cash:bank             -7.65 EUR
+
+2025-01-11 * Intercompany service fee - Example Inc.
+    assets:cash:bank                     9185.92 EUR
+    income:intercompany-services        -9185.92 EUR
+
+2025-01-20 * Payment terminal charges
+    expenses:bank-fees           19.80 EUR
+    assets:cash:bank            -19.80 EUR
+
+2025-01-22 * Office rent - Canal Street Offices
+    expenses:rent            2116.21 EUR
+    assets:cash:bank        -2116.21 EUR
+
+2025-02-13 * Intercompany service fee - Example Inc.
+    assets:cash:bank                     9657.70 EUR
+    income:intercompany-services        -9657.70 EUR
+
+2025-02-13 * Payment terminal charges
+    expenses:bank-fees           26.74 EUR
+    assets:cash:bank            -26.74 EUR
+
+2025-02-15 * Payment terminal charges
+    expenses:bank-fees            3.58 EUR
+    assets:cash:bank             -3.58 EUR
+
+2025-02-17 * Bookkeeping - Ledgerline Accounting
+    expenses:professional-fees          845.10 EUR
+    assets:cash:bank                   -845.10 EUR
+
+2025-02-26 * Office rent - Canal Street Offices
+    expenses:rent            2155.32 EUR
+    assets:cash:bank        -2155.32 EUR
+
+2025-03-05 * Payment terminal charges
+    expenses:bank-fees           16.74 EUR
+    assets:cash:bank            -16.74 EUR
+
+2025-03-09 * Intercompany service fee - Example Inc.
+    assets:cash:bank                     9114.44 EUR
+    income:intercompany-services        -9114.44 EUR
+
+2025-03-16 * Payment terminal charges
+    expenses:bank-fees           23.27 EUR
+    assets:cash:bank            -23.27 EUR
+
+2025-03-24 * Office rent - Canal Street Offices
+    expenses:rent            2109.97 EUR
+    assets:cash:bank        -2109.97 EUR
+
+2025-04-06 * Payment terminal charges
+    expenses:bank-fees           15.44 EUR
+    assets:cash:bank            -15.44 EUR
+
+2025-04-10 * Bookkeeping - Ledgerline Accounting
+    expenses:professional-fees          779.68 EUR
+    assets:cash:bank                   -779.68 EUR
+
+2025-04-15 * Payment terminal charges
+    expenses:bank-fees           13.98 EUR
+    assets:cash:bank            -13.98 EUR
+
+2025-04-19 * Intercompany service fee - Example Inc.
+    assets:cash:bank                     9591.79 EUR
+    income:intercompany-services        -9591.79 EUR
+
+2025-04-22 * Office rent - Canal Street Offices
+    expenses:rent            2195.75 EUR
+    assets:cash:bank        -2195.75 EUR
+
+2025-05-08 * Office rent - Canal Street Offices
+    expenses:rent            2177.20 EUR
+    assets:cash:bank        -2177.20 EUR
+
+2025-05-10 * Payment terminal charges
+    expenses:bank-fees            6.97 EUR
+    assets:cash:bank             -6.97 EUR
+
+2025-05-14 * Card terminal fee
+    expenses:bank-fees           17.35 EUR
+    assets:cash:bank            -17.35 EUR
+
+2025-05-17 * Payment terminal charges
+    expenses:bank-fees            4.11 EUR
+    assets:cash:bank             -4.11 EUR
+
+2025-05-22 * Intercompany service fee - Example Inc.
+    assets:cash:bank                     9136.88 EUR
+    income:intercompany-services        -9136.88 EUR
+
+2025-06-03 * Corporate tax 2024 settled
+    liabilities:corporate-tax-payable         3105.20 EUR
+    assets:cash:bank                         -3105.20 EUR
+
+2025-06-07 * Intercompany service fee - Example Inc.
+    assets:cash:bank                     9952.67 EUR
+    income:intercompany-services        -9952.67 EUR
+
+2025-06-08 * Bookkeeping - Ledgerline Accounting
+    expenses:professional-fees          566.91 EUR
+    assets:cash:bank                   -566.91 EUR
+
+2025-06-12 * Payment terminal charges
+    expenses:bank-fees           20.84 EUR
+    assets:cash:bank            -20.84 EUR
+
+2025-06-17 * Payment terminal charges
+    expenses:bank-fees            5.80 EUR
+    assets:cash:bank             -5.80 EUR
+
+2025-06-22 * Office rent - Canal Street Offices
+    expenses:rent            2137.24 EUR
+    assets:cash:bank        -2137.24 EUR
+
+2025-07-04 * Payment terminal charges
+    expenses:bank-fees           27.20 EUR
+    assets:cash:bank            -27.20 EUR
+
+2025-07-07 * Intercompany service fee - Example Inc.
+    assets:cash:bank                     9725.90 EUR
+    income:intercompany-services        -9725.90 EUR
+
+2025-07-16 * Supplier balance paid
+    liabilities:payables:trade         1840.00 EUR
+    assets:cash:bank                  -1840.00 EUR
+
+2025-07-20 * Office rent - Canal Street Offices
+    expenses:rent            2154.27 EUR
+    assets:cash:bank        -2154.27 EUR
+
+2025-07-24 * Payment terminal charges
+    expenses:bank-fees           16.18 EUR
+    assets:cash:bank            -16.18 EUR
+
+2025-08-04 * Office rent - Canal Street Offices
+    expenses:rent            2126.45 EUR
+    assets:cash:bank        -2126.45 EUR
+
+2025-08-07 * Payment terminal charges
+    expenses:bank-fees           21.05 EUR
+    assets:cash:bank            -21.05 EUR
+
+2025-08-13 * Intercompany service fee - Example Inc.
+    assets:cash:bank                     9541.47 EUR
+    income:intercompany-services        -9541.47 EUR
+
+2025-08-13 * Bookkeeping - Ledgerline Accounting
+    expenses:professional-fees          794.52 EUR
+    assets:cash:bank                   -794.52 EUR
+
+2025-08-25 * Payment terminal charges
+    expenses:bank-fees           25.96 EUR
+    assets:cash:bank            -25.96 EUR
+
+2025-09-04 * Payment terminal charges
+    expenses:bank-fees           23.90 EUR
+    assets:cash:bank            -23.90 EUR
+
+2025-09-12 * Intercompany service fee - Example Inc.
+    assets:cash:bank                     9832.28 EUR
+    income:intercompany-services        -9832.28 EUR
+
+2025-09-23 * Office rent - Canal Street Offices
+    expenses:rent            2172.81 EUR
+    assets:cash:bank        -2172.81 EUR
+
+2025-09-23 * Payment terminal charges
+    expenses:bank-fees           18.29 EUR
+    assets:cash:bank            -18.29 EUR
+
+2025-10-05 * Payment terminal charges
+    expenses:bank-fees           15.62 EUR
+    assets:cash:bank            -15.62 EUR
+
+2025-10-15 * Bookkeeping - Ledgerline Accounting
+    expenses:professional-fees          400.66 EUR
+    assets:cash:bank                   -400.66 EUR
+
+2025-10-17 * Intercompany service fee - Example Inc.
+    assets:cash:bank                     9323.69 EUR
+    income:intercompany-services        -9323.69 EUR
+
+2025-10-22 * Office rent - Canal Street Offices
+    expenses:rent            2121.30 EUR
+    assets:cash:bank        -2121.30 EUR
+
+2025-10-25 * Payment terminal charges
+    expenses:bank-fees            5.52 EUR
+    assets:cash:bank             -5.52 EUR
+
+2025-11-05 * Intercompany service fee - Example Inc.
+    assets:cash:bank                     9869.58 EUR
+    income:intercompany-services        -9869.58 EUR
+
+2025-11-11 * Payment terminal charges
+    expenses:bank-fees           22.66 EUR
+    assets:cash:bank            -22.66 EUR
+
+2025-11-15 * Payment terminal charges
+    expenses:bank-fees           14.81 EUR
+    assets:cash:bank            -14.81 EUR
+
+2025-11-24 * Office rent - Canal Street Offices
+    expenses:rent            2157.46 EUR
+    assets:cash:bank        -2157.46 EUR
+
+2025-12-02 * Payment terminal charges
+    expenses:bank-fees           24.35 EUR
+    assets:cash:bank            -24.35 EUR
+
+2025-12-06 * Office rent - Canal Street Offices
+    expenses:rent            2193.31 EUR
+    assets:cash:bank        -2193.31 EUR
+
+2025-12-09 * Intercompany service fee - Example Inc.
+    assets:cash:bank                     9989.10 EUR
+    income:intercompany-services        -9989.10 EUR
+
+2025-12-13 * Bookkeeping - Ledgerline Accounting
+    expenses:professional-fees          870.00 EUR
+    assets:cash:bank                   -870.00 EUR
+
+2025-12-19 * Payment terminal charges
+    expenses:bank-fees           16.55 EUR
+    assets:cash:bank            -16.55 EUR

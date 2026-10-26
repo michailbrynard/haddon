@@ -1,0 +1,15 @@
+{
+  "name": "example",
+  "_": "A fictional sample corpus: three made-up companies whose books are written by corpus/generate_example.py.  Relative paths are relative to this manifest.",
+  "checkout": "example",
+  "read_only_roots": ["example"],
+  "default_year": 2025,
+  "_continuity_years": "The years loaded into ONE journal, oldest first: every boundary in the chain is a restatement the continuity oracle verifies rather than posts.  Example S.L. declares its own because its books start in 2024 (constituted August 2024).",
+  "continuity_years": [2025, 2026],
+  "baselines": "example-baselines.json",
+  "entities": [
+    {"key": "ExampleInc", "id": "example-inc", "name": "Example Inc.", "legal_form": "Inc", "country": "US", "base_currency": "USD"},
+    {"key": "ExampleBV", "id": "example-bv", "name": "Example B.V.", "legal_form": "B.V.", "country": "NL", "base_currency": "EUR"},
+    {"key": "ExampleSL", "id": "example-sl", "name": "Example S.L.", "legal_form": "S.L.", "country": "ES", "base_currency": "EUR", "continuity_years": [2024, 2025, 2026]}
+  ]
+}

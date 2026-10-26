@@ -1,0 +1,12 @@
+#!/bin/sh
+# The independent oracle: pinned source -> store -> reparsed export.  Exits nonzero on any disagreement.
+# Usage: bin/haddon-oracle [book|continuity|all] [Entity ...] [--corpus PATH] [--into DIR] [--keep DIR] [--json]
+#
+# With no entities named it runs every one the corpus manifest declares.  Set HADDON_CORPUS (or pass
+# --corpus) to name the manifest; this repository ships corpus/example.json, and `make oracle` uses it.
+#
+# No default is set here.  The loader refuses to run without HADDON_CORPUS on purpose (importing/corpus.py),
+# because guessing which company's books are being verified is worse than refusing.  A default in this wrapper
+# would put the guess back.  The suite, `make` and the docs all set it.
+HERE="$(dirname "$0")"
+exec "$HERE/../.venv/bin/python" -m haddon.oracle.cli "$@"

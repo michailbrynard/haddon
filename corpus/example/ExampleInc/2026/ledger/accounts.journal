@@ -1,0 +1,73 @@
+; Example Inc. - chart of accounts, 2026
+; Fictional sample data: every name, amount and date in this file is invented.
+
+commodity USD 1000.00
+
+account assets:cash:first-bank
+    ; operating account
+account assets:cash:second-bank
+    ; reserve account
+account assets:cash:fx-account
+    ; multi-currency account, held in USD
+account assets:cash:payments-clearing
+    ; balance held by the card processor
+account assets:cash:custody
+    ; digital-asset custody, carried at fair value in USD
+account assets:cash:old-bank
+    ; closed during 2024; kept for history
+account assets:receivables:trade
+account assets:prepaid
+account assets:fixed:equipment
+account assets:fixed:accumulated-depreciation
+    ; contra-asset
+account liabilities:credit-card
+    ; corporate card
+account liabilities:payables:trade
+account liabilities:accrued
+account liabilities:payroll-taxes
+account liabilities:income-tax-payable
+account equity:common-stock
+account equity:additional-paid-in-capital
+account equity:retained-earnings
+account income:subscriptions
+account income:services
+account income:grants
+account income:interest
+account income:fx-gains
+account expenses:salaries
+account expenses:payroll-taxes
+account expenses:contractors
+account expenses:software
+account expenses:office
+account expenses:travel
+account expenses:meals
+account expenses:marketing
+account expenses:professional-fees
+account expenses:telecom
+account expenses:bank-fees
+account expenses:processing-fees
+account expenses:depreciation
+    ; booked at year end (class: depreciation of fixed assets)
+account expenses:income-tax
+account expenses:fx-losses
+account expenses:insurance
+account expenses:training
+account expenses:hardware
+account expenses:recruiting
+account expenses:events
+account expenses:postage
+account expenses:utilities
+account expenses:cleaning
+account expenses:cloud-compute
+account expenses:data
+account expenses:security
+account expenses:design
+account expenses:books-and-media
+account expenses:charitable-giving
+    ; declared, never posted to
+account expenses:unused-legacy
+    ; declared, never posted to
+account income:licensing
+    ; declared, never posted to
+account expenses:research
+    ; new in 2026

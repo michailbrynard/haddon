@@ -1,0 +1,62 @@
+# Example nginx server block: ledger.example.com -> the Haddon service on 127.0.0.1:8080.
+#
+# One service, three locations, and one difference that changes who the books say did something:
+#
+#   /        the reviewer UI, behind the proxy's own authentication of a person
+#   /ui/v1/  the same API for the browser; the proxy passes WHO it authenticated in X-Haddon-User
+#   /v1/     the agents' entrance, authenticated by bearer token; X-Haddon-User is blanked here
+#
+# This example authenticates people with HTTP basic auth.  Any authenticating proxy works the same way
+# (single sign-on, an identity-aware proxy): what matters is that X-Haddon-User is set from the identity the
+# proxy established, never passed through from the client, and that the service is reachable through this proxy
+# alone -- anything that can reach 127.0.0.1:8080 directly can set the header.  If your proxy forwards a signed
+# identity assertion, verifying it in the service is the stronger guarantee.
+#
+# The header name must match `proxy_auth` in the service config (docs/operations.md).  Terminate TLS here or in
+# front of this server; it is omitted to keep the example short.
+server {
+    listen 80;
+    server_name ledger.example.com;
+
+    # Writes are small JSON bodies; nothing here uploads a file.
+    client_max_body_size 1m;
+
+    # The reviewer interface: the built bundle and its client-side routes, plus /docs, /openapi.json, /healthz
+    # and /readyz.  Default location, so a route added to the interface later is behind authentication by
+    # DEFAULT rather than by somebody remembering to add it here.
+    location / {
+        auth_basic           "Haddon";
+        auth_basic_user_file /etc/nginx/haddon.htpasswd;
+        proxy_pass http://127.0.0.1:8080;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        # Who the proxy authenticated.  Set from the proxy's own variable, never from the client's header.
+        proxy_set_header X-Haddon-User $remote_user;
+    }
+
+    # The browser's way into the API.  The /ui prefix is stripped by the trailing slash on proxy_pass, so
+    # /ui/v1/entities/... arrives as /v1/entities/... -- one API, one set of routes.
+    location /ui/v1/ {
+        auth_basic           "Haddon";
+        auth_basic_user_file /etc/nginx/haddon.htpasswd;
+        proxy_pass http://127.0.0.1:8080/v1/;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_set_header X-Haddon-User $remote_user;
+    }
+
+    # The agents' REST API, authenticated by its own bearer token (haddon.api.security).
+    location /v1/ {
+        proxy_pass http://127.0.0.1:8080;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        # This entrance authenticates by token, so a caller must never name itself here.
+        proxy_set_header X-Haddon-User "";
+    }
+}

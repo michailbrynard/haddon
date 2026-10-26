@@ -1,0 +1,434 @@
+; Example Inc. - first-bank, 2025
+; Fictional sample data: every name, amount and date in this file is invented.
+
+2025-01-03 * Monthly account fee
+    expenses:bank-fees               25.00 USD
+    assets:cash:first-bank          -25.00 USD
+
+2025-01-06 * Invoice payment - Fjord Analytics  ; invoice: INV-20250150
+    assets:cash:first-bank         9800.58 USD
+    income:services               -9800.58 USD
+
+2025-01-11 * Invoice payment - Granite Insurance  ; invoice: INV-20250164
+    assets:cash:first-bank        14648.90 USD
+    income:services              -14648.90 USD
+
+2025-01-13 * Invoice payment - Fjord Analytics  ; invoice: INV-20250162
+    assets:cash:first-bank        13232.91 USD
+    income:services              -13232.91 USD
+
+2025-01-14 * Invoice payment - Bramble Logistics  ; invoice: INV-20250188
+    assets:cash:first-bank         7552.97 USD
+    income:services               -7552.97 USD
+
+2025-01-19 * Invoice payment - Granite Insurance  ; invoice: INV-20250114
+    assets:cash:first-bank        16934.68 USD
+    income:services              -16934.68 USD
+
+2025-01-26 * Legal and accounting retainer
+    expenses:professional-fees         1584.96 USD
+    assets:cash:first-bank            -1584.96 USD
+
+2025-01-28 * Corporate card statement payment
+    liabilities:credit-card        22513.08 USD
+    assets:cash:first-bank        -22513.08 USD
+
+2025-02-03 * Legal and accounting retainer
+    expenses:professional-fees          937.19 USD
+    assets:cash:first-bank             -937.19 USD
+
+2025-02-05 * Invoice payment - Fjord Analytics  ; invoice: INV-20250260
+    assets:cash:first-bank        11413.22 USD
+    income:services              -11413.22 USD
+
+2025-02-06 * Invoice payment - Granite Insurance  ; invoice: INV-20250226
+    assets:cash:first-bank        17965.38 USD
+    income:services              -17965.38 USD
+
+2025-02-09 * Invoice payment - Granite Insurance  ; invoice: INV-20250270
+    assets:cash:first-bank        13876.96 USD
+    income:services              -13876.96 USD
+
+2025-02-20 * Monthly account fee
+    expenses:bank-fees               25.00 USD
+    assets:cash:first-bank          -25.00 USD
+
+2025-02-23 * Invoice payment - Hollow Pine Games  ; invoice: INV-20250295
+    assets:cash:first-bank         6365.41 USD
+    income:services               -6365.41 USD
+
+2025-02-27 * Invoice payment - Cobalt Health  ; invoice: INV-20250296
+    assets:cash:first-bank        13884.50 USD
+    income:services              -13884.50 USD
+
+2025-02-28 * Corporate card statement payment
+    liabilities:credit-card        22327.49 USD
+    assets:cash:first-bank        -22327.49 USD
+
+2025-03-03 * Monthly account fee
+    expenses:bank-fees               25.00 USD
+    assets:cash:first-bank          -25.00 USD
+
+2025-03-04 * Invoice payment - Bramble Logistics  ; invoice: INV-20250364
+    assets:cash:first-bank         7626.24 USD
+    income:services               -7626.24 USD
+
+2025-03-04 * Legal and accounting retainer
+    expenses:professional-fees         2149.42 USD
+    assets:cash:first-bank            -2149.42 USD
+
+2025-03-11 * Invoice payment - Hollow Pine Games  ; invoice: INV-20250314
+    assets:cash:first-bank         2951.26 USD
+    income:services               -2951.26 USD
+
+2025-03-12 * Refund - duplicate supplier charge
+    assets:cash:first-bank          512.17 USD
+    expenses:office                -512.17 USD
+
+2025-03-19 * Invoice payment - Acorn Retail  ; invoice: INV-20250381
+    assets:cash:first-bank        14478.71 USD
+    income:services              -14478.71 USD
+
+2025-03-19 * Refund reversed by the supplier
+    expenses:office                 512.17 USD
+    assets:cash:first-bank         -512.17 USD
+
+2025-03-24 * Invoice payment - Cobalt Health  ; invoice: INV-20250311
+    assets:cash:first-bank        15148.40 USD
+    income:services              -15148.40 USD
+
+2025-03-24 * Invoice payment - Acorn Retail  ; invoice: INV-20250373
+    assets:cash:first-bank        12271.56 USD
+    income:services              -12271.56 USD
+
+2025-03-25 * Invoice payment - Ember Foods  ; invoice: INV-20250386
+    assets:cash:first-bank         2471.90 USD
+    income:services               -2471.90 USD
+
+2025-03-26 * Invoice payment - Granite Insurance  ; invoice: INV-20250319
+    assets:cash:first-bank        15621.04 USD
+    income:services              -15621.04 USD
+
+2025-03-28 * Corporate card statement payment
+    liabilities:credit-card        20040.94 USD
+    assets:cash:first-bank        -20040.94 USD
+
+2025-04-02 * Invoice payment - Acorn Retail  ; invoice: INV-20250427
+    assets:cash:first-bank        16170.07 USD
+    income:services              -16170.07 USD
+
+2025-04-02 * Legal and accounting retainer
+    expenses:professional-fees         1276.62 USD
+    assets:cash:first-bank            -1276.62 USD
+
+2025-04-05 * Invoice payment - Bramble Logistics  ; invoice: INV-20250495
+    assets:cash:first-bank         5858.96 USD
+    income:services               -5858.96 USD
+
+2025-04-08 * Invoice payment - Granite Insurance  ; invoice: INV-20250462
+    assets:cash:first-bank         7428.99 USD
+    income:services               -7428.99 USD
+
+2025-04-10 * Invoice payment - Cobalt Health  ; invoice: INV-20250433
+    assets:cash:first-bank        17975.85 USD
+    income:services              -17975.85 USD
+
+2025-04-10 * Monthly account fee
+    expenses:bank-fees               25.00 USD
+    assets:cash:first-bank          -25.00 USD
+
+2025-04-26 * Invoice payment - Bramble Logistics  ; invoice: INV-20250455
+    assets:cash:first-bank         4612.11 USD
+    income:services               -4612.11 USD
+
+2025-04-27 * Invoice payment - Driftwood Media  ; invoice: INV-20250439
+    assets:cash:first-bank        13131.30 USD
+    income:services              -13131.30 USD
+
+2025-04-28 * Corporate card statement payment
+    liabilities:credit-card        17628.45 USD
+    assets:cash:first-bank        -17628.45 USD
+
+2025-05-04 * Monthly account fee
+    expenses:bank-fees               25.00 USD
+    assets:cash:first-bank          -25.00 USD
+
+2025-05-06 * Invoice payment - Fjord Analytics  ; invoice: INV-20250522
+    assets:cash:first-bank         9254.83 USD
+    income:services               -9254.83 USD
+
+2025-05-08 * Legal and accounting retainer
+    expenses:professional-fees         1316.84 USD
+    assets:cash:first-bank            -1316.84 USD
+
+2025-05-09 * Invoice payment - Granite Insurance  ; invoice: INV-20250531
+    assets:cash:first-bank         7118.69 USD
+    income:services               -7118.69 USD
+
+2025-05-10 * Invoice payment - Bramble Logistics  ; invoice: INV-20250521
+    assets:cash:first-bank         6562.36 USD
+    income:services               -6562.36 USD
+
+2025-05-21 * Invoice payment - Ember Foods  ; invoice: INV-20250566
+    assets:cash:first-bank        15972.01 USD
+    income:services              -15972.01 USD
+
+2025-05-26 * Invoice payment - Driftwood Media  ; invoice: INV-20250547
+    assets:cash:first-bank        14599.11 USD
+    income:services              -14599.11 USD
+
+2025-05-28 * Corporate card statement payment
+    liabilities:credit-card        21996.36 USD
+    assets:cash:first-bank        -21996.36 USD
+
+2025-06-08 * Invoice payment - Fjord Analytics  ; invoice: INV-20250618
+    assets:cash:first-bank         8712.80 USD
+    income:services               -8712.80 USD
+
+2025-06-08 * Invoice payment - Cobalt Health  ; invoice: INV-20250642
+    assets:cash:first-bank        11459.00 USD
+    income:services              -11459.00 USD
+
+2025-06-10 * Invoice payment - Driftwood Media  ; invoice: INV-20250673
+    assets:cash:first-bank         5473.46 USD
+    income:services               -5473.46 USD
+
+2025-06-12 * Invoice payment - Ember Foods  ; invoice: INV-20250611
+    assets:cash:first-bank        11846.98 USD
+    income:services              -11846.98 USD
+
+2025-06-13 * Monthly account fee
+    expenses:bank-fees               25.00 USD
+    assets:cash:first-bank          -25.00 USD
+
+2025-06-20 * Legal and accounting retainer
+    expenses:professional-fees          925.92 USD
+    assets:cash:first-bank             -925.92 USD
+
+2025-06-21 * Invoice payment - Cobalt Health  ; invoice: INV-20250659
+    assets:cash:first-bank         8134.67 USD
+    income:services               -8134.67 USD
+
+2025-06-22 * Invoice payment - Cobalt Health  ; invoice: INV-20250612
+    assets:cash:first-bank         1677.58 USD
+    income:services               -1677.58 USD
+
+2025-06-25 * Invoice payment - Acorn Retail  ; invoice: INV-20250617
+    assets:cash:first-bank        11492.30 USD
+    income:services              -11492.30 USD
+
+2025-06-28 * Corporate card statement payment
+    liabilities:credit-card        18360.67 USD
+    assets:cash:first-bank        -18360.67 USD
+
+2025-07-02 * Invoice payment - Driftwood Media  ; invoice: INV-20250795
+    assets:cash:first-bank        15990.14 USD
+    income:services              -15990.14 USD
+
+2025-07-04 * Legal and accounting retainer
+    expenses:professional-fees         2037.07 USD
+    assets:cash:first-bank            -2037.07 USD
+
+2025-07-08 * Invoice payment - Cobalt Health  ; invoice: INV-20250748
+    assets:cash:first-bank        10168.53 USD
+    income:services              -10168.53 USD
+
+2025-07-09 * Invoice payment - Ember Foods  ; invoice: INV-20250731
+    assets:cash:first-bank         7398.72 USD
+    income:services               -7398.72 USD
+
+2025-07-16 * Invoice payment - Hollow Pine Games  ; invoice: INV-20250758
+    assets:cash:first-bank         5593.40 USD
+    income:services               -5593.40 USD
+
+2025-07-24 * Invoice payment - Bramble Logistics  ; invoice: INV-20250789
+    assets:cash:first-bank        15569.49 USD
+    income:services              -15569.49 USD
+
+2025-07-24 * Invoice payment - Fjord Analytics  ; invoice: INV-20250776
+    assets:cash:first-bank         8864.96 USD
+    income:services               -8864.96 USD
+
+2025-07-26 * Invoice payment - Fjord Analytics  ; invoice: INV-20250798
+    assets:cash:first-bank         2324.42 USD
+    income:services               -2324.42 USD
+
+2025-07-26 * Monthly account fee
+    expenses:bank-fees               25.00 USD
+    assets:cash:first-bank          -25.00 USD
+
+2025-07-28 * Corporate card statement payment
+    liabilities:credit-card        19356.50 USD
+    assets:cash:first-bank        -19356.50 USD
+
+2025-08-04 * Invoice payment - Fjord Analytics  ; invoice: INV-20250840
+    assets:cash:first-bank         3749.04 USD
+    income:services               -3749.04 USD
+
+2025-08-11 * Invoice payment - Ember Foods  ; invoice: INV-20250868
+    assets:cash:first-bank        14886.15 USD
+    income:services              -14886.15 USD
+
+2025-08-12 * Invoice payment - Fjord Analytics  ; invoice: INV-20250871
+    assets:cash:first-bank        14269.09 USD
+    income:services              -14269.09 USD
+
+2025-08-17 * Monthly account fee
+    expenses:bank-fees               25.00 USD
+    assets:cash:first-bank          -25.00 USD
+
+2025-08-22 * Legal and accounting retainer
+    expenses:professional-fees         1036.00 USD
+    assets:cash:first-bank            -1036.00 USD
+
+2025-08-23 * Invoice payment - Driftwood Media  ; invoice: INV-20250818
+    assets:cash:first-bank        13030.10 USD
+    income:services              -13030.10 USD
+
+2025-08-24 * Invoice payment - Granite Insurance  ; invoice: INV-20250836
+    assets:cash:first-bank         1906.39 USD
+    income:services               -1906.39 USD
+
+2025-08-25 * Invoice payment - Acorn Retail  ; invoice: INV-20250851
+    assets:cash:first-bank         1672.14 USD
+    income:services               -1672.14 USD
+
+2025-08-28 * Corporate card statement payment
+    liabilities:credit-card        22845.77 USD
+    assets:cash:first-bank        -22845.77 USD
+
+2025-09-02 * Invoice payment - Bramble Logistics  ; invoice: INV-20250981
+    assets:cash:first-bank        14828.68 USD
+    income:services              -14828.68 USD
+
+2025-09-04 * Invoice payment - Cobalt Health  ; invoice: INV-20250958
+    assets:cash:first-bank        11970.76 USD
+    income:services              -11970.76 USD
+
+2025-09-09 * Invoice payment - Cobalt Health  ; invoice: INV-20250932
+    assets:cash:first-bank        14796.02 USD
+    income:services              -14796.02 USD
+
+2025-09-09 * Invoice payment - Acorn Retail  ; invoice: INV-20250964
+    assets:cash:first-bank         5736.31 USD
+    income:services               -5736.31 USD
+
+2025-09-16 * Legal and accounting retainer
+    expenses:professional-fees          934.18 USD
+    assets:cash:first-bank             -934.18 USD
+
+2025-09-20 * Invoice payment - Fjord Analytics  ; invoice: INV-20250915
+    assets:cash:first-bank         7261.87 USD
+    income:services               -7261.87 USD
+
+2025-09-26 * Monthly account fee
+    expenses:bank-fees               25.00 USD
+    assets:cash:first-bank          -25.00 USD
+
+2025-09-28 * Corporate card statement payment
+    liabilities:credit-card        21589.82 USD
+    assets:cash:first-bank        -21589.82 USD
+
+2025-10-02 * Invoice payment - Cobalt Health  ; invoice: INV-20251070
+    assets:cash:first-bank        14483.66 USD
+    income:services              -14483.66 USD
+
+2025-10-13 * Invoice payment - Acorn Retail  ; invoice: INV-20251067
+    assets:cash:first-bank         3784.32 USD
+    income:services               -3784.32 USD
+
+2025-10-15 * Monthly account fee
+    expenses:bank-fees               25.00 USD
+    assets:cash:first-bank          -25.00 USD
+
+2025-10-18 * Invoice payment - Bramble Logistics  ; invoice: INV-20251060
+    assets:cash:first-bank         5765.22 USD
+    income:services               -5765.22 USD
+
+2025-10-18 * Invoice payment - Driftwood Media  ; invoice: INV-20251092
+    assets:cash:first-bank        12946.26 USD
+    income:services              -12946.26 USD
+
+2025-10-18 * Legal and accounting retainer
+    expenses:professional-fees          900.21 USD
+    assets:cash:first-bank             -900.21 USD
+
+2025-10-27 * Invoice payment - Granite Insurance  ; invoice: INV-20251052
+    assets:cash:first-bank         3540.87 USD
+    income:services               -3540.87 USD
+
+2025-10-28 * Corporate card statement payment
+    liabilities:credit-card        24329.61 USD
+    assets:cash:first-bank        -24329.61 USD
+
+2025-11-05 * Invoice payment - Acorn Retail  ; invoice: INV-20251116
+    assets:cash:first-bank         5286.94 USD
+    income:services               -5286.94 USD
+
+2025-11-07 * Invoice payment - Granite Insurance  ; invoice: INV-20251197
+    assets:cash:first-bank        15367.49 USD
+    income:services              -15367.49 USD
+
+2025-11-09 * Legal and accounting retainer
+    expenses:professional-fees         2034.59 USD
+    assets:cash:first-bank            -2034.59 USD
+
+2025-11-10 * Invoice payment - Bramble Logistics  ; invoice: INV-20251152
+    assets:cash:first-bank         9033.35 USD
+    income:services               -9033.35 USD
+
+2025-11-13 * Monthly account fee
+    expenses:bank-fees               25.00 USD
+    assets:cash:first-bank          -25.00 USD
+
+2025-11-14 * Invoice payment - Acorn Retail  ; invoice: INV-20251131
+    assets:cash:first-bank         8239.38 USD
+    income:services               -8239.38 USD
+
+2025-11-19 * Invoice payment - Acorn Retail  ; invoice: INV-20251183
+    assets:cash:first-bank         1908.57 USD
+    income:services               -1908.57 USD
+
+2025-11-25 * Invoice payment - Hollow Pine Games  ; invoice: INV-20251197
+    assets:cash:first-bank        11563.59 USD
+    income:services              -11563.59 USD
+
+2025-11-28 * Corporate card statement payment
+    liabilities:credit-card        25380.30 USD
+    assets:cash:first-bank        -25380.30 USD
+
+2025-12-03 * Legal and accounting retainer
+    expenses:professional-fees         1175.82 USD
+    assets:cash:first-bank            -1175.82 USD
+
+2025-12-11 * Invoice payment - Cobalt Health  ; invoice: INV-20251241
+    assets:cash:first-bank         9795.16 USD
+    income:services               -9795.16 USD
+
+2025-12-23 * Invoice payment - Acorn Retail  ; invoice: INV-20251218
+    assets:cash:first-bank         4213.59 USD
+    income:services               -4213.59 USD
+
+2025-12-23 * Invoice payment - Driftwood Media  ; invoice: INV-20251279
+    assets:cash:first-bank         6308.28 USD
+    income:services               -6308.28 USD
+
+2025-12-23 * Monthly account fee
+    expenses:bank-fees               25.00 USD
+    assets:cash:first-bank          -25.00 USD
+
+2025-12-24 * Invoice payment - Acorn Retail  ; invoice: INV-20251242
+    assets:cash:first-bank         4397.95 USD
+    income:services               -4397.95 USD
+
+2025-12-24 * Invoice payment - Acorn Retail  ; invoice: INV-20251280
+    assets:cash:first-bank        10410.33 USD
+    income:services              -10410.33 USD
+
+2025-12-27 * Invoice payment - Fjord Analytics  ; invoice: INV-20251236
+    assets:cash:first-bank        11829.00 USD
+    income:services              -11829.00 USD
+
+2025-12-28 * Corporate card statement payment
+    liabilities:credit-card        21329.90 USD
+    assets:cash:first-bank        -21329.90 USD

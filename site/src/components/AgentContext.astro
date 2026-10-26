@@ -1,0 +1,79 @@
+---
+// The homepage's "Copy for your agent" box. The text is docs/agent-context.md as scripts/sync-docs.mjs writes
+// it, which is also served at agentContext.path; there is no other copy of it.
+import text from '../generated/agent-context.md?raw';
+import { agentContext } from '../../site.config.mjs';
+import CopyButton from './CopyButton.astro';
+
+// Escaped so the text cannot end the script element it is stored in.
+const json = JSON.stringify(text).replace(/</g, '\\u003c');
+---
+
+<div class="agent-context not-content">
+  <p>
+    Using a coding agent? Give it this context first: what Haddon is, how to authenticate, what to ask the service
+    before writing, and how it refuses.
+  </p>
+  <div class="actions">
+    <CopyButton label="Copy for your agent" class="copy-context" />
+    <a href={agentContext.path} type="text/markdown">View as Markdown</a>
+    <span class="sr-only" role="status"></span>
+  </div>
+  <script type="application/json" id="agent-context-text" set:html={json} />
+</div>
+
+<script>
+  import { copyFrom } from '../lib/copy';
+
+  const box = document.querySelector<HTMLElement>('.agent-context');
+  if (box) {
+    const text: string = JSON.parse(document.getElementById('agent-context-text')!.textContent!);
+    // Links are absolute when the site's address is configured. On a build without one they are root-relative,
+    // and are made absolute against wherever this page is being served from.
+    const absolute = () => text.replace(/\]\((\/[^)\s]*)\)/g, (_, path) => `](${new URL(path, location.href).href})`);
+    copyFrom(box.querySelector('.copy-context')!, box.querySelector('[role="status"]'), absolute);
+  }
+</script>
+
+<style>
+  .agent-context {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem 2rem;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: 0.5rem;
+  }
+  .agent-context p {
+    flex: 1 1 22rem;
+    margin: 0;
+    color: var(--sl-color-gray-2);
+  }
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+  }
+  .actions :global(.copy-context) {
+    padding: 0.5rem 1.125rem;
+    border: 1px solid var(--sl-color-text-accent);
+    border-radius: 999rem;
+    background: var(--sl-color-text-accent);
+    color: var(--sl-color-black);
+    font-size: var(--sl-text-sm);
+  }
+  .actions :global(.copy-context):focus-visible,
+  .actions a:focus-visible {
+    outline: 2px solid var(--sl-color-text-accent);
+    outline-offset: 0.25rem;
+  }
+  .actions a {
+    font-size: var(--sl-text-sm);
+    color: var(--sl-color-gray-2);
+  }
+  .actions a:hover {
+    color: var(--sl-color-white);
+  }
+</style>

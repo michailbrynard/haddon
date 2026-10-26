@@ -1,0 +1,4 @@
+#!/bin/sh
+# Back up an entity, verify a backup, restore one, or run the whole round trip as a drill.
+# Usage:  bin/haddon-backup {create|verify|restore|drill} ...   (see src/haddon/backup.py)
+exec "$(dirname "$0")/../.venv/bin/python" -m haddon.backup "$@"

@@ -1,0 +1,59 @@
+; Fernside Instruments — the generic sample journal for Phase 0.
+;
+; This is the accounting truth the golden core-invariant tests in tests/test_golden_core.py are derived from.  It
+; is deliberately small: one ordinary year of a made-up company, in three commodities, with one correction.  It is
+; an hledger journal so it reads the same way the real corpus does, but it belongs to no checkout and no customer.
+;
+; It is the *human-readable* source of truth.  The test posts the same facts through the repository API and checks
+; the store's balances and report totals against the numbers this file implies.  If someone changes what an entry
+; means, both the journal and the pinned expectations move together, which is the point: the fixture survives the
+; schema replacements in Phases 1-6.
+
+; --- declarations: the sample entity's chart and commodities -------------------------------------------------
+commodity USD 1,000.00
+commodity EUR 1,000.00
+commodity JPY 1,000.
+
+account assets:cash
+account assets:cash-eur
+account assets:cash-jpy
+account assets:receivables
+account liabilities:payables
+account expenses:office
+account income:sales
+account equity:retained-earnings
+
+; --- 2025: one ordinary year ---------------------------------------------------------------------------------
+2025-01-02 * Opening balances
+    assets:cash                    2,500.00 USD
+    equity:retained-earnings      -2,500.00 USD
+
+2025-02-10 * Sale — invoice 1001
+    assets:cash                    1,200.00 USD
+    income:sales                  -1,200.00 USD
+
+2025-03-05 * Office supplies
+    expenses:office                  300.00 USD
+    assets:cash                     -300.00 USD
+
+2025-04-01 * Sale — invoice 1002, in euros
+    assets:cash-eur                  500.00 EUR
+    income:sales                    -500.00 EUR
+
+2025-05-20 * Office supplies, in yen
+    expenses:office               12,000 JPY
+    assets:cash-jpy              -12,000 JPY
+
+2025-06-15 * Sale — invoice 1003, on account
+    assets:receivables               800.00 USD
+    income:sales                    -800.00 USD
+
+2025-07-01 * Accountant fees, unpaid
+    expenses:office                  450.00 USD
+    liabilities:payables            -450.00 USD
+
+; The correction of the 2025-03-05 supplies: the original is left standing, and this is its mirror.  A reason is
+; required by the product and is recorded on the audit trail.
+2025-08-10 * Reversal of the 2025-03-05 office supplies
+    expenses:office                 -300.00 USD
+    assets:cash                      300.00 USD

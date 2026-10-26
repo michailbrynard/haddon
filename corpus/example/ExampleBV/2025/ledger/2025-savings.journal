@@ -1,0 +1,30 @@
+; Example B.V. - savings, 2025
+; Fictional sample data: every name, amount and date in this file is invented.
+
+2025-03-22 * Interest credited
+    assets:cash:savings           63.75 EUR
+    income:interest              -63.75 EUR
+
+2025-06-19 * Interest credited
+    assets:cash:savings           75.07 EUR
+    income:interest              -75.07 EUR
+
+2025-08-08 * Software licences  ; licence: annual
+    expenses:software           1188.00 EUR
+    assets:cash:savings        -1188.00 EUR
+
+2025-09-27 * Interest credited
+    assets:cash:savings           50.38 EUR
+    income:interest              -50.38 EUR
+
+2025-10-21 * Office equipment
+    expenses:office              642.30 EUR
+    assets:cash:savings         -642.30 EUR
+
+2025-12-06 * Interest credited
+    assets:cash:savings           83.11 EUR
+    income:interest              -83.11 EUR
+
+2025-12-31 * Year-end interest credited
+    assets:cash:savings           18.62 EUR
+    income:interest              -18.62 EUR

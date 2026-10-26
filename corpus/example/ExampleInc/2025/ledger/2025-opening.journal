@@ -1,0 +1,21 @@
+; Example Inc. - opening, 2025
+; Fictional sample data: every name, amount and date in this file is invented.
+
+2025-01-01 * Opening balances (per the audited 2024 balance sheet)
+    ;
+    ; --- Cash ---
+    ;
+    assets:cash:first-bank                      184250.40 USD = 184250.40 USD
+    assets:cash:second-bank                      60000.00 USD
+    assets:cash:fx-account                       12480.15 USD
+    assets:cash:payments-clearing                 8312.66 USD
+    assets:cash:custody                           4100.00 USD
+    assets:receivables:trade                     23900.00 USD
+    assets:fixed:equipment                       31200.00 USD
+    assets:fixed:accumulated-depreciation        -9360.00 USD
+    liabilities:credit-card                      -6120.88 USD
+    liabilities:payables:trade                   -4380.50 USD
+    liabilities:accrued                          -2500.00 USD
+    equity:common-stock                          -1000.00 USD
+    equity:additional-paid-in-capital          -250000.00 USD
+    equity:retained-earnings                    -50881.83 USD

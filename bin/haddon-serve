@@ -1,0 +1,4 @@
+#!/bin/sh
+# Serve the Haddon REST API (/v1).  Usage: bin/haddon-serve [--config PATH] [--host H] [--port N] [--check]
+# Configuration comes from --config or $HADDON_CONFIG; --check prints the readiness report and exits.
+exec "$(dirname "$0")/../.venv/bin/python" -m haddon.api.cli "$@"

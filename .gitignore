@@ -1,0 +1,21 @@
+vendor/hledger
+__pycache__/
+*.pyc
+.venv/
+var/
+*.db
+*.db-wal
+*.db-shm
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+
+# The reviewer bundle is built from web/ by `make web`; a build artefact in the repository is a thing two
+# people can disagree about without either of them editing it.
+src/haddon/ui/static/
+web/node_modules/
+
+# Artifacts written by the browser harness when a run fails (browser/README.md).
+browser/artifacts/

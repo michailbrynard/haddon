@@ -1,0 +1,37 @@
+---
+// A button that src/lib/copy.ts wires up. It shows "Copied" or "Copy failed" for a moment after a click; the
+// three labels share one grid cell, so the button keeps its width whichever is showing. Hidden without
+// JavaScript (see Head.astro), where it could do nothing.
+interface Props {
+  label: string;
+  class?: string;
+  [attribute: `data-${string}`]: string;
+}
+const { label, class: className, ...attrs } = Astro.props;
+---
+
+<button type="button" class:list={['copy-button', className]} data-needs-js {...attrs}>
+  <span>{label}</span>
+  <span class="copied" aria-hidden="true">Copied</span>
+  <span class="failed" aria-hidden="true">Copy failed</span>
+</button>
+
+<style>
+  .copy-button {
+    display: inline-grid;
+    cursor: pointer;
+    font: inherit;
+  }
+  span {
+    grid-area: 1 / 1;
+  }
+  .copied,
+  .failed,
+  [data-state] > span:first-child {
+    visibility: hidden;
+  }
+  [data-state='copied'] > .copied,
+  [data-state='failed'] > .failed {
+    visibility: visible;
+  }
+</style>

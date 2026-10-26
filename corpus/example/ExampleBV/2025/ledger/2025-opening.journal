@@ -1,0 +1,12 @@
+; Example B.V. - opening, 2025
+; Fictional sample data: every name, amount and date in this file is invented.
+
+2025-01-01 * Opening balances (per the 2024 annual accounts)
+    assets:cash:bank                         41230.55 EUR
+    assets:cash:savings                      20000.00 EUR
+    assets:cash:custody                       2875.00 EUR
+    assets:receivables:intercompany          12000.00 EUR
+    liabilities:payables:trade               -1840.00 EUR
+    liabilities:corporate-tax-payable        -3105.20 EUR
+    equity:share-capital                    -18000.00 EUR
+    equity:retained-earnings                -53160.35 EUR

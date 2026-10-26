@@ -1,0 +1,23 @@
+; Example S.L. - main journal for fiscal year 2024
+;
+; Fictional sample data: every name, amount and date in this file is invented.
+; Every amount in this book is in EUR.
+;
+;
+;
+;
+;
+;
+;
+;
+
+; Amounts written without a commodity are EUR
+D 1000.00 EUR
+commodity EUR 1,000.00
+
+include accounts.journal
+include 2024-bank.journal
+include 2024-invoices.journal
+include 2024-payroll.journal
+include 2024-adjustments.journal
+include 2024-assertions.journal

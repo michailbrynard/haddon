@@ -1,0 +1,102 @@
+{
+  "_": "Pinned figures and content digests for the oracle (docs/design/decisions.md, 'Chunk C2b' and 'Chunk F3'), measured from the fictional sample corpus in corpus/example/ (written by corpus/generate_example.py) with vendor/hledger 1.52.1.  Regenerate deliberately, never to make a failing run pass: a change here is a claim that the SOURCE changed, and every changed number must be attributable to a named source change.",
+  "schema": "haddon-oracle-baseline-1",
+  "baselines": [
+    {
+      "entity": "ExampleInc",
+      "entity_id": "example-inc",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "memo_normalised": 1,
+      "entries": 1312,
+      "postings": 3126,
+      "pairs": 49,
+      "monthly_pairs": 432,
+      "accounts": 54,
+      "commodities": 1,
+      "source_files": 11,
+      "canonical_sha256": "a9650c85ff8d30c1d3e1594f63560f0795493dd00e286a635a228ba99b0e0ef8",
+      "totals_sha256": "0860ccc2ec69463aa79cf8a7738b2be11aa1c38850a7beb5f57a230aa807392b",
+      "monthly_sha256": "1d041b27119a7e2a57491fdedb78719aa4367447eb78df85d9537a2ace42aa22",
+      "mapping_sha256": "7a1cf4d6abc5dcc93b9469c969be3ddbb85054e2c531cd00f4396b62b238324f",
+      "txn_comments": 104,
+      "txn_tags": 103,
+      "txn_codes": 0,
+      "posting_statuses": {
+        "Unmarked": 3126
+      }
+    },
+    {
+      "entity": "ExampleBV",
+      "entity_id": "example-bv",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "memo_normalised": 0,
+      "entries": 71,
+      "postings": 148,
+      "pairs": 17,
+      "monthly_pairs": 82,
+      "accounts": 19,
+      "commodities": 1,
+      "source_files": 5,
+      "canonical_sha256": "7d11d5f97d1127b368d77f9cb4ae34f3f0e5c785cc14d6128f9e352f6bda53bd",
+      "totals_sha256": "720f198ac204cb2743489fb76c167c049d32ada617fa4d85a976690d6417df7f",
+      "monthly_sha256": "7a361924f3263d53aa46df48102ffe96eec4ec8dbcbd927fb12ae35bcf8ad9d4",
+      "mapping_sha256": "5382be258484d72d0c6c8de455fecbfdd477fa6eb76cf64b3e25ce05172528e7",
+      "txn_comments": 2,
+      "txn_tags": 2,
+      "txn_codes": 0,
+      "posting_statuses": {
+        "Unmarked": 148
+      }
+    },
+    {
+      "entity": "ExampleSL",
+      "entity_id": "example-sl",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "memo_normalised": 0,
+      "entries": 93,
+      "postings": 252,
+      "pairs": 19,
+      "monthly_pairs": 154,
+      "accounts": 20,
+      "commodities": 1,
+      "source_files": 5,
+      "canonical_sha256": "33f70bd11466c9c71b9fb3d77351a3ad8d17599137f1b8fee2d5f55049d2db11",
+      "totals_sha256": "83fa327fb46e06154b5cb3caab4a2e74f58acb4ea68e169b52d15bde42675d5d",
+      "monthly_sha256": "ddce27478729307b86e07173da7e9584d876e866467dd73a9fdacff64fbecbf8",
+      "mapping_sha256": "9f62f681eaa7d25cbe537703e8758230a1899d26fb049db7660b83659341cf98",
+      "txn_comments": 17,
+      "txn_tags": 16,
+      "txn_codes": 0,
+      "posting_statuses": {
+        "Unmarked": 252
+      }
+    },
+    {
+      "entity": "ExampleSL",
+      "entity_id": "example-sl",
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "memo_normalised": 0,
+      "entries": 44,
+      "postings": 115,
+      "pairs": 18,
+      "monthly_pairs": 66,
+      "accounts": 20,
+      "commodities": 1,
+      "source_files": 5,
+      "canonical_sha256": "0d79e94857fc9ccf32507dfca7a5400ad2b907723e3d79eed7bf0e453b313aac",
+      "totals_sha256": "0375124a78bb76a497e947a14376f4b899e1790eb8e7a469fd6a4c549219a683",
+      "monthly_sha256": "2cd86ec68ddf49419ce29592c5d74c1acc9b074f7def2e84267e7d43dba5442c",
+      "mapping_sha256": "cbf592569375b7a35ce00bb3e1ccd041ff348771244cfaf827bdc7e6cbe6f567",
+      "txn_comments": 8,
+      "txn_tags": 8,
+      "txn_codes": 0,
+      "posting_statuses": {
+        "Unmarked": 115
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  HLEDGER_VERSION: "1.52.1"
+
+jobs:
+  test-gate:
+    name: Test suite and oracle
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install system libraries for WeasyPrint
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends libpango-1.0-0 libpangoft2-1.0-0
+
+      # vendor/hledger is gitignored. The official release binary is fetched here, and the suite itself refuses
+      # it unless its sha256 matches the linux-x86_64 pin in vendor/hledger.sha256 and it reports 1.52.1.
+      - name: Fetch the pinned hledger
+        run: |
+          curl -sSLf "https://github.com/hledgerorg/hledger/releases/download/${HLEDGER_VERSION}/hledger-linux-x64.tar.gz" \
+            | tar -xz -C vendor hledger
+          vendor/hledger --version
+
+      - name: Install
+        run: |
+          python -m venv .venv
+          .venv/bin/pip install --upgrade pip
+          make install
+
+      - name: Sample corpus matches its generator
+        run: .venv/bin/python corpus/generate_example.py --check
+
+      - name: Test gate
+        run: make test-gate
+
+  web:
+    name: Reviewer UI type check and build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Type check
+        run: make web-check
+
+      - name: Build
+        run: cd web && npm run build

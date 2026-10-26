@@ -1,0 +1,12 @@
+---
+// Starlight's own <head>, plus a link to the page's raw markdown for agents and other tools that prefer it.
+import Default from '@astrojs/starlight/components/Head.astro';
+import { markdownPath } from '../lib/markdown';
+
+const markdown = markdownPath(Astro.locals.starlightRoute.id);
+---
+
+<Default />
+{markdown && <link rel="alternate" type="text/markdown" href={markdown} />}
+{/* A copy button does nothing without JavaScript, so it is not shown. The link beside it still works. */}
+<noscript><style>[data-needs-js] {display: none !important;}</style></noscript>

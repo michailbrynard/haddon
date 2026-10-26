@@ -1,0 +1,13 @@
+#!/bin/sh
+# Import one corpus entity's journal into a ledger database.
+# Usage: bin/haddon-import <Entity> <db-path> [--corpus PATH] [--year Y] [--into-existing] [--skip-blocked]
+#
+# The entities, the checkout and the default year come from a corpus manifest (issue 0006).  Set
+# HADDON_CORPUS (or pass --corpus) to name it; this repository ships corpus/example.json, and `make` uses
+# that one.
+#
+# No default is set here.  The loader refuses to run without HADDON_CORPUS on purpose (importing/corpus.py),
+# because guessing which company's books are being verified is worse than refusing.  A default in this wrapper
+# would put the guess back.  The suite, `make` and the docs all set it.
+HERE="$(dirname "$0")"
+exec "$HERE/../.venv/bin/python" -m haddon.importing.cli "$@"

@@ -1,0 +1,3 @@
+#!/bin/sh
+# Apply all Alembic migrations to one entity database file.  Usage: bin/haddon-migrate path/to/entity.db
+exec "$(dirname "$0")/../.venv/bin/python" -m haddon.db.migrate "$@"

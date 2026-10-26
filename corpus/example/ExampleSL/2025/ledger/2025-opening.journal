@@ -1,0 +1,16 @@
+; Example S.L. - opening, 2025
+; Fictional sample data: every name, amount and date in this file is invented.
+; Carried forward from the 2024 annual accounts.
+
+2025-01-01 * Opening balances (restating the 2024 closing balance sheet)
+    ;
+    ; Balance sheet as approved with the 2024 annual accounts
+    ;
+    assets:cash:bank                             39357.43 EUR
+    assets:fixed:accumulated-depreciation         -480.00 EUR
+    assets:fixed:equipment                        2400.00 EUR
+    assets:receivables:vat                         997.50 EUR
+    liabilities:corporate-tax-payable            -2100.00 EUR
+    liabilities:vat-payable                      -7335.32 EUR
+    equity:retained-earnings                     -2839.61 EUR
+    equity:share-capital                        -30000.00 EUR

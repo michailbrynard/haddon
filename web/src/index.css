@@ -1,0 +1,163 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* Palette.  Warm off-white page, near-black text, and colour only where it carries information: one accent for
+   anything interactive, amber for rows that still need a decision, red only for a real refusal.  Balances use
+   tabular figures (the `tnum` utility below) so a column lines up on the decimal point. */
+
+:root {
+  --radius: 0.5rem;
+
+  --background: oklch(0.995 0.002 85);
+  --foreground: oklch(0.22 0.008 60);
+
+  --card: oklch(1 0 0);
+  --card-foreground: var(--foreground);
+  --popover: oklch(1 0 0);
+  --popover-foreground: var(--foreground);
+
+  --primary: oklch(0.42 0.09 250);
+  --primary-foreground: oklch(0.99 0.002 85);
+
+  --secondary: oklch(0.965 0.004 80);
+  --secondary-foreground: oklch(0.3 0.008 60);
+
+  --muted: oklch(0.965 0.004 80);
+  --muted-foreground: oklch(0.52 0.01 60);
+  --placeholder: oklch(0.565 0.01 60);
+
+  --accent: oklch(0.955 0.008 250);
+  --accent-foreground: oklch(0.32 0.05 250);
+
+  --destructive: oklch(0.52 0.18 27);
+  --destructive-foreground: oklch(0.99 0.002 85);
+
+  --border: oklch(0.9 0.005 75);
+  --input: oklch(0.9 0.005 75);
+  --ring: oklch(0.42 0.09 250);
+
+  /* Information colours, used on their own tinted surfaces. */
+  --attention: oklch(0.55 0.11 70);
+  --attention-surface: oklch(0.975 0.025 85);
+  --attention-border: oklch(0.88 0.05 80);
+  --settled: oklch(0.48 0.08 155);
+  --settled-surface: oklch(0.975 0.02 160);
+  --settled-border: oklch(0.89 0.04 160);
+  --negative: oklch(0.5 0.14 27);
+}
+
+/* Dark mode follows the system setting; there is no toggle in the app.  A small script in index.html adds the
+   class to <html> before the first paint.  These are the light palette's colours adjusted for a dark
+   background, not a separate design. */
+.dark {
+  --background: oklch(0.18 0.006 70);
+  --foreground: oklch(0.94 0.004 85);
+
+  --card: oklch(0.22 0.006 70);
+  --card-foreground: var(--foreground);
+  --popover: oklch(0.22 0.006 70);
+  --popover-foreground: var(--foreground);
+
+  --primary: oklch(0.72 0.1 250);
+  --primary-foreground: oklch(0.18 0.02 250);
+
+  --secondary: oklch(0.26 0.006 70);
+  --secondary-foreground: oklch(0.92 0.004 85);
+
+  --muted: oklch(0.26 0.006 70);
+  --muted-foreground: oklch(0.66 0.008 70);
+  --placeholder: oklch(0.625 0.008 70);
+
+  --accent: oklch(0.28 0.02 250);
+  --accent-foreground: oklch(0.88 0.04 250);
+
+  --destructive: oklch(0.62 0.16 27);
+  --destructive-foreground: oklch(0.16 0.02 27);
+
+  --border: oklch(0.3 0.006 70);
+  --input: oklch(0.32 0.006 70);
+  --ring: oklch(0.6 0.09 250);
+
+  --attention: oklch(0.78 0.1 75);
+  --attention-surface: oklch(0.26 0.03 75);
+  --attention-border: oklch(0.36 0.05 75);
+  --settled: oklch(0.75 0.08 160);
+  --settled-surface: oklch(0.24 0.025 160);
+  --settled-border: oklch(0.32 0.04 160);
+  --negative: oklch(0.72 0.13 27);
+}
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-placeholder: var(--placeholder);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-attention: var(--attention);
+  --color-attention-surface: var(--attention-surface);
+  --color-attention-border: var(--attention-border);
+  --color-settled: var(--settled);
+  --color-settled-surface: var(--settled-surface);
+  --color-settled-border: var(--settled-border);
+  --color-negative: var(--negative);
+
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/40;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "cv05" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-ring;
+  }
+
+  /* A placeholder must not be mistaken for a typed value, and colour alone can't guarantee that.  Against this
+     palette a value is 13.4:1 on the dark field and 17.3:1 on the light one, and a placeholder needs 4.5:1 to be
+     readable, which caps the value-to-placeholder contrast at about 3.0:1 in dark whatever the hue.  The
+     tokens above go as far as that allows (3.0:1 dark, 3.8:1 light) and the italic covers the rest, since it
+     still works on a dim screen or for a colour-blind reader.
+
+     Set here rather than per field so a new input can't opt out.  `opacity: 1` undoes the browser default,
+     which would fade the colour. */
+  input::placeholder,
+  textarea::placeholder {
+    color: var(--placeholder);
+    font-style: italic;
+    opacity: 1;
+  }
+}
+
+@utility tnum {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+}

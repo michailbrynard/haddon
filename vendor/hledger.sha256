@@ -1,0 +1,8 @@
+# hledger 1.52.1 verifier pins, one sha256 per platform.  Release binaries are not byte-identical across
+# architectures, so the pin is per platform; `--version` must still report 1.52.1.  A platform with no line here
+# is refused, not waved through.  See src/haddon/importing/hledger.py and docs/design/decisions.md (chunk C1).
+#
+# linux-x86_64: hledgerorg/hledger release asset `hledger-linux-x64.tar.gz` for tag 1.52.1.
+linux-x86_64 93ca480e5c6dc2abd7521518564a429aecce483f174172e917c1f2c1d7b3274f
+# mac-aarch64: hledgerorg/hledger release asset `hledger-mac-arm64.tar.gz` for tag 1.52.1.
+mac-aarch64 df80cb53cea947d7f0fb74387823c12ecf840452a53bfbaefa1c2a6350cb96d5

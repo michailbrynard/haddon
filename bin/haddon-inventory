@@ -1,0 +1,5 @@
+#!/bin/sh
+# Take the volatile inventory (routes, schema objects, migrations, modules) and print it, write it into
+# docs/architecture.md, or check that what is written there is still true.  See src/haddon/inventory.py.
+# Usage:  bin/haddon-inventory [--write|--check]
+exec "$(dirname "$0")/../.venv/bin/python" -m haddon.inventory "$@"

@@ -1,0 +1,56 @@
+---
+// Starlight's footer, plus the files an agent or other tool reads instead of these pages.
+import Default from '@astrojs/starlight/components/Footer.astro';
+import { agentContext } from '../../site.config.mjs';
+
+const files = [
+  [agentContext.path, 'context for an agent'],
+  ['/llms.txt', 'every page as markdown'],
+  ['/llms-full.txt', 'all of it in one file'],
+  ['/openapi.json', 'the API schema'],
+];
+---
+
+<Default />
+<nav class="for-agents" aria-label="For agents">
+  <span>For agents:</span>
+  <ul>
+    {
+      files.map(([href, title]) => (
+        <li>
+          <a href={href} title={title}>{href.slice(1)}</a>
+        </li>
+      ))
+    }
+  </ul>
+</nav>
+
+<style>
+  .for-agents {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 0.75rem;
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--sl-color-hairline);
+    font-size: var(--sl-text-sm);
+    color: var(--sl-color-gray-3);
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 0.75rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    margin: 0;
+  }
+  a {
+    color: var(--sl-color-gray-2);
+  }
+  a:hover {
+    color: var(--sl-color-white);
+  }
+</style>

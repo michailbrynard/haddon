@@ -1,0 +1,10 @@
+#!/bin/sh
+# Drive the reviewer's critical loop in a real browser.  See browser/README.md.
+#
+# Assumes the bundle is current: `make browser-check` runs `make web` first, and the harness refuses to run
+# against a bundle older than the sources it is built from either way.
+#
+#   bin/haddon-browser-check                       run it
+#   bin/haddon-browser-check --headed --slowmo 300 watch it
+cd "$(dirname "$0")/.." || exit 1
+exec .venv/bin/pytest -q -p no:cacheprovider browser "$@"

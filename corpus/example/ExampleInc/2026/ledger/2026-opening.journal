@@ -1,0 +1,17 @@
+; Example Inc. - opening, 2026
+; Fictional sample data: every name, amount and date in this file is invented.
+
+2026-01-01 * Opening balances (restating the 2025 closing balance sheet)
+    assets:cash:custody                           4330.80 USD = 4330.80 USD
+    assets:cash:first-bank                     -242402.66 USD = -242402.66 USD
+    assets:cash:fx-account                       48816.99 USD = 48816.99 USD
+    assets:cash:payments-clearing                39283.34 USD = 39283.34 USD
+    assets:cash:second-bank                       1127.72 USD = 1127.72 USD
+    assets:fixed:accumulated-depreciation       -15600.00 USD
+    assets:fixed:equipment                       39000.00 USD
+    assets:receivables:trade                     12750.00 USD
+    liabilities:credit-card                      -6120.88 USD = -6120.88 USD
+    liabilities:income-tax-payable              -14200.00 USD = -14200.00 USD
+    equity:additional-paid-in-capital          -250000.00 USD
+    equity:common-stock                          -1000.00 USD
+    equity:retained-earnings                    384014.69 USD

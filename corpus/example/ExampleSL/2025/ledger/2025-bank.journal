@@ -1,0 +1,194 @@
+; Example S.L. - bank, 2025
+; Fictional sample data: every name, amount and date in this file is invented.
+
+2025-01-07 * Rent paid - Calle Mayor Coworking
+    liabilities:payables:suppliers         1149.50 EUR
+    assets:cash:bank                      -1149.50 EUR
+
+2025-01-20 * Bank maintenance fee
+    expenses:bank-fees           12.10 EUR
+    assets:cash:bank            -12.10 EUR
+
+2025-01-21 * Payment received - Nimbus Travel
+    assets:cash:bank                   9566.20 EUR
+    assets:receivables:clients        -9566.20 EUR
+
+2025-01-28 * Social security paid
+    liabilities:social-security         1381.30 EUR
+    assets:cash:bank                   -1381.30 EUR
+
+2025-02-07 * Rent paid - Calle Mayor Coworking
+    liabilities:payables:suppliers         1149.50 EUR
+    assets:cash:bank                      -1149.50 EUR
+
+2025-02-23 * Bank maintenance fee
+    expenses:bank-fees           12.10 EUR
+    assets:cash:bank            -12.10 EUR
+
+2025-02-24 * Payment received - Example Inc.
+    assets:cash:bank                  10670.93 EUR
+    assets:receivables:clients       -10670.93 EUR
+
+2025-02-28 * Social security paid
+    liabilities:social-security         1381.30 EUR
+    assets:cash:bank                   -1381.30 EUR
+
+2025-03-02 * Bank maintenance fee
+    expenses:bank-fees           12.10 EUR
+    assets:cash:bank            -12.10 EUR
+
+2025-03-08 * Rent paid - Calle Mayor Coworking
+    liabilities:payables:suppliers         1149.50 EUR
+    assets:cash:bank                      -1149.50 EUR
+
+2025-03-24 * Payment received - Nimbus Travel
+    assets:cash:bank                  10787.44 EUR
+    assets:receivables:clients       -10787.44 EUR
+
+2025-03-28 * Social security paid
+    liabilities:social-security         1381.30 EUR
+    assets:cash:bank                   -1381.30 EUR
+
+2025-04-07 * Rent paid - Calle Mayor Coworking
+    liabilities:payables:suppliers         1149.50 EUR
+    assets:cash:bank                      -1149.50 EUR
+
+2025-04-21 * Bank maintenance fee
+    expenses:bank-fees           12.10 EUR
+    assets:cash:bank            -12.10 EUR
+
+2025-04-27 * Payment received - Solana Studio
+    assets:cash:bank                   7305.24 EUR
+    assets:receivables:clients        -7305.24 EUR
+
+2025-04-28 * Social security paid
+    liabilities:social-security         1381.30 EUR
+    assets:cash:bank                   -1381.30 EUR
+
+2025-05-08 * Rent paid - Calle Mayor Coworking
+    liabilities:payables:suppliers         1149.50 EUR
+    assets:cash:bank                      -1149.50 EUR
+
+2025-05-12 * Bank maintenance fee
+    expenses:bank-fees           12.10 EUR
+    assets:cash:bank            -12.10 EUR
+
+2025-05-25 * Payment received - Solana Studio
+    assets:cash:bank                   8354.13 EUR
+    assets:receivables:clients        -8354.13 EUR
+
+2025-05-28 * Social security paid
+    liabilities:social-security         1381.30 EUR
+    assets:cash:bank                   -1381.30 EUR
+
+2025-06-02 * Bank maintenance fee
+    expenses:bank-fees           12.10 EUR
+    assets:cash:bank            -12.10 EUR
+
+2025-06-09 * Rent paid - Calle Mayor Coworking
+    liabilities:payables:suppliers         1149.50 EUR
+    assets:cash:bank                      -1149.50 EUR
+
+2025-06-27 * Payment received - Example Inc.
+    assets:cash:bank                   9631.75 EUR
+    assets:receivables:clients        -9631.75 EUR
+
+2025-06-28 * Social security paid
+    liabilities:social-security         1381.30 EUR
+    assets:cash:bank                   -1381.30 EUR
+
+2025-07-12 * Rent paid - Calle Mayor Coworking
+    liabilities:payables:suppliers         1149.50 EUR
+    assets:cash:bank                      -1149.50 EUR
+
+2025-07-21 * Payment received - Solana Studio
+    assets:cash:bank                   8009.52 EUR
+    assets:receivables:clients        -8009.52 EUR
+
+2025-07-26 * Bank maintenance fee
+    expenses:bank-fees           12.10 EUR
+    assets:cash:bank            -12.10 EUR
+
+2025-07-28 * Social security paid
+    liabilities:social-security         1381.30 EUR
+    assets:cash:bank                   -1381.30 EUR
+
+2025-08-07 * Rent paid - Calle Mayor Coworking
+    liabilities:payables:suppliers         1149.50 EUR
+    assets:cash:bank                      -1149.50 EUR
+
+2025-08-19 * Bank maintenance fee
+    expenses:bank-fees           12.10 EUR
+    assets:cash:bank            -12.10 EUR
+
+2025-08-21 * Payment received - Nimbus Travel
+    assets:cash:bank                  10193.05 EUR
+    assets:receivables:clients       -10193.05 EUR
+
+2025-08-28 * Social security paid
+    liabilities:social-security         1381.30 EUR
+    assets:cash:bank                   -1381.30 EUR
+
+2025-09-11 * Rent paid - Calle Mayor Coworking
+    liabilities:payables:suppliers         1149.50 EUR
+    assets:cash:bank                      -1149.50 EUR
+
+2025-09-12 * Bank maintenance fee
+    expenses:bank-fees           12.10 EUR
+    assets:cash:bank            -12.10 EUR
+
+2025-09-24 * Payment received - Example Inc.
+    assets:cash:bank                  10424.63 EUR
+    assets:receivables:clients       -10424.63 EUR
+
+2025-09-28 * Social security paid
+    liabilities:social-security         1381.30 EUR
+    assets:cash:bank                   -1381.30 EUR
+
+2025-10-07 * Rent paid - Calle Mayor Coworking
+    liabilities:payables:suppliers         1149.50 EUR
+    assets:cash:bank                      -1149.50 EUR
+
+2025-10-10 * Bank maintenance fee
+    expenses:bank-fees           12.10 EUR
+    assets:cash:bank            -12.10 EUR
+
+2025-10-22 * Payment received - Example Inc.
+    assets:cash:bank                   9975.84 EUR
+    assets:receivables:clients        -9975.84 EUR
+
+2025-10-28 * Social security paid
+    liabilities:social-security         1381.30 EUR
+    assets:cash:bank                   -1381.30 EUR
+
+2025-11-07 * Rent paid - Calle Mayor Coworking
+    liabilities:payables:suppliers         1149.50 EUR
+    assets:cash:bank                      -1149.50 EUR
+
+2025-11-17 * Bank maintenance fee
+    expenses:bank-fees           12.10 EUR
+    assets:cash:bank            -12.10 EUR
+
+2025-11-24 * Payment received - Nimbus Travel
+    assets:cash:bank                  10739.55 EUR
+    assets:receivables:clients       -10739.55 EUR
+
+2025-11-28 * Social security paid
+    liabilities:social-security         1381.30 EUR
+    assets:cash:bank                   -1381.30 EUR
+
+2025-12-11 * Rent paid - Calle Mayor Coworking
+    liabilities:payables:suppliers         1149.50 EUR
+    assets:cash:bank                      -1149.50 EUR
+
+2025-12-12 * Bank maintenance fee
+    expenses:bank-fees           12.10 EUR
+    assets:cash:bank            -12.10 EUR
+
+2025-12-26 * Payment received - Solana Studio
+    assets:cash:bank                   8704.53 EUR
+    assets:receivables:clients        -8704.53 EUR
+
+2025-12-28 * Social security paid
+    liabilities:social-security         1381.30 EUR
+    assets:cash:bank                   -1381.30 EUR

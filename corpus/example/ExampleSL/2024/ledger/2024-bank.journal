@@ -1,0 +1,90 @@
+; Example S.L. - bank, 2024
+; Fictional sample data: every name, amount and date in this file is invented.
+
+2024-08-05 * Share capital paid in  ; constitution: deed
+    assets:cash:bank             3000.00 EUR
+    equity:share-capital        -3000.00 EUR
+
+2024-08-08 * Rent paid - Calle Mayor Coworking
+    liabilities:payables:suppliers         1149.50 EUR
+    assets:cash:bank                      -1149.50 EUR
+
+2024-08-19 * Shareholder loan converted to capital
+    assets:cash:bank            27000.00 EUR
+    equity:share-capital       -27000.00 EUR
+
+2024-08-23 * Payment received - Solana Studio
+    assets:cash:bank                   7729.35 EUR
+    assets:receivables:clients        -7729.35 EUR
+
+2024-08-23 * Bank maintenance fee
+    expenses:bank-fees           12.10 EUR
+    assets:cash:bank            -12.10 EUR
+
+2024-08-28 * Social security paid
+    liabilities:social-security         1381.30 EUR
+    assets:cash:bank                   -1381.30 EUR
+
+2024-09-12 * Rent paid - Calle Mayor Coworking
+    liabilities:payables:suppliers         1149.50 EUR
+    assets:cash:bank                      -1149.50 EUR
+
+2024-09-21 * Bank maintenance fee
+    expenses:bank-fees           12.10 EUR
+    assets:cash:bank            -12.10 EUR
+
+2024-09-25 * Payment received - Example Inc.
+    assets:cash:bank                   8718.41 EUR
+    assets:receivables:clients        -8718.41 EUR
+
+2024-09-28 * Social security paid
+    liabilities:social-security         1381.30 EUR
+    assets:cash:bank                   -1381.30 EUR
+
+2024-10-09 * Rent paid - Calle Mayor Coworking
+    liabilities:payables:suppliers         1149.50 EUR
+    assets:cash:bank                      -1149.50 EUR
+
+2024-10-17 * Bank maintenance fee
+    expenses:bank-fees           12.10 EUR
+    assets:cash:bank            -12.10 EUR
+
+2024-10-27 * Payment received - Solana Studio
+    assets:cash:bank                   8996.07 EUR
+    assets:receivables:clients        -8996.07 EUR
+
+2024-10-28 * Social security paid
+    liabilities:social-security         1381.30 EUR
+    assets:cash:bank                   -1381.30 EUR
+
+2024-11-05 * Bank maintenance fee
+    expenses:bank-fees           12.10 EUR
+    assets:cash:bank            -12.10 EUR
+
+2024-11-10 * Rent paid - Calle Mayor Coworking
+    liabilities:payables:suppliers         1149.50 EUR
+    assets:cash:bank                      -1149.50 EUR
+
+2024-11-24 * Payment received - Solana Studio
+    assets:cash:bank                   7933.22 EUR
+    assets:receivables:clients        -7933.22 EUR
+
+2024-11-28 * Social security paid
+    liabilities:social-security         1381.30 EUR
+    assets:cash:bank                   -1381.30 EUR
+
+2024-12-10 * Rent paid - Calle Mayor Coworking
+    liabilities:payables:suppliers         1149.50 EUR = 0.00 EUR
+    assets:cash:bank                      -1149.50 EUR
+
+2024-12-24 * Payment received - Solana Studio
+    assets:cash:bank                   8888.38 EUR
+    assets:receivables:clients        -8888.38 EUR
+
+2024-12-24 * Bank maintenance fee
+    expenses:bank-fees           12.10 EUR
+    assets:cash:bank            -12.10 EUR
+
+2024-12-28 * Social security paid
+    liabilities:social-security         1381.30 EUR
+    assets:cash:bank                   -1381.30 EUR

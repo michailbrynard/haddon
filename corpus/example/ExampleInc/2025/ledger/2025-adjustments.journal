@@ -1,0 +1,78 @@
+; Example Inc. - adjustments, 2025
+; Fictional sample data: every name, amount and date in this file is invented.
+
+2025-01-28 * Month-end accrual
+    expenses:professional-fees          500.00 USD
+    liabilities:accrued                -500.00 USD
+
+2025-02-10 * Annual insurance prepaid
+    assets:prepaid                 6000.00 USD
+    assets:cash:first-bank        -6000.00 USD
+
+2025-02-28 * Month-end accrual
+    expenses:professional-fees          500.00 USD
+    liabilities:accrued                -500.00 USD
+
+2025-03-28 * Month-end accrual
+    expenses:professional-fees          500.00 USD
+    liabilities:accrued                -500.00 USD
+
+2025-04-28 * Month-end accrual
+    expenses:professional-fees          500.00 USD
+    liabilities:accrued                -500.00 USD
+
+2025-05-28 * Month-end accrual
+    expenses:professional-fees          500.00 USD
+    liabilities:accrued                -500.00 USD
+
+2025-06-28 * Month-end accrual
+    expenses:professional-fees          500.00 USD
+    liabilities:accrued                -500.00 USD
+
+2025-07-28 * Month-end accrual
+    expenses:professional-fees          500.00 USD
+    liabilities:accrued                -500.00 USD
+
+2025-08-28 * Month-end accrual
+    expenses:professional-fees          500.00 USD
+    liabilities:accrued                -500.00 USD
+
+2025-09-28 * Month-end accrual
+    expenses:professional-fees          500.00 USD
+    liabilities:accrued                -500.00 USD
+
+2025-10-28 * Month-end accrual
+    expenses:professional-fees          500.00 USD
+    liabilities:accrued                -500.00 USD
+
+2025-11-20 * Customer invoice raised, unpaid at year end  ; invoice: INV-2025-1120
+    assets:receivables:trade        12750.00 USD
+    income:services                -12750.00 USD
+
+2025-11-28 * Month-end accrual
+    expenses:professional-fees          500.00 USD
+    liabilities:accrued                -500.00 USD
+
+2025-12-28 * Month-end accrual
+    expenses:professional-fees          500.00 USD
+    liabilities:accrued                -500.00 USD
+
+2025-12-29 * Accruals settled
+    liabilities:accrued            8500.00 USD
+    assets:cash:first-bank        -8500.00 USD
+
+2025-12-29 * Insurance expensed for the year
+    expenses:office         6000.00 USD
+    assets:prepaid         -6000.00 USD
+
+2025-12-29 * Income tax provision
+    expenses:income-tax                   14200.00 USD
+    liabilities:income-tax-payable       -14200.00 USD
+
+2025-12-29 * Opening receivables collected
+    assets:cash:first-bank          23900.00 USD
+    assets:receivables:trade       -23900.00 USD
+
+2025-12-29 * Supplier balance paid
+    liabilities:payables:trade         4380.50 USD
+    assets:cash:first-bank            -4380.50 USD

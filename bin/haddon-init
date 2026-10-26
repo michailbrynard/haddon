@@ -1,0 +1,4 @@
+#!/bin/sh
+# Migrate a fresh file and initialize a generic entity (no source checkout, no import year).
+# Usage: bin/haddon-init var/acme.db --id acme --name "Acme Ltd" --legal-form Ltd --country US --base-currency USD
+exec "$(dirname "$0")/../.venv/bin/python" -m haddon.initialize "$@"

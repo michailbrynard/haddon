@@ -1,0 +1,242 @@
+; Example Inc. - payroll, 2025
+; Fictional sample data: every name, amount and date in this file is invented.
+
+2025-01-14 * Payroll run  ; payroll: semi-monthly
+    expenses:salaries                42798.38 USD
+    expenses:payroll-taxes            3274.08 USD
+    liabilities:payroll-taxes       -15963.80 USD
+    assets:cash:first-bank          -30108.66 USD
+
+2025-01-14 * Payroll taxes remitted
+    liabilities:payroll-taxes        15963.80 USD
+    assets:cash:first-bank          -15963.80 USD
+
+2025-01-28 * Payroll run  ; payroll: semi-monthly
+    expenses:salaries                42054.92 USD
+    expenses:payroll-taxes            3217.20 USD
+    liabilities:payroll-taxes       -15686.48 USD
+    assets:cash:first-bank          -29585.64 USD
+
+2025-01-28 * Payroll taxes remitted
+    liabilities:payroll-taxes        15686.48 USD
+    assets:cash:first-bank          -15686.48 USD
+
+2025-02-14 * Payroll run  ; payroll: semi-monthly
+    expenses:salaries                41357.44 USD
+    expenses:payroll-taxes            3163.84 USD
+    liabilities:payroll-taxes       -15426.32 USD
+    assets:cash:first-bank          -29094.96 USD
+
+2025-02-14 * Payroll taxes remitted
+    liabilities:payroll-taxes        15426.32 USD
+    assets:cash:first-bank          -15426.32 USD
+
+2025-02-28 * Payroll run  ; payroll: semi-monthly
+    expenses:salaries                42859.32 USD
+    expenses:payroll-taxes            3278.74 USD
+    liabilities:payroll-taxes       -15986.53 USD
+    assets:cash:first-bank          -30151.53 USD
+
+2025-02-28 * Payroll taxes remitted
+    liabilities:payroll-taxes        15986.53 USD
+    assets:cash:first-bank          -15986.53 USD
+
+2025-03-14 * Payroll run  ; payroll: semi-monthly
+    expenses:salaries                41955.96 USD
+    expenses:payroll-taxes            3209.63 USD
+    liabilities:payroll-taxes       -15649.57 USD
+    assets:cash:first-bank          -29516.02 USD
+
+2025-03-14 * Payroll taxes remitted
+    liabilities:payroll-taxes        15649.57 USD
+    assets:cash:first-bank          -15649.57 USD
+
+2025-03-28 * Payroll run  ; payroll: semi-monthly
+    expenses:salaries                42486.55 USD
+    expenses:payroll-taxes            3250.22 USD
+    liabilities:payroll-taxes       -15847.48 USD
+    assets:cash:first-bank          -29889.29 USD
+
+2025-03-28 * Payroll taxes remitted
+    liabilities:payroll-taxes        15847.48 USD
+    assets:cash:first-bank          -15847.48 USD
+
+2025-04-14 * Payroll run  ; payroll: semi-monthly
+    expenses:salaries                42486.13 USD
+    expenses:payroll-taxes            3250.19 USD
+    liabilities:payroll-taxes       -15847.33 USD
+    assets:cash:first-bank          -29888.99 USD
+
+2025-04-14 * Payroll taxes remitted
+    liabilities:payroll-taxes        15847.33 USD
+    assets:cash:first-bank          -15847.33 USD
+
+2025-04-28 * Payroll run  ; payroll: semi-monthly
+    expenses:salaries                42046.75 USD
+    expenses:payroll-taxes            3216.58 USD
+    liabilities:payroll-taxes       -15683.44 USD
+    assets:cash:first-bank          -29579.89 USD
+
+2025-04-28 * Payroll taxes remitted
+    liabilities:payroll-taxes        15683.44 USD
+    assets:cash:first-bank          -15683.44 USD
+
+2025-05-14 * Payroll run  ; payroll: semi-monthly
+    expenses:salaries                42543.99 USD
+    expenses:payroll-taxes            3254.62 USD
+    liabilities:payroll-taxes       -15868.92 USD
+    assets:cash:first-bank          -29929.69 USD
+
+2025-05-14 * Payroll taxes remitted
+    liabilities:payroll-taxes        15868.92 USD
+    assets:cash:first-bank          -15868.92 USD
+
+2025-05-28 * Payroll run  ; payroll: semi-monthly
+    expenses:salaries                41061.38 USD
+    expenses:payroll-taxes            3141.20 USD
+    liabilities:payroll-taxes       -15315.90 USD
+    assets:cash:first-bank          -28886.68 USD
+
+2025-05-28 * Payroll taxes remitted
+    liabilities:payroll-taxes        15315.90 USD
+    assets:cash:first-bank          -15315.90 USD
+
+2025-06-14 * Payroll run  ; payroll: semi-monthly
+    expenses:salaries                42802.97 USD
+    expenses:payroll-taxes            3274.43 USD
+    liabilities:payroll-taxes       -15965.51 USD
+    assets:cash:first-bank          -30111.89 USD
+
+2025-06-14 * Payroll taxes remitted
+    liabilities:payroll-taxes        15965.51 USD
+    assets:cash:first-bank          -15965.51 USD
+
+2025-06-28 * Payroll run  ; payroll: semi-monthly
+    expenses:salaries                41514.91 USD
+    expenses:payroll-taxes            3175.89 USD
+    liabilities:payroll-taxes       -15485.06 USD
+    assets:cash:first-bank          -29205.74 USD
+
+2025-06-28 * Payroll taxes remitted
+    liabilities:payroll-taxes        15485.06 USD
+    assets:cash:first-bank          -15485.06 USD
+
+2025-07-14 * Payroll run  ; payroll: semi-monthly
+    expenses:salaries                42780.64 USD
+    expenses:payroll-taxes            3272.72 USD
+    liabilities:payroll-taxes       -15957.18 USD
+    assets:cash:first-bank          -30096.18 USD
+
+2025-07-14 * Payroll taxes remitted
+    liabilities:payroll-taxes        15957.18 USD
+    assets:cash:first-bank          -15957.18 USD
+
+2025-07-28 * Payroll run  ; payroll: semi-monthly
+    expenses:salaries                41475.50 USD
+    expenses:payroll-taxes            3172.88 USD
+    liabilities:payroll-taxes       -15470.37 USD
+    assets:cash:first-bank          -29178.01 USD
+
+2025-07-28 * Payroll taxes remitted
+    liabilities:payroll-taxes        15470.37 USD
+    assets:cash:first-bank          -15470.37 USD
+
+2025-08-14 * Payroll run  ; payroll: semi-monthly
+    expenses:salaries                41420.13 USD
+    expenses:payroll-taxes            3168.64 USD
+    liabilities:payroll-taxes       -15449.71 USD
+    assets:cash:first-bank          -29139.06 USD
+
+2025-08-14 * Payroll taxes remitted
+    liabilities:payroll-taxes        15449.71 USD
+    assets:cash:first-bank          -15449.71 USD
+
+2025-08-28 * Payroll run  ; payroll: semi-monthly
+    expenses:salaries                42101.37 USD
+    expenses:payroll-taxes            3220.75 USD
+    liabilities:payroll-taxes       -15703.80 USD
+    assets:cash:first-bank          -29618.32 USD
+
+2025-08-28 * Payroll taxes remitted
+    liabilities:payroll-taxes        15703.80 USD
+    assets:cash:first-bank          -15703.80 USD
+
+2025-09-14 * Payroll run  ; payroll: semi-monthly
+    expenses:salaries                42473.07 USD
+    expenses:payroll-taxes            3249.19 USD
+    liabilities:payroll-taxes       -15842.46 USD
+    assets:cash:first-bank          -29879.80 USD
+
+2025-09-14 * Payroll taxes remitted
+    liabilities:payroll-taxes        15842.46 USD
+    assets:cash:first-bank          -15842.46 USD
+
+2025-09-28 * Payroll run  ; payroll: semi-monthly
+    expenses:salaries                41843.33 USD
+    expenses:payroll-taxes            3201.01 USD
+    liabilities:payroll-taxes       -15607.55 USD
+    assets:cash:first-bank          -29436.79 USD
+
+2025-09-28 * Payroll taxes remitted
+    liabilities:payroll-taxes        15607.55 USD
+    assets:cash:first-bank          -15607.55 USD
+
+2025-10-14 * Payroll run  ; payroll: semi-monthly
+    expenses:salaries                41764.24 USD
+    expenses:payroll-taxes            3194.96 USD
+    liabilities:payroll-taxes       -15578.05 USD
+    assets:cash:first-bank          -29381.15 USD
+
+2025-10-14 * Payroll taxes remitted
+    liabilities:payroll-taxes        15578.05 USD
+    assets:cash:first-bank          -15578.05 USD
+
+2025-10-28 * Payroll run  ; payroll: semi-monthly
+    expenses:salaries                42347.58 USD
+    expenses:payroll-taxes            3239.59 USD
+    liabilities:payroll-taxes       -15795.65 USD
+    assets:cash:first-bank          -29791.52 USD
+
+2025-10-28 * Payroll taxes remitted
+    liabilities:payroll-taxes        15795.65 USD
+    assets:cash:first-bank          -15795.65 USD
+
+2025-11-14 * Payroll run  ; payroll: semi-monthly
+    expenses:salaries                42445.12 USD
+    expenses:payroll-taxes            3247.05 USD
+    liabilities:payroll-taxes       -15832.03 USD
+    assets:cash:first-bank          -29860.14 USD
+
+2025-11-14 * Payroll taxes remitted
+    liabilities:payroll-taxes        15832.03 USD
+    assets:cash:first-bank          -15832.03 USD
+
+2025-11-28 * Payroll run  ; payroll: semi-monthly
+    expenses:salaries                41822.58 USD
+    expenses:payroll-taxes            3199.43 USD
+    liabilities:payroll-taxes       -15599.83 USD
+    assets:cash:first-bank          -29422.18 USD
+
+2025-11-28 * Payroll taxes remitted
+    liabilities:payroll-taxes        15599.83 USD
+    assets:cash:first-bank          -15599.83 USD
+
+2025-12-14 * Payroll run  ; payroll: semi-monthly
+    expenses:salaries                42952.17 USD
+    expenses:payroll-taxes            3285.84 USD
+    liabilities:payroll-taxes       -16021.16 USD
+    assets:cash:first-bank          -30216.85 USD
+
+2025-12-14 * Payroll taxes remitted
+    liabilities:payroll-taxes        16021.16 USD
+    assets:cash:first-bank          -16021.16 USD
+
+2025-12-28 * Payroll run  ; payroll: semi-monthly
+    expenses:salaries                41210.88 USD
+    expenses:payroll-taxes            3152.63 USD
+    liabilities:payroll-taxes       -15371.65 USD
+    assets:cash:first-bank          -28991.86 USD
+
+2025-12-28 * Payroll taxes remitted
+    liabilities:payroll-taxes        15371.65 USD
+    assets:cash:first-bank          -15371.65 USD

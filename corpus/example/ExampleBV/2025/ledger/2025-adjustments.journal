@@ -1,0 +1,14 @@
+; Example B.V. - adjustments, 2025
+; Fictional sample data: every name, amount and date in this file is invented.
+
+2025-12-29 * Intercompany balance settled
+    assets:cash:bank                       12000.00 EUR
+    assets:receivables:intercompany       -12000.00 EUR
+
+2025-12-30 * Corporate tax provision 2025  ; tax: provision
+    expenses:corporate-tax                   12450.00 EUR
+    liabilities:corporate-tax-payable       -12450.00 EUR = -12450.00 EUR
+
+2025-12-30 * Bank charges for December
+    expenses:bank-fees           18.40 EUR
+    assets:cash:bank            -18.40 EUR

@@ -1,0 +1,14 @@
+; Example B.V. - custody, 2025
+; Fictional sample data: every name, amount and date in this file is invented.
+
+2025-02-11 * Disposal of digital assets at fair value
+    assets:cash:bank            1200.00 EUR
+    assets:cash:custody        -1200.00 EUR
+
+2025-09-09 * Fair value gain
+    assets:cash:custody          415.60 EUR
+    income:crypto-gains         -415.60 EUR
+
+2025-12-29 * Custody fee
+    expenses:bank-fees            35.00 EUR
+    assets:cash:custody          -35.00 EUR = 2055.60 EUR

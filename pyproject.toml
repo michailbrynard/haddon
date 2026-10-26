@@ -1,0 +1,72 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "haddon"
+version = "0.0.1"
+description = "An open-source double-entry ledger for AI agents, with an optional web interface for people. Double-entry, on SQLite, with immutable posted entries and an hledger cross-check."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.12"
+keywords = ["accounting", "bookkeeping", "double-entry", "ledger", "hledger", "llm", "agents"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Framework :: FastAPI",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Financial and Insurance Industry",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Office/Business :: Financial :: Accounting",
+]
+dependencies = [
+  "fastapi",
+  "sqlalchemy>=2.0",
+  "alembic",
+  "pydantic>=2",
+  # HTML/CSS -> PDF for the shareable statements.  Imported inside the route rather than at start-up: it pulls
+  # in Pango and friends, and a process that only ever serves JSON should not pay for that to boot.
+  "weasyprint",
+  # `haddon-serve` runs under uvicorn, and `haddon-serve --check` asks the app for /readyz in-process, which
+  # FastAPI's test client does over httpx.
+  "uvicorn",
+  "httpx",
+]
+
+# TODO(maintainer): add the public repository's links once it exists, e.g.
+# [project.urls]
+# Homepage = "https://github.com/<org>/haddon"
+# Documentation = "https://github.com/<org>/haddon/tree/main/docs"
+# Issues = "https://github.com/<org>/haddon/issues"
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-xdist", "pypdf"]
+# The browser harness (browser/), deliberately NOT in `dev`: Playwright plus its browser is a 100+ MB download,
+# and the commit gate must stay runnable in a fresh checkout.  `make install-browser` adds it.
+browser = ["playwright"]
+
+[project.scripts]
+haddon-migrate = "haddon.db.migrate:main"
+haddon-init = "haddon.initialize:main"
+haddon-import = "haddon.importing.cli:main"
+haddon-export = "haddon.exporting.cli:main"
+haddon-oracle = "haddon.oracle.cli:main"
+haddon-serve = "haddon.api.cli:main"
+haddon-backup = "haddon.backup:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"haddon.db.migrations" = ["*.mako", "sql/*/*.sql"]
+"haddon.oracle" = ["baselines.json"]
+# The reviewer bundle, when one has been built.  `make web` writes it here and .gitignore keeps it out of the
+# repository, so a source distribution carries it only if it was built before the distribution was made.
+"haddon.ui" = ["static/*", "static/assets/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"
+markers = ["slow: measured at 0.5 s or more, or requires a shared fixture that costs that much to build"]

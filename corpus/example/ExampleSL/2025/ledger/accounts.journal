@@ -1,0 +1,30 @@
+; Example S.L. - chart of accounts, 2025
+; Fictional sample data: every name, amount and date in this file is invented.
+
+commodity EUR 1000.00
+
+account assets:cash:bank
+    ; current account
+account assets:receivables:clients
+account assets:receivables:vat
+    ; input VAT
+account assets:fixed:equipment
+account assets:fixed:accumulated-depreciation
+    ; contra-asset
+account liabilities:payables:suppliers
+account liabilities:vat-payable
+    ; output VAT
+account liabilities:withholding
+    ; income tax withheld from salaries
+account liabilities:social-security
+account liabilities:corporate-tax-payable
+account equity:share-capital
+account equity:retained-earnings
+account income:services
+account expenses:salaries
+account expenses:social-security
+account expenses:rent
+account expenses:professional-fees
+account expenses:bank-fees
+account expenses:depreciation
+account expenses:corporate-tax

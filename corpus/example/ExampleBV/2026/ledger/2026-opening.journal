@@ -1,0 +1,10 @@
+; Example B.V. - opening, 2026
+; Fictional sample data: every name, amount and date in this file is invented.
+
+2026-01-01 * Opening balances (restating the 2025 closing balance sheet)
+    assets:cash:bank                        133899.85 EUR = 133899.85 EUR
+    assets:cash:custody                       2055.60 EUR
+    assets:cash:savings                      18460.63 EUR
+    liabilities:corporate-tax-payable       -12450.00 EUR
+    equity:retained-earnings               -123966.08 EUR
+    equity:share-capital                    -18000.00 EUR

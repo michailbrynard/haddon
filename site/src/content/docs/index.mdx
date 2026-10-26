@@ -1,0 +1,61 @@
+---
+title: Haddon
+description: An open-source double-entry ledger for AI agents. Agents write over an HTTP API, and a web interface is included for browsing the books, correcting entries and closing periods.
+template: splash
+head:
+  - tag: title
+    content: Haddon, a double-entry ledger for AI agents
+editUrl: false
+hero:
+  tagline: An open-source double-entry ledger for AI agents.
+  actions:
+    - text: Quickstart
+      link: /docs/quickstart/
+      icon: right-arrow
+    - text: Using Haddon from an agent
+      link: /docs/using-from-an-agent/
+      variant: minimal
+    - text: API reference
+      link: /api/
+      variant: minimal
+---
+
+import { CardGrid, Code, LinkCard } from '@astrojs/starlight/components';
+import Intro from '../../generated/intro.md';
+import TryIt from '../../generated/try-it.md';
+import Agent from '../../generated/agent.md';
+import call from '../../generated/call.py?raw';
+import AgentContext from '../../components/AgentContext.astro';
+
+{/* The prose and commands below come from README.md and examples/haddon_tools.py at build time. */}
+
+<AgentContext />
+
+<Intro />
+
+## Try it
+
+<TryIt />
+
+## Giving it to an agent
+
+<Agent />
+
+This is the whole of `call()` from `examples/haddon_tools.py`:
+
+<Code code={call} lang="python" title="examples/haddon_tools.py" />
+
+## Read next
+
+<CardGrid>
+  <LinkCard title="Quickstart" href="/docs/quickstart/" description="From an empty directory to a closed month, over HTTP." />
+  <LinkCard title="Using Haddon from an agent" href="/docs/using-from-an-agent/" description="Discovery, idempotency, corrections, locked periods and errors, in one page." />
+  <LinkCard title="Concepts" href="/docs/concepts/" description="The accounting model and the rules the ledger enforces." />
+  <LinkCard title="Comparison" href="/docs/comparison/" description="Haddon next to hledger, Beancount, Ledger, GnuCash and Fava." />
+  <LinkCard title="API reference" href="/api/" description="Every route, generated from the service's OpenAPI document." />
+  <LinkCard title="Operations" href="/docs/operations/" description="Configuration, deployment, backups and restore drills." />
+</CardGrid>
+
+For tools: [/agent-context.md](/agent-context.md) is the short version for an agent's instructions,
+[/llms.txt](/llms.txt) lists every page as markdown, [/llms-full.txt](/llms-full.txt) has all of it
+in one file, and [/openapi.json](/openapi.json) is the API schema.

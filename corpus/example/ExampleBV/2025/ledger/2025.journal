@@ -1,0 +1,17 @@
+; Example B.V. - main journal for fiscal year 2025
+;
+; Fictional sample data: every name, amount and date in this file is invented.
+; Every amount in this book is in EUR.
+;
+;
+
+; Amounts written without a commodity are EUR
+D 1000.00 EUR
+commodity EUR 1,000.00
+
+include accounts.journal
+include 2025-opening.journal
+include 2025-bank.journal
+include 2025-savings.journal
+include 2025-custody.journal
+include 2025-adjustments.journal

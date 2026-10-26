@@ -1,0 +1,16 @@
+{
+  "_": "Example service configuration (docs/operations.md, 'Configuration').  Copy it outside the repository, replace every <placeholder>, and keep it readable by the service user only: it holds the bearer tokens and the cursor keys.  Relative paths resolve against the directory this file is in.",
+  "entities": {
+    "example-co": "books/example-co.db"
+  },
+  "tokens": {
+    "<a long random bearer token>": {"actor": "agent:bookkeeper", "entities": ["example-co"]}
+  },
+  "cursor_keys": [
+    {"id": "<key id, e.g. 2026-01>", "secret": "<random hex, e.g. from: openssl rand -hex 32>"}
+  ],
+  "proxy_auth": {"header": "X-Haddon-User", "entities": ["example-co"]},
+  "entity_root": "books",
+  "blob_root": "documents",
+  "export_root": "exports"
+}

@@ -1,0 +1,13 @@
+#!/bin/sh
+# Export one entity book as hledger journal files.  Usage: bin/haddon-export <db-path> <out-root> [--year Y] [--overwrite]
+#
+# HADDON_CORPUS is set so the export refuses to write into the corpus's read-only checkout; the export itself
+# reads no corpus.
+#
+# haddon-import and haddon-oracle deliberately have no such default: there the corpus says whose books are being
+# read, and the loader refuses to guess that.  Here it is only an input to `exporter.protected_roots`, which falls
+# back to the vendored binary alone when no corpus is configured.  The default can only make the guard wider,
+# never the output wrong.
+HERE="$(dirname "$0")"
+export HADDON_CORPUS="${HADDON_CORPUS:-$HERE/../corpus/example.json}"
+exec "$HERE/../.venv/bin/python" -m haddon.exporting.cli "$@"
