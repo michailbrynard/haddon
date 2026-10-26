@@ -8,6 +8,7 @@
     "sync": "node scripts/sync-docs.mjs",
     "dev": "node scripts/sync-docs.mjs && astro dev",
     "build": "node scripts/sync-docs.mjs && astro build && node scripts/check-dist.mjs",
+    "build:cloudflare": "bash scripts/cloudflare-build.sh",
     "preview": "astro preview"
   },
   "dependencies": {

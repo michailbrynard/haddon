@@ -1,0 +1,14 @@
+// The documentation site as a Cloudflare Worker that serves only static assets: no script, just dist/.
+// Workers Builds runs `npm run build:cloudflare` and then `npx wrangler deploy` from this directory (README.md).
+{
+  "name": "haddon-docs",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./dist",
+    // Starlight writes every page as <path>/index.html and links to it with a trailing slash.
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  // Attaches the domain to the Worker on deploy. The zone must be on the same Cloudflare account.
+  "routes": [{ "pattern": "haddon.dev", "custom_domain": true }]
+}

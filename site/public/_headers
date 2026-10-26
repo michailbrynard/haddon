@@ -1,4 +1,4 @@
-# Cloudflare Pages response headers. The raw markdown copies of each page are text, not downloads.
+# Response headers for the Cloudflare Worker's static assets. The raw markdown copies of each page are text, not downloads.
 /*.md
   Content-Type: text/markdown; charset=utf-8
 /llms.txt

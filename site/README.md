@@ -49,29 +49,24 @@ pages, and `scripts/check-dist.mjs` then checks that every same-site link in the
 
 ## Putting it online
 
-Nothing is deployed until it is switched on. The `deploy-site` job in `.github/workflows/ci.yml` publishes
-`site/dist` to Cloudflare Pages on a push to `main`, and is skipped unless all of the following are set in the
-repository's settings (Settings, then Secrets and variables, then Actions).
+The site is served at `https://haddon.dev` by a Cloudflare Worker that holds nothing but the built files.
+`wrangler.jsonc` describes it: the Worker `haddon-docs`, `dist/` as its static assets, and `haddon.dev` as its
+custom domain. `public/_headers` makes Cloudflare serve the `.md` copies as `text/markdown`.
 
-| Name | Kind | Value |
-|---|---|---|
-| `CLOUDFLARE_API_TOKEN` | secret | an API token with the Cloudflare Pages: Edit permission |
-| `CLOUDFLARE_ACCOUNT_ID` | secret | the Cloudflare account id |
-| `DOCS_SITE_URL` | variable | the public address, such as `https://docs.example.org`, with no trailing slash |
-| `DOCS_SITE_ENABLED` | variable | `true` |
-| `DOCS_PAGES_PROJECT` | variable, optional | the Pages project name; `haddon-docs` if unset |
+To connect it, in the Cloudflare dashboard open Workers & Pages, then Create, then Import a repository, and pick
+this repository with these settings:
 
-Once a domain is chosen:
+| Setting | Value |
+|---|---|
+| Project name | `haddon-docs` (it must match `name` in `wrangler.jsonc`) |
+| Root directory | `site` |
+| Build command | `npm run build:cloudflare` |
+| Deploy command | `npx wrangler deploy` |
 
-1. Create the Pages project once: `npx wrangler pages project create haddon-docs --production-branch main`
-   (or create a project with direct upload in the Cloudflare dashboard).
-2. Set the secrets and variables above, then push to `main` or re-run the workflow. The site is then live at
-   `https://haddon-docs.pages.dev`.
-3. In the Pages project, open Custom domains and add the domain. If its DNS is on Cloudflare the record is
-   created for you; otherwise add a `CNAME` from the domain to `haddon-docs.pages.dev` at your DNS provider.
+Every push to `main` then builds and deploys. `scripts/cloudflare-build.sh` installs the Python package, which
+the API reference is generated from, and builds with `DOCS_SITE_URL` set to `https://haddon.dev`. If the build
+image's `python3` is older than 3.12, add a build variable `PYTHON_VERSION` set to `3.12`. To serve the site
+somewhere else, change the route in `wrangler.jsonc` and set `DOCS_SITE_URL` as a build variable.
 
 `DOCS_SITE_URL` is used for the sitemap, canonical links, `robots.txt` and the absolute links in `llms.txt`.
-When it is unset, as in pull requests and local builds, those use `http://localhost:4321` or relative links.
-`public/_headers` makes Cloudflare serve the `.md` copies as `text/markdown`.
-
-To turn deployment off again, set `DOCS_SITE_ENABLED` to anything other than `true`.
+When it is unset, as in local builds, those use `http://localhost:4321` or relative links.
