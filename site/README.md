@@ -38,10 +38,9 @@ repository becomes a link to it on GitHub. A link to a file that does not exist 
 add the file to `docs/` and a line for it to `site.config.mjs`.
 
 Three of Starlight's components are replaced, in `src/components/`. `Head.astro` adds a link to each page's
-markdown copy. `PageTitle.astro` puts a row of actions under each page's title: copy the page's markdown, copy
-the address of that markdown, open it, or copy a short prompt pointing an agent at it and at `llms.txt`.
-`Footer.astro` lists the files meant for agents. The copy buttons need JavaScript and are hidden without it;
-the links beside them work either way.
+markdown copy. `PageTitle.astro` puts a "Copy page" button under each page's title, which copies the page's
+markdown. `Footer.astro` lists the files meant for agents. The copy buttons need JavaScript and are hidden
+without it; the markdown copies are still linked from each page's head and from `llms.txt`.
 
 The build fails on a broken link. `starlight-links-validator` checks the links and anchors in the documentation
 pages, and `scripts/check-dist.mjs` then checks that every same-site link in the built HTML, markdown and

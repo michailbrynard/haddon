@@ -1,7 +1,25 @@
-/* Keep the homepage's prose and code at a readable width under the hero. */
-[data-has-hero] .sl-markdown-content {
-  max-width: 60rem;
-  margin-inline: auto;
+/* Keep the homepage at a readable width. The content width itself is narrowed, not just the prose, so the hero
+   and the text under it share one left edge. `:root` outranks Starlight's own width for pages without a sidebar. */
+:root[data-has-hero] {
+  --sl-content-width: 60rem;
+}
+
+/* Starlight hides the GitHub link on narrow screens and shows it only in the sidebar menu, which the homepage
+   does not have. Keep it in the header on every page; the theme picker stays in the menu. The search icon moves
+   right to sit beside it, rather than being spaced into the middle of the bar. */
+@media (max-width: 49.99rem) {
+  .header > :nth-child(2) {
+    margin-inline-start: auto;
+  }
+  .header > .right-group {
+    display: flex;
+  }
+  .header > .right-group > :not(.social-icons) {
+    display: none;
+  }
+  .header .social-icons::after {
+    content: none;
+  }
 }
 
 /* The comparison and route tables have many columns of prose. */

@@ -1,8 +1,7 @@
 ---
 // The homepage's "Copy for your agent" box. The text is docs/agent-context.md as scripts/sync-docs.mjs writes
-// it, which is also served at agentContext.path; there is no other copy of it.
+// it, which is also served at /agent-context.md; there is no other copy of it.
 import text from '../generated/agent-context.md?raw';
-import { agentContext } from '../../site.config.mjs';
 import CopyButton from './CopyButton.astro';
 
 // Escaped so the text cannot end the script element it is stored in.
@@ -16,7 +15,6 @@ const json = JSON.stringify(text).replace(/</g, '\\u003c');
   </p>
   <div class="actions">
     <CopyButton label="Copy for your agent" class="copy-context" />
-    <a href={agentContext.path} type="text/markdown">View as Markdown</a>
     <span class="sr-only" role="status"></span>
   </div>
   <script type="application/json" id="agent-context-text" set:html={json} />
@@ -64,16 +62,8 @@ const json = JSON.stringify(text).replace(/</g, '\\u003c');
     color: var(--sl-color-black);
     font-size: var(--sl-text-sm);
   }
-  .actions :global(.copy-context):focus-visible,
-  .actions a:focus-visible {
+  .actions :global(.copy-context):focus-visible {
     outline: 2px solid var(--sl-color-text-accent);
     outline-offset: 0.25rem;
-  }
-  .actions a {
-    font-size: var(--sl-text-sm);
-    color: var(--sl-color-gray-2);
-  }
-  .actions a:hover {
-    color: var(--sl-color-white);
   }
 </style>
