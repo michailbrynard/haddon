@@ -1,7 +1,7 @@
 // The documentation site as a Cloudflare Worker that serves only static assets: no script, just dist/.
 // Workers Builds runs `npm run build:cloudflare` and then `npx wrangler deploy` from this directory (README.md).
 {
-  "name": "haddon-docs",
+  "name": "haddon",
   "compatibility_date": "2026-10-01",
   "assets": {
     "directory": "./dist",

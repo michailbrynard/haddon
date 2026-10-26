@@ -50,7 +50,7 @@ pages, and `scripts/check-dist.mjs` then checks that every same-site link in the
 ## Putting it online
 
 The site is served at `https://haddon.dev` by a Cloudflare Worker that holds nothing but the built files.
-`wrangler.jsonc` describes it: the Worker `haddon-docs`, `dist/` as its static assets, and `haddon.dev` as its
+`wrangler.jsonc` describes it: the Worker `haddon`, `dist/` as its static assets, and `haddon.dev` as its
 custom domain. `public/_headers` makes Cloudflare serve the `.md` copies as `text/markdown`.
 
 To connect it, in the Cloudflare dashboard open Workers & Pages, then Create, then Import a repository, and pick
@@ -58,7 +58,7 @@ this repository with these settings:
 
 | Setting | Value |
 |---|---|
-| Project name | `haddon-docs` (it must match `name` in `wrangler.jsonc`) |
+| Project name | `haddon` (it must match `name` in `wrangler.jsonc`) |
 | Root directory | `site` |
 | Build command | `npm run build:cloudflare` |
 | Deploy command | `npx wrangler deploy` |
